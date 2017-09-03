@@ -7,7 +7,7 @@ permalink: /portfolio/
 Here's a sampling of some of my recent work. And the full list for [Bangor Daily News](http://bangordailynews.com/author/dfishell/). 
 
 ### Electricity resellers cash in
-+ [How electricity providers siphoned more than ~~$20 million~~](http://bangordailynews.com/2016/08/31/the-point/how-electricity-providers-siphoned-more-than-20m-from-maine-customers/) [$50 million from Maine customers](http://bangordailynews.com/2016/11/16/the-point/mainers-spent-50-million-they-didnt-need-to-on-electricity/)
++ First take: [How electricity providers siphoned more than] ~~$20 million~~(http://bangordailynews.com/2016/08/31/the-point/how-electricity-providers-siphoned-more-than-20m-from-maine-customers/) [$50 million from Maine customers](http://bangordailynews.com/2016/11/16/the-point/mainers-spent-50-million-they-didnt-need-to-on-electricity/)
 + [‘Leading edge’ restrictions on electricity sellers become Maine law](http://bangordailynews.com/2017/05/23/politics/leading-edge-restrictions-on-electricity-sellers-become-maine-law/)
    + [Full "Power Grab' series](http://bangordailynews.com/series/powergrab/)
 
