@@ -19,14 +19,14 @@ avatar: https://raw.githubusercontent.com/darrenfishell/darrenfishell.github.io/
 footer-links:
   dribbble:
   email: darren.fishell@gmail.com
-  facebook: darrenfishell
-  flickr:
+  twitter: darrenfishell
   github: darrenfishell
   instagram: darrenfishell
   linkedin: darrenfishell
+  facebook: darrenfishell
+  flickr:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: darrenfishell
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -34,7 +34,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: darrenfishell
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
