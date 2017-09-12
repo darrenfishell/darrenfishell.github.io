@@ -9,7 +9,7 @@ Here's a sampling of some of my recent work. And the full list for [Bangor Daily
 ### Electricity resellers cash in
 + [How electricity providers siphoned more than $20 million from Maine customers](http://bangordailynews.com/2016/08/31/the-point/how-electricity-providers-siphoned-more-than-20m-from-maine-customers/) / Later: [How Mainers spent $50 million they didn't need to on electricity](http://bangordailynews.com/2016/11/16/the-point/mainers-spent-50-million-they-didnt-need-to-on-electricity/)
 + [‘Leading edge’ restrictions on electricity sellers become Maine law](http://bangordailynews.com/2017/05/23/politics/leading-edge-restrictions-on-electricity-sellers-become-maine-law/)
-   + [Full "Power Grab' series](http://bangordailynews.com/series/powergrab/)
+   + [Full "Power Grab" series](http://bangordailynews.com/series/powergrab/)
 
 ### The costs of buoying a troubled biomass industry
 + [Maine’s $13M bailout of biomass plants will mean jobs, but at a cost of $23,700 each](http://bangordailynews.com/2017/01/27/business/maines-13m-bailout-of-biomass-plants-will-mean-jobs-but-at-a-cost-of-23700-each/)
