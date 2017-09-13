@@ -3,7 +3,7 @@ layout: post
 title: Krampus
 ---
 
-Krampus is really neat.
+Krampus is really neat...
 
 ![Krampus](https://upload.wikimedia.org/wikipedia/commons/2/22/Krampus_at_Perchtenlauf_Klagenfurt.jpg)
 
