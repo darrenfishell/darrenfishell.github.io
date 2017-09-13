@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maine marijuana rules
+title: Consultants and others chime in on Maine marijuana rulemaking
 ---
 
 After some insisting, Maine state government published recommendations from consultants and others about rulemaking on the road to legalizing marijuana. 
