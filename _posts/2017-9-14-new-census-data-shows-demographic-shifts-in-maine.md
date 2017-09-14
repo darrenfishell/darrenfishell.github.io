@@ -3,7 +3,7 @@ layout: post
 title: Poverty drops, health insurance coverage rises in Maine, but slower than nation
 ---
 
-A new batch of census data shows poverty fell and incomes and health insurance coverage in Maine rose last year.
+A new batch of census data shows poverty fell and incomes and [health insurance coverage in Maine was basically flat](https://bangordailynews.com/2017/09/12/politics/as-nations-uninsured-rate-drops-maines-holds-steady/) last year. Data released Thursday showed the share of the population on private insurance rose.
 
 Those are good signs of progress on basic indicators of economic and general wellness, but Maine lagged progress nationwide.
 
