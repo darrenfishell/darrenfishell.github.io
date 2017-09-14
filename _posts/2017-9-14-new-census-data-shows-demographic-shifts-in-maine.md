@@ -7,7 +7,7 @@ A new batch of census data shows poverty fell and incomes and health insurance c
 
 Those are good signs of progress on basic indicators of economic and general wellness, but Maine lagged progress nationwide.
 
-The data out early this morning from the Census Bureau includes a wide array of new data, but the best summary for Maine is here, in three data sets showing changes (and whether they were statistically significant) across multiple years. The full data were not up early this morning, but [links should work by 10 a.m.](https://www.census.gov/newsroom/press-releases/2017/acs-single-year.html) 
+The data out early this morning from the Census Bureau includes a wide array of new data, but the best summary for Maine is here, in three data sets showing changes (and whether they were statistically significant) across multiple years.
 
 - [Economic characteristics](https://factfinder.census.gov/bkmk/table/1.0/en/ACS/16_1YR/CP03/0400000US23), including poverty, commuting trends and labor force data. 
 - [Social characteristics](https://factfinder.census.gov/bkmk/table/1.0/en/ACS/16_1YR/CP02/0400000US23), including ancestry, the foreign-born population and divorce rates (male divorce is up).
