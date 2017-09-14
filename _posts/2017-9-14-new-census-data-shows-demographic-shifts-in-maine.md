@@ -21,6 +21,6 @@ For a more local look, the ACS provides that in its 5-year survey files. The sur
 
 You can also find those five-year files here in FactFinder: 
 
-- [Economic characteristics](https://factfinder.census.gov/bkmk/table/1.0/en/ACS/15_5YR/CP03/0400000US23), including poverty, commuting trends and labor force data. 
-- [Social characteristics](https://factfinder.census.gov/bkmk/table/1.0/en/ACS/15_5YR/CP02/0400000US23), including ancestry, the foreign-born population and divorce rates (male divorce is up).
-- [Housing characteristics](https://factfinder.census.gov/bkmk/table/1.0/en/ACS/15_5YR/CP04/0400000US23), including year of construction, home values and heating fuels used (natural gas use is up). 
+- [Economic characteristics](https://factfinder.census.gov/bkmk/table/1.0/en/ACS/15_5YR/CP03/0400000US23). 
+- [Social characteristics](https://factfinder.census.gov/bkmk/table/1.0/en/ACS/15_5YR/CP02/0400000US23).
+- [Housing characteristics](https://factfinder.census.gov/bkmk/table/1.0/en/ACS/15_5YR/CP04/0400000US23). 
