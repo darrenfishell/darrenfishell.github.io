@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Poverty drops, health insurance coverage rises in Maine, but slower than nation
 ---
 
