@@ -7,7 +7,7 @@ The latest chapter in the saga of subsidized biomass generator Stored Solar LLC 
 
 The company vendors say owes them hundreds of thousands and that has $90,000 in back property taxes continues to put together the glossy brochures to describe big promises to the state. And they appear to have kept the support of Gov. Paul LePage and, potentially, state economic development entities, too. 
 
-_[[LePage keeps backing energy firm seeking taxpayer help, despite failings after bailout]]_(https://bangordailynews.com/2017/10/04/mainefocus/lepage-keeps-backing-energy-firm-seeking-taxpayer-help-despite-failings-after-bailout/)
+[[_LePage keeps backing energy firm seeking taxpayer help, despite failings after bailout_]](https://bangordailynews.com/2017/10/04/mainefocus/lepage-keeps-backing-energy-firm-seeking-taxpayer-help-despite-failings-after-bailout/)
 
 Our reporting started with word that the company was in line for a $500,000 loan from the Maine Rural Development Authority for a shrimp farm at its West Enfield plant. We went there. They didn't talk. They had also asked the Finance Authority of Maine to insure a $5 million loan they would use to make improvements to their plant in West Enfield. 
 
