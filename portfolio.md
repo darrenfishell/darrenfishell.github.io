@@ -12,6 +12,7 @@ Here's a sampling of some of my recent work. And the full list for [Bangor Daily
    + [Full "Power Grab" series](http://bangordailynews.com/series/powergrab/)
 
 ### The costs of buoying a troubled biomass industry
++ [LePage keeps backing energy firm seeking taxpayer help, despite failings after bailout](https://bangordailynews.com/2017/10/04/mainefocus/lepage-keeps-backing-energy-firm-seeking-taxpayer-help-despite-failings-after-bailout/)
 + [Maine’s $13M bailout of biomass plants will mean jobs, but at a cost of $23,700 each](http://bangordailynews.com/2017/01/27/business/maines-13m-bailout-of-biomass-plants-will-mean-jobs-but-at-a-cost-of-23700-each/)
 + [Could biofuel save Maine’s timber industry?](http://bangordailynews.com/2017/03/06/the-point/biofuel-maines-latest-hope-to-save-its-timber-industry-still-has-a-lot-to-prove/)
 + [Latest redeveloper of shuttered Maine mill tied to manager of failed restart](http://bangordailynews.com/2017/06/19/business/the-cate-street-link-and-more-of-whats-known-about-latest-redeveloper-of-shuttered-maine-mill/)
