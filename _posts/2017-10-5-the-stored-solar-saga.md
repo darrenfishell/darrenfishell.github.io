@@ -17,15 +17,15 @@ But the reporting took a big turn when we found a company affiliate had posted i
 
 The site, at [born-global-inc.com](http://born-global-inc.com) and [bornglobal-innovate.com](http://bornglobal-innovate.com), also described the governor's upcoming conference appearance. 
 
-The report held the most curious details, however. Including a quote from a Maine woman the company did not disclose was a former employee. The employee declined comment on the statement they used in her name. 
+The report held the most curious details, however, including a quote from a Maine woman the company did not disclose was a former employee. The employee declined comment on the statement they used in her name. 
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">They include this testimonial. Byther *was* a Stored Solar employee, after 11 years with prev. owner. <br><br>The presentation was news to her. <a href="https://t.co/1AXfi6FGm9">pic.twitter.com/1AXfi6FGm9</a></p>&mdash; Darren Fishell (@darrenfishell) <a href="https://twitter.com/darrenfishell/status/915563083145326593?ref_src=twsrc%5Etfw">October 4, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Find some of the oddest gems from the report in the thread below. 
+Some of the oddest gems from the report are in the thread below. 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">‘Born Global’ has big new plans for Stored Solar’s plants in Maine. Here’s a hit parade from their ‘Bioeconomy 2050’ presentation. <a href="https://t.co/7M4xdPNnXV">https://t.co/7M4xdPNnXV</a></p>&mdash; Darren Fishell (@darrenfishell) <a href="https://twitter.com/darrenfishell/status/915554917074563072?ref_src=twsrc%5Etfw">October 4, 2017</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The reporting got a little stranger since. In Jonesboro, the company said that instead of industrial plans, it would focus on entirely new construction led by a nonprofit on another part of their property, a partnership with the UK-based Eden Project. 
+The reporting got a little stranger since publication. In Jonesboro, the company said that instead of industrial plans, it would focus on entirely new construction led by a nonprofit on another part of their property, a partnership with the UK-based Eden Project. 
 
 The Eden Project didn't see it as quite so formal an association. 
 
