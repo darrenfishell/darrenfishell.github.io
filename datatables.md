@@ -68,8 +68,8 @@ permalink: /datatables/
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: '|'},
-        datatables_options: {"paging": false},
-        custom_formatting: [[4, format_link]]
+        datatables_options: {"paging": true, "lengthChange": true},
+        //custom_formatting: [[4, format_link]]
       });
     </script>
   </body>
