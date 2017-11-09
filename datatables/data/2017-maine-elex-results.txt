@@ -1,4 +1,4 @@
-County|Voting unit|Q1: Yes|Q2: No|Q2: Yes|Q2: No 2|Q3: Yes|Q3: No|Q4: Yes|Q4: No
+County|Voting unit|Q1 Yes|Q2 No|Q2 Yes|Q2 No 2|Q3 Yes|Q3 No|Q4 Yes|Q4 No
 Piscataquis|Abbot|24|134|48|111|84|74|53|98
 York|Acton|158|447|304|299|414|188|340|251
 Washington|Addison|34|243|142|139|176|103|148|127
