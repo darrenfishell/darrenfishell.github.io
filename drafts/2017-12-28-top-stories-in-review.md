@@ -3,7 +3,7 @@ layout: post
 title: Some big stories we all definitely forgot about from 2017
 ---
 
-It was a busy and endlessly distracting news year (even including the 86 days [https://www.nbcnews.com/politics/donald-trump/how-much-time-trump-spending-trump-properties-n753366](President Trump went golfing)). So -- partly for my own accounting -- here's a rundown of the top stories from 2017, guided by my own notebook and a review of all the various things I filed this year (warning: there's a ton). 
+It was a busy and endlessly distracting news year (even including the 86 days [https://www.nbcnews.com/politics/donald-trump/how-much-time-trump-spending-trump-properties-n753366](President Trump went golfing) ). So -- partly for my own accounting -- here's a rundown of the top stories from 2017, guided by my own notebook and a review of all the various things I filed this year (warning: there's a ton). 
 
 **The big jobs picture
 Maine's job total finally climbed out of a pit since the start of the Great Recession, [after 109 months](http://bangordailynews.com/2017/03/13/business/after-109-months-maines-finally-recovered-jobs-lost-to-the-recession/). The job recovery took four times longer than any recent recession on record. 
@@ -51,7 +51,7 @@ Earlier in the fall, I visited the company's West Enfield plant and explored som
 
 Company officials didn't talk to me when I visited, but they did reach out to the Portland Press Herald after my story ran. It's a regular response for companies to offer access to competing papers after unfavorable coverage. I don't like it, which I ranted about on Twitter.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just to emphasize my point in thread below — less than a month after Stored Solar told other outlet they were paying their bills, a judge approved $30,568 attachment from Dead River Co. against their Jonesboro operation.<br><br>Haven’t heard from loggers.<a href="https://t.co/ERAq2Wc2Xx">https://t.co/ERAq2Wc2Xx</a> <a href="https://t.co/PrjL4hRdhm">pic.twitter.com/PrjL4hRdhm</a></p>&mdash; Darren Fishell (@darrenfishell) <a href="https://twitter.com/darrenfishell/status/940279638777040896?ref_src=twsrc%5Etfw">December 11, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">Just to emphasize my point in thread below — less than a month after Stored Solar told other outlet they were paying their bills, a judge approved $30,568 attachment from Dead River Co. against their Jonesboro operation.<br><br>Haven’t heard from loggers.<a href="https://t.co/ERAq2Wc2Xx">https://t.co/ERAq2Wc2Xx</a> <a href="https://t.co/PrjL4hRdhm">pic.twitter.com/PrjL4hRdhm</a></p>&mdash; Darren Fishell (@darrenfishell) <a href="https://twitter.com/darrenfishell/status/940279638777040896?ref_src=twsrc%5Etfw">December 11, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 **Paper mills
