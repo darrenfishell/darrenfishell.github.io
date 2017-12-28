@@ -3,7 +3,7 @@ layout: post
 title: Some big stories we all definitely forgot about from 2017
 ---
 
-It was a busy and endlessly distracting news year (even including the 86 days [https://www.nbcnews.com/politics/donald-trump/how-much-time-trump-spending-trump-properties-n753366](President Trump went golfing) ). So -- partly for my own accounting -- here's a rundown of the top stories from 2017, guided by my own notebook and a review of all the various things I filed this year (warning: there's a ton). 
+It was a busy and endlessly distracting news year (even including the 86 days [President Trump went golfing](https://www.nbcnews.com/politics/donald-trump/how-much-time-trump-spending-trump-properties-n753366)). So -- partly for my own accounting -- here's a rundown of the top stories from 2017, guided by my own notebook and a review of all the various things I filed this year (warning: there's a ton). 
 
 **The big jobs picture
 Maine's job total finally climbed out of a pit since the start of the Great Recession, [after 109 months](http://bangordailynews.com/2017/03/13/business/after-109-months-maines-finally-recovered-jobs-lost-to-the-recession/). The job recovery took four times longer than any recent recession on record. 
