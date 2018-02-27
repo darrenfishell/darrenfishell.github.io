@@ -15,7 +15,7 @@ As the [New York Times wrote](https://www.nytimes.com/2018/01/29/business/tax-bi
 
 >[His interest, he said](https://www.banking.senate.gov/public/_cache/files/9902b281-6454-4ca8-b61a-1a205bf65c48/73459583A4E1046AC282026EBE28F93F.hassett-testimony-6-6-17.pdf), stems from growing up near Turners Falls, Mass., which has struggled [since the closing of its longtime paper mills](http://www.masslive.com/business-news/index.ssf/2017/08/southworth_paper_closing_leaves_gap_for.html).
 
-Below are the 123 areas that Maine officials will be sorting through as candidates for these new tax incentives. The law caps the areas they can select at 31, but two could be "contiguous" tracts, adjacent to a low-income area. 
+Below are the 123 areas that Maine officials will be sorting through as candidates for these new tax incentives. The law caps the areas they can select at 31, but two could be from a group of 79 "contiguous" tracts, adjacent to a low-income area (also shown below).
 
 In the map below, I've selected a few different variables that one might consider in picking the towns in question. 
 
