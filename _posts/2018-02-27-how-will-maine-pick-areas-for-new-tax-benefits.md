@@ -5,7 +5,7 @@ title: How will Maine pick areas to receive new business tax benefits?
 
 Maine officials will pick 31 of roughly 123 low-income areas of the state for new tax incentives that aim to help distressed areas. The question is, how will they go about doing that? 
 
-I've put together a map (below) to get that conversation started. But first, a little background. 
+I've put together a map (below) to explore the topic. But first, a little background. 
 
 The Opportunity Zone program is part of last year's Republican-led federal tax overhaul. Maine's Department of Economic and Community Development said this week that they're trying to figure out how to pick the communities that will qualify. 
 
