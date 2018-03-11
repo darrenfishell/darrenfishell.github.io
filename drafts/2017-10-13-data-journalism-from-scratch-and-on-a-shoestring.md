@@ -3,19 +3,31 @@ layout: post
 title: How to get started with data journalism visualization, without coding
 ---
 
-_This is the first in a series of posts covering the basics of what I've learned, with tools that don't require any coding knowledge. Eventually, some basic coding can go a long way, but that's still minimal._
+_This is the first in a series of posts covering the basics of what I've learned, with tools that require little -- if any -- any coding._
 
-My career took a turn about four years ago, when I started chatting with one of my best sources, data. I've gotten better at using data in my reporting since and there's rarely a story where I don't ask, "is there data that might shed some light here?"
+My career took a turn about four years ago, when I started studying data journalism. I've been learning on the job since. 
 
-In some cases, there's not. And data can't do everything. So, let me dispel the idea that data journalism's stands apart from "traditional" reporting. Not at all. 
+As I've gotten better at data reporting, I almost always ask, "is there data that might tell part of this story?"
 
-Data's another source. Like human sources, sometimes the data -- because of its originality, depth or authority -- speaks loud enough to drive a story. Most often, it can add nuance, just as a good quote can add a little punch.
+In this series, I want to share much of what I've learned, with years of hindsight about what's most useful. 
 
-At first, I didn't really know which data to talk to, or how to talk to it. I'm talking about going beyond the 10 data points to do a look back at a decade of state GDP figures. What about looking at those top-level figures broken out by new levels of detail -- by industry or metro areas? 
+Before getting into tips and tools, it's important to think about how data will figure into your work. What do you hope to learn from it? What question are you seeking to answer? What kind of data might help answer the question? 
 
+This is most important. Like any other source, data has its flaws. It doesn't "know" everything. Some data is better than others. Some is more stubborn. 
 
+I've come to think of it alongside other sources in journalism. But it's one that you should always consider. 
 
-In the last four years, data journalism tools have improved greatly. Building your individual toolkit and workflows are key to getting started. But first, and most importantly, you need a clear motivation and clear goals. 
+And that's the first step I'll offer, before any specific tools, tricks or data sources:
 
-I don't mean elbow grease, but rather some sense of how data can help your work -- you need to have a question that data can answer, but not when it's just a spreadsheet of 10,000 separate rows. You need at least the promise of an answer trapped in there, too. 
+### _With each story, ask whether there's a set of data that knows something about the topic._
+
+Data offers a different perspective. It can help put stories in a broader context. It can also serve as a check on narratives peddled by politicians or others. 
+
+In that way, it doesn't stand apart from "traditional" reporting. Unless your source is _really_ special, you don't want a one-source story. 
+
+When you're starting, think about this simply. If you have a story about a new business opening in your area, you can use data to help tell you whether that industry's on the rise or decline in your area. Is the opening countering or moving along with a recent trend? Or neither? 
+
+Make sure to ask this of other sources along the way, too. Just as you'd ask a politician _how_ they know something they assert, try asking sources whether there's data that illustrates their point. 
+
+Asking those types of questions will change your research and, eventually, your reporting.
 
