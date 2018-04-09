@@ -14,3 +14,5 @@ The data, recorded at the ZIP code level, showed the Portland area added more dr
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/droneregistrationsandmap2018_0/mapdash?:showVizHome=no&amp;:embed=true" width="100%" height="585px"></iframe>
 
 Eustis posted the largest percentage increase over the year, rising to 14 registered hobby drones in 2018 up from 1 at the previous measure.
+
+_The FAA [posts the latest drone registration statistics](https://www.faa.gov/foia/electronic_reading_room/) at its page for frequently requested records under the Freedom of Information Act._
