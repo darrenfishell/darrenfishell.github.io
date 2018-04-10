@@ -7,9 +7,9 @@ Idexx CEO Jonathan Ayers makes 121 times what the median employee of the Westbro
 
 Idexx's median employee brought home $55,202 in 2017, [according to the company's disclosure](https://www.sec.gov/Archives/edgar/data/874716/000120677418001021/idexx3324671-def14a.htm). Idexx is the state's largest public company, by assets.
 
-The pay ratio at Idexx, which makes diagnostic tests for pets and livestock, pales in comparison to some multi-national companies that have disclosed, such as Mattel, where CEO Margo Georgiadis [makes 4,987 times the company's median employee](https://www.sec.gov/Archives/edgar/data/63276/000119312518108841/d482786ddef14a.htm). That's a new high, according to Bloomberg, which [is tracking CEO pay ratio disclosures](https://www.bloomberg.com/graphics/ceo-pay-ratio/).
+The pay ratio at Idexx, which makes diagnostic tests for pets and livestock, pales in comparison to some multi-national companies that have disclosed, such as Mattel, where CEO Margo Georgiadis [makes 4,987 times the company's median employee](https://www.sec.gov/Archives/edgar/data/63276/000119312518108841/d482786ddef14a.htm). That's a new high, according to Bloomberg, which [is tracking CEO pay ratio disclosures for some of the country's largest publicly traded firms](https://www.bloomberg.com/graphics/ceo-pay-ratio/).
 
-Idexx disclosed for the first time the pay of its median employee, along with other public companies under new rules in the Dodd-Frank financial reform law, signed in the wake of the Great Recession. 
+Public companies are disclosing median pay and the ratio to CEO pay under new rules in the Dodd-Frank financial reform law, signed in the wake of the Great Recession. 
 
 Idexx is the first of Maine's major public companies to disclose that ratio, though others are expected as early as this week. 
 
