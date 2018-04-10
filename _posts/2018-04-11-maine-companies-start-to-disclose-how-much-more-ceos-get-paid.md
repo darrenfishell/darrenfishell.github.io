@@ -18,7 +18,7 @@ The state's second-largest public company, WEX, has not yet disclosed. Unum, whi
 The rest of the Maine-based publicly traded companies are banks, which tend to have lower CEO to employee pay ratios. 
 
 Camden National disclosed [a pay ratio of 47 to 1](https://www.sec.gov/Archives/edgar/data/750686/000075068618000080/proxy2017.htm#s983819d9049e4570bcf7998708ec4f2a) ($43,313 median),
-Bar Harbor Bankshares disclosed [a pay ratio of 26 to 1](https://www.sec.gov/Archives/edgar/data/743367/000114036118016663/bp05019x1_def14a.htm#t15) ($46,610 median) and the Damariscotta-based The First Bancorp got a little more specific, disclosing [a pay ratio of 14.7 to 1](https://www.sec.gov/Archives/edgar/data/765207/000076520718000009/proxystatement2018.htm) ($45,237 median). 
+Bar Harbor Bankshares disclosed [a pay ratio of 26 to 1](https://www.sec.gov/Archives/edgar/data/743367/000114036118016663/bp05019x1_def14a.htm#t15) ($46,610 median) and the Damariscotta-based The First Bancorp got a little more specific, disclosing [a pay ratio of 14.7 to 1](https://www.sec.gov/Archives/edgar/data/765207/000076520718000009/proxystatement2018.htm) ($45,237 median). The Lewiston-based Northeast Bancorp has not yet disclosed.
 
 A few other national companies with a presence in Maine have also disclosed recently. The CEO of Bath Iron Works parent company General Dynamics, Phebe Novakovic, [makes 218 more than the company's median employee](https://www.sec.gov/Archives/edgar/data/40533/000119312518092111/d494330ddef14a.htm), and the median employee makes $98,563 a year. 
 
