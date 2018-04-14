@@ -21,3 +21,5 @@ MTI announced ON's grant on Friday, paid for by proceeds of a $45 million bond M
 MTI announced $10.9 million in grants on Friday, completing awards from the most recent bond. The organization said seven projects approved for the grant will "lead to 1,927 new jobs and a collective $542.6 million in economic output" for Maine. 
 
 Other companies based in Maine or with Maine ties are also disclosing the ratios of CEO pay to their median employees. Maine's largest publicly traded firm, Idexx, [disclosed a pay ratio of 121 to 1 earlier in April](http://darrenfishell.website/maine-companies-start-to-disclose-how-much-more-ceos-get-paid/) and Unum, with headquarters in Portland and Chattanooga, Tennessee, [reported](https://www.sec.gov/Archives/edgar/data/5513/000000551318000042/def14a2018proxy.htm#s33CF27A4F1295B50BC0E67B69F12D0B2) a ratio of 155 to 1 (median $62,650) earlier this week.
+
+ON said in its report that due to different methods allowed for calculating those ratios and a company's median pay, they "are not intended to facilitate a company-to-company comparison."
