@@ -3,9 +3,9 @@ layout: post
 title: Company getting $1M from Maine pays median global employee $11,035
 ---
 
-The company that will get $1 million from a Maine economic development fund for improvements to its South Portland plant [disclosed this week](https://www.sec.gov/Archives/edgar/data/1097864/000119312518114330/d516899ddef14a.htm#toc516899_41) that its Arizona-based CEO gets paid 972 times the international firm's median employee. 
+The company due to get $1 million from a competitive round of grants from a Maine economic development fund for improvements to a plant in South Portland [disclosed this week](https://www.sec.gov/Archives/edgar/data/1097864/000119312518114330/d516899ddef14a.htm#toc516899_41) that its Arizona-based CEO gets paid 972 times the international firm's median employee. 
 
-ON Semiconductor, which on Friday announced a [$23 million upgrade to its South Portland plant](https://www.pressherald.com/2018/04/13/on-semiconductor-planning-23-million-upgrade/), pays its median employee $11,035, compared with CEO Keith Jackson's pay of $10.7 million. 
+ON Semiconductor plans to use the grant for a [$23 million upgrade to its South Portland plant](https://www.pressherald.com/2018/04/13/on-semiconductor-planning-23-million-upgrade/). On Wednesday, the company announced it pays its median employee $11,035, compared with CEO Keith Jackson's pay of $10.7 million. 
 
 ON attributed the low median pay to cost-of-living differences between the United States and countries where it has workers, including the Philippines, "in which the cost of living and wages are substantially lower than in the United States." But the company said its pay rates "are set to be market-competitive in the country in which the jobs are performed."
 
