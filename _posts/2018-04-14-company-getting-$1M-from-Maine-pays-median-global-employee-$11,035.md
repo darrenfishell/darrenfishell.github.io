@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Company getting $1M from Maine pays median global employee $11,035
