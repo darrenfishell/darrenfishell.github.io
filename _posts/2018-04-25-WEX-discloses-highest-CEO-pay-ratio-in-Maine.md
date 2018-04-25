@@ -9,7 +9,7 @@ But WEX reported a higher median salary for its workers, $62,621, on par with he
 
 The company and other publicly traded firms are disclosing for the first time the median pay of their employees, compared with CEO pay, as part of the Dodd-Frank financial reform law, signed in the wake of the Great Recession. 
 
-Both pale in comparison to ratios posted by companies like Mattel (4,987:1) and Walmart (1,188:1). 
+Both pale in comparison to ratios posted by companies like Mattel (4,987:1) and Walmart (1,188:1). The Portland-based firm ImmuCell has yet to report. 
 
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/ceopayratios/payratio?:showVizHome=no&amp;:embed=true" width="100%" height="535px"></iframe>
 
