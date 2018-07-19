@@ -11,11 +11,15 @@ Here's a sampling of some of my recent data visualizations.
 
 <iframe style="border: none;" src="https://public.tableau.com/views/Mainelegislativecommittees/Bothchambers?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
 
+<iframe style="border: none;" src="https://public.tableau.com/views/goobfundraisinggeographies/mapdash?:showVizHome=no&amp;:embed=true" width="100%" height="535px"></iframe>
+
 <iframe style="border: none;" src="https://public.tableau.com/views/Mainestop-paidlobbyists2015/Mostlobbied?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
 
 # Demographics
 
 <iframe style="border: none;" src="https://public.tableau.com/views/Mainepopulationmaps/Popbytown?:showVizHome=no&amp;:embed=true" width="100%" height="585px"></iframe>
+
+<iframe style="border: none;" src="https://public.tableau.com/views/HistoricalMainecountypopulations/Bumpdash?:showVizHome=no&amp;:embed=true" width="100%" height="535px"></iframe>
 
 <iframe style="border: none;" src="https://public.tableau.com/views/CountyPop2015/Heatmap?:showVizHome=no&amp;:embed=true" width="100%" height="535px"></iframe>
 
