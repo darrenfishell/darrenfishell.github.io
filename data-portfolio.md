@@ -25,7 +25,6 @@ Here's a sampling of some of my recent data visualizations.
 
 <iframe style="border: none;" src="https://public.tableau.com/views/Mainestop-paidlobbyists2015/Mostlobbied?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
 
-
 # Economy
 
 <iframe style="border: none;" src="https://public.tableau.com/views/Callcenterjobs/Callcenters?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
