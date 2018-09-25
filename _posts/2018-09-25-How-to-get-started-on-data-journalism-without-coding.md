@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part I&#58; How to get started with data journalism visualization, without coding
+title: Intro&#58; How to get started with data journalism visualization, without coding
 ---
 
 _This is the first in a series of posts covering the basics of what I've learned, with tools that require little -- if any -- any coding._

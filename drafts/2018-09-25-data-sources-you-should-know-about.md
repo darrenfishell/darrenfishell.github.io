@@ -139,3 +139,5 @@ Here are just a handful of other data sources that I've found invaluable for sto
 - Economic development subsidies: [Good Jobs First's Subsidy Tracker (2.0)](https://www.goodjobsfirst.org/subsidy-tracker-2#/)
 - Nonprofit financials: [ProPublica's Nonprofit Explorer](https://projects.propublica.org/nonprofits/)
 - International trade statistics (available at state and port levels): [U.S. Census Bureau's USA Trade Online](https://usatrade.census.gov/)
+
+_In the next installment, I'll walk through distilling a simple visualization from large batch of data._
