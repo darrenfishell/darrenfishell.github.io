@@ -5,7 +5,7 @@ title: Intro&#58; How to get started with data journalism visualization, without
 
 _This is the first in a series of posts covering the basics of what I've learned, with tools that require little -- if any -- any coding._
 
-My career took a turn about four years ago, when I started studying data journalism. I've been learning on the job since.
+My career took a turn about six years ago, when I started studying data journalism. I've been learning on the job since.
 
 As I've gotten better at data reporting, I've gotten more comfortable addressing this key question: "Are there data that might tell part of this story?"
 
