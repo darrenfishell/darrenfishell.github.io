@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part III&#58; How to make sense of a handful of data
+title: Part II&#58; Using Tableau to dig through data
 ---
 After you've found data relevant to your reporting, you have to figure out what role it's going to play.
 
@@ -12,11 +12,13 @@ There are plenty of tools that can help, without any coding.
 
 The best single tool I've found is [Tableau Public](https://public.tableau.com/en-us/s/), which is free to download and publish to the web. That has been the backbone of most of the data journalism I've done, with no coding required.
 
-There are plenty of other ways to get started, too, from Google Sheets to Excel.
+There are plenty of other ways to get started, too, from Google Sheets to Excel, though they are less powerful for making visualizations.
 
-But Tableau offers a lot more in the way of analysis and, most importantly, it reduces the pain of screwing up and it lets you tinker with an analysis or visualization.
+Tableau offers more in the way of analysis and, most importantly, it reduces the pain of screwing up and it lets you tinker with an analysis or visualization.
 
-Here's an example (for which you can download Tableau Public and follow along), where we'll take a somewhat frightening data set and distill it down to something more palatable.
+Here's an example (for which you can [download Tableau Public](https://public.tableau.com/en-us/s/) and follow along), where we'll take a somewhat frightening data set and distill it down to something more palatable.
+
+And Tableau has [plenty more video tutorials](https://public.tableau.com/en-us/s/resources) that can help you get started on making visualizations.
 
 ### Tracking annual unemployment in Bangor
 
@@ -65,7 +67,7 @@ Tableau will show us all of the columns of data that are available to us, organi
 
 The interface is entirely drag-and-drop here, or we can highlight the fields we want and have Tableau suggest what we might want to see.
 
-Hold the `Shift` key while selecting `Date`, `Area Name` and `Unemployment Rate %`. In the top right corner, select the `Show me` button and Tableau will suggest a line chart.
+Hold the `Shift` key (to select multiple fields) and then select `Date`, `Area Name` and `Unemployment Rate %`. In the top right corner, hit the `Show me` button and Tableau will suggest a line chart.
 
 Putting that onto the view, you can see Bangor-specific data only goes back to 2010, while state-wide unemployment rates go back to 1976.
 
@@ -87,13 +89,13 @@ We can see that Bangor had a lower unemployment rate in 2010, but the gap betwee
 
 That raises another question: How does Bangor's rate compare to other cities?
 
-To answer that, we'll need to add more data to the view. We can do that by returning to our data sources page, adding in `Portland` alongside `Bangor` and `Maine`.
+To answer that, we'll need to add more data to the view. We can do that by returning to the `Data Sources` pane (at the bottom left) and adding in `Portland` alongside `Bangor` and `Maine`.
 
 Return to `Sheet 1` and Portland will be alongside.
 
 If you wanted to broaden the inquiry to all cities and towns, you could rid of the `Area Name` filter in the data view and filter instead on `Geography`, selecting `City/Town`.
 
-That's just one of many combinations.
+That's just one of _many_ combinations.
 
 ### Publishing a view of the data
 
@@ -115,6 +117,14 @@ In these next steps, we'll put some finishing touches on the visualization.
 
 ### Final formatting touches
 
-By double-clicking the title for the dashboard, you can open the editing pane, which will let you change formatting, too.
+By double-clicking the title for the dashboard, you can open the editing pane to change the text. You can also change formatting and styles.
 
-The menu available at the top right hand side of `Sheet 1` on the dashboard has more options for the view, including showing a caption at the bottom of the graphic and adding filters.
+At the top right of the worksheet, there is a box with three icons -- an X to remove the worksheet from the dashboard, a box that will take you back to the worksheet tab and an arrow with options for the view.
+
+In the `More Options` menu, you can choose to show a caption at the bottom of the graphic and add interactive legends or filters to the dashboard.
+
+### Further learning
+
+With Tableau alone, there's plenty more to learn. [Check out the tutorials on their site](https://public.tableau.com/en-us/s/resources) for video walkthroughs of other aspects of making and publishing visualizations.
+
+_The next post in this series will deal with other data tools that can help you deal with messy data._
