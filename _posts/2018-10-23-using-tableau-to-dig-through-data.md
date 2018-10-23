@@ -32,7 +32,7 @@ The first step is taking a look at the data in your preferred viewer -- Excel, G
 
 The file is relatively large and, if you're new to such data sets, it's entirely unreadable to the human eye. But it's readable to a computer -- or, it's machine-readable.
 
-And that's :100:.
+And that's 💯.
 
 Here, the columns are a guide to how we'll be able to slice and dice the data: we can look at it by time period of the data (we'll want `Annual`, not `Monthly`) and geography (we can use the `Geography` and `Area Names` field to home in on the right data).
 
