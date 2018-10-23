@@ -110,6 +110,11 @@ img {
   max-width: 100%;
 }
 
+code {
+  background-color: #d3d3d3;
+  border-radius: 5px;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -265,7 +270,7 @@ nav {
     font-size: 22px;
     font-style: italic;
   }
-  
+
   h2 {
   margin-bottom: 2px;
   }
