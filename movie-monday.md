@@ -1,5 +1,5 @@
 ---
-layout: wide-page
+layout: wide
 title: Movie Monday
 permalink: /movie-monday/
 ---
