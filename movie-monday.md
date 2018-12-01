@@ -6,4 +6,4 @@ permalink: /movie-monday/
 
 ### Heatmap
 
-<div class="wide-page !important;"><iframe style="border: none;" src="https://public.tableau.com/views/MovieMonday/Tabledash?:showVizHome=no&amp;:embed=true" width="100%" height="1235px"></iframe></div>
+<iframe style="border: none;" src="https://public.tableau.com/views/MovieMonday/Tabledash?:showVizHome=no&amp;:embed=true" width="100%" height="1235px"></iframe>
