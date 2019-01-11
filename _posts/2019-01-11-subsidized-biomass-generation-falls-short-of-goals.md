@@ -6,7 +6,7 @@ The subsidized newcomer to Maine's biomass industry, Stored Solar, will miss out
 
 By the end of 2018, Stored Solar had generated enough power to qualify for up to $2.1 million in subsidies, out of a possible $9.4 million.
 
-<iframe style="border: none;" src="https://public.tableausoftware.com/views/biomassbailoutpayments/Projectionsvreality?:showVizHome=no&amp;:embed=true" width="100%" height="595px"></iframe>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/biomassbailoutpayments/Projectionsvreality?:showVizHome=no&amp;:embed=true" width="100%" height="595px"></iframe></div>
 
 Meanwhile, the generator's plants have laid idle and cut employment in recent months. Another bailout recipient, ReEnergy, has [shuttered one of two plants], in the Aroostook County town of Fort Fairfield. Its Ashland plant continues to operate, [according to Mainebiz](http://www.mainebiz.biz/article/20181115/NEWS01/181119971/reenergy-shuts-down-fort-fairfield-biomass-plant).
 
