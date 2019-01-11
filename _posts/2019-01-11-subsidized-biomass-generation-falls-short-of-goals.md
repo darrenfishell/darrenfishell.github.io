@@ -14,6 +14,6 @@ Before shutting down, however, ReEnergy made out better than Stored Solar, captu
 
 Regulatory filings show that Stored Solar in May dramatically cut back its employment across its plants in West Enfield and Jonesboro. Employment in May fell to 14 from 32. That was down from a peak of 77 in December 2017, when the company was under pressure to make annual average employment numbers to preserve its ability to claim its taxpayer subsidy.
 
-<iframe style="border: none;" src="https://public.tableausoftware.com/views/biomassbailoutpayments/StoredSolarjobs?:showVizHome=no&amp;:embed=true" width="100%" height="595px"></iframe>
+<iframe style="border: none;" src="https://public.tableausoftware.com/views/biomassbailoutpayments/StoredSolarjobs?:showVizHome=no&amp;:embed=true" width="100%" height="385px"></iframe>
 
 Regulators decided the company met those goals, but they [decided to cut the company's subsidy](https://bangordailynews.com/2018/04/06/business/maine-utility-regulators-ok-1-2-million-subsidy-for-biomass-plant/) after it missed targets for purchasing Maine wood.
