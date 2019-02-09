@@ -4,7 +4,7 @@ title: Maine GIS & DEP offer detailed look at CMP's proposed power lines
 ---
 Want to know exactly where Central Maine Power Co. plans to weave its controversial power line through the state? Maine's Department of Environmental Protection has the answer.
 
-<iframe width="100%" height="520" frameborder="0" src="https://dfishell.carto.com/builder/3c7e897e-489a-4803-a821-105ba8f56dc6/embed?state={"map":{"ne":[-71.927490,43.659924],"sw":[-67.895508,45.962606]}}" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://dfishell.carto.com/builder/3c7e897e-489a-4803-a821-105ba8f56dc6/embed?state=%7B"map"%3A%7B"ne"%3A%5B-71.927490%2C43.659924%5D%2C"sw"%3A%5B-67.895508%2C45.962606%5D%7D%7D" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 As the DEP reviews the New England Clean Energy Connect project, the agency has published detailed maps of the proposed project area and individual structures for two power lines -- one from the Canadian border to Lewiston and another from Windsor to Wiscasset.
 
