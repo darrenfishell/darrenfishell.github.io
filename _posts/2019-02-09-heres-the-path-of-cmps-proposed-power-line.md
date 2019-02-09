@@ -11,11 +11,12 @@ As the DEP reviews the New England Clean Energy Connect project, the agency has 
 The maps give a much higher level of detail than maps published, for example, [at the website for the project](https://www.necleanenergyconnect.org/map/).
 
 #### One such map
-![NECEC site map](https://static1.squarespace.com/static/59f503f2d74cff2410953bcf/t/5b5b6db2aa4a99c5ff5c4bd3/1535048016348/NECEC_map.png?format=1000w)
+
+![NECEC site map](https://static1.squarespace.com/static/59f503f2d74cff2410953bcf/t/5b5b6db2aa4a99c5ff5c4bd3/1535048016348/NECEC_map.png?format=1000w "NECEC map")
 
 The Maine DEP has published a more complete project file ([as a .KMZ](https://www.maine.gov/dep/gis/datamaps/lawb_necec_project/NECEC_Project_Data_2018_12_11.kmz)) on its [Interactive Maps and Data page](https://www.maine.gov/dep/gis/datamaps/), under the title "CMP NECEC Project Layer".
 
 The file was updated last month and includes a range of other data layers, showing where the project intersects with critical habitats for Atlantic salmon, lynx, rare plants and other sensitive environments.
 
 _A sampling of other layers in the DEP file._
-![Other data layers](/../images/other-data-layers.png)
+![Other data layers](/../images/other-data-layers.png "Other data layers included in the DEP file")
