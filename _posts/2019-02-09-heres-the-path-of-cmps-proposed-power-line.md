@@ -2,7 +2,7 @@
 layout: post
 title: Maine GIS & DEP offer detailed look at CMP's proposed power lines
 ---
-Want to know exactly where Central Maine Power Co. plans to weave its controversial power line through the state? Maine's Department of Environmental Protection has the answer.
+Want to know exactly where Central Maine Power Co. plans to weave its [controversial power line](https://bangordailynews.com/2018/10/19/business/mainers-dig-in-for-a-big-fight-over-cmps-hydro-project/) through the state? Maine's Department of Environmental Protection has the answer.
 
 <iframe width="100%" height="520" frameborder="0" src="https://dfishell.carto.com/builder/3c7e897e-489a-4803-a821-105ba8f56dc6/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
