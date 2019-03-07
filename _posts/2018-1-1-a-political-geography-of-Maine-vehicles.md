@@ -2,8 +2,6 @@
 layout: wide
 title: A political geography of Maine, or how Shawn Moody won truck town
 ---
-If
-
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Truckvothermap?:showVizHome=no&amp;:embed=true" width="100%" height="785px"></iframe></div>
 
@@ -18,7 +16,7 @@ If
 
 
 Data accounting:
-The blend of data leaves some communities on the cutting room floor, considering communities that make up about 1,122,721 of 1,171,069 vehicles statewide, or about 96 percent of vehicles. It also includes about 96 percent of the total vote.
+The blend of data leaves some communities on the cutting room floor, considering communities that make up about 1,140,696 of 1,171,069 vehicles statewide, or about 97 percent of vehicles. It also includes about 96 percent of the total vote.
 
 This excludes towns where the top vehicle title was a tossup, sometimes shared between the Chevy Silverado and the Subaru Forester.
 
