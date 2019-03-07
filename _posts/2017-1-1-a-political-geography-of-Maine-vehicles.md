@@ -6,16 +6,16 @@ After a rough election for Republicans in Maine, it appears they might have a st
 
 Election returns and a database of vehicle registrations by town show Republican gubernatorial candidate Shawn Moody relied heavily on towns where the Ford F-150, Chevy Silverado or GMC Sierra are the most popular vehicles.
 
-Almost 9 in 10 votes for Moody came from such towns; he won 3 in 4 towns where a truck is the most popular vehicle.
+Almost `9 in 10` votes for Moody came from such towns; he won `3 in 4` towns where a truck is the most popular vehicle.
 
 ### Cut too thin to win
 Moody's vote margins in truck country were relatively thin, when compared with the lead Democratic Gov. Janet Mills amassed in Subaru country.
 
-In places where the Subaru Forester is the most popular vehicle, Mills defeated Moody nearly 65:1; meanwhile, Moody had just less than a 3:1 lead on Mills in Chevy Silverado towns, where he won most of his votes.
+In places where the Subaru Forester is the most popular vehicle, Mills defeated Moody nearly `65:1`; meanwhile, Moody had just less than a `3:1` lead on Mills in Chevy Silverado towns, where he won most of his votes.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Townswonintruckcountry?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
-Overall, Mills performed better in truck towns than Moody did in places where other vehicles are the most popular. In truck country, Mills lagged Moody by about 21,600 votes. Moody fell behind by about 69,000 votes where other vehicles were the most popular choice.
+Overall, Mills performed better in truck towns than Moody did in places where other vehicles are the most popular. In truck country, Mills lagged Moody by about `21,600` votes. Moody fell behind by about `69,000` votes where other vehicles were the most popular choice.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Votesbytopvehicle?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe></div>
 
