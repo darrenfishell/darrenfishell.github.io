@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: wide-page
 title: A political geography of Maine, or how winning truck town wasn't enough for Shawn Moody
 ---
 After a rough election for Republicans in Maine, it appears they might have a statewide electoral problem: winning truck town is not enough.
