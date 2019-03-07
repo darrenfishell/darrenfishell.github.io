@@ -1,33 +1,60 @@
 ---
 layout: wide
-title: A political geography of Maine, or how Shawn Moody won truck town
+title: A political geography of Maine, or how winning truck town wasn't enough for Shawn Moody
 ---
+After a rough election for Republicans in Maine, it appears they might have a statewide electoral problem: winning truck town is not enough.
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Truckvothermap?:showVizHome=no&amp;:embed=true" width="100%" height="785px"></iframe></div>
+Election returns and a database of vehicle registrations by town show Republican gubernatorial candidate Shawn Moody relied heavily on towns where the Ford F-150, Chevy Silverado or GMC Sierra are the most popular vehicles.
+
+Almost 9 in 10 votes for Moody came from such towns; he won 3 in 4 towns where a truck is the most popular vehicle.
+
+### Cut too thin to win
+Moody's vote margins in truck country were relatively thin, when compared with the lead Democratic Gov. Janet Mills amassed in Subaru country.
+
+In places where the Subaru Forester is the most popular vehicle, Mills defeated Moody nearly 65:1; meanwhile, Moody had just less than a 3:1 lead on Mills in Chevy Silverado towns, where he won most of his votes.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Townswonintruckcountry?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
+
+Overall, Mills performed better in truck towns than Moody did in places where other vehicles are the most popular. In truck country, Mills lagged Moody by about 21,600 votes. Moody fell behind by about 69,000 votes where other vehicles were the most popular choice.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Votesbytopvehicle?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe></div>
+
+### What does your vehicle say about your partisan leanings?
+
+The data points to some general trends in the partisan lean of specific vehicles.
+
+For this analysis, I winnowed the data down to a pairing of an election winner and the most popular local vehicle -- a process that largely involved cleaning and standardizing model names from the vehicle registration data (thank you very much, [OpenRefine](http://openrefine.org/)).
+
+The result allows us to see how towns voted, broken out by the most popular local vehicle.
+
+While trucks emerged as a clear division in the results, there was one major outlier (which you might suspect): the Toyota Tacoma. Mills and Moody both won 3 Tacoma towns each, making it the most bipartisan Maine vehicle.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/PartisanleanofMainevehicles?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
+
+By make, GMC and Chevy towns leaned heavily Republican. Subarus leaned way to the left (with the exceptions of Woolwich and Kingfield).
+
+The graphic below shows those fault lines in more detail. For instance, you can see the Silverado towns that went for Mills and the Toyota Camry towns that went for Moody.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Vehiclesbyvote?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
 
+### Data accounting
+The analysis leaves some data on the cutting room floor, but ultimately accounts for more than 98 percent of all vehicle registrations and votes cast in the 2018 gubernatorial election. The vehicle registration data was captured before the election, as of Sept. 18, 2018, by request to the Maine Secretary of State's Office.
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Vehiclesbyvote?:showVizHome=no&amp;:embed=true" width="100%" height="595px"></iframe></div>
+The analysis excludes towns where there was no clear top vehicle — ties of 1–1, for instance — and overseas votes.
 
-### Findings
---Shawn Moody won more than 3 in 4 towns where a truck or SUV was the most popular vehicle, by total registrations, landing the most towns where the Ford F-150 reigns.
---Janet Mills handily won Subaru country, taking about 9 in 10 towns where either the Outback, Forester or Legacy were the most popular car. Mills won more Forester towns than any other.
---For trucks, the the Toyota Tacoma is an outlier. Mills won 5 Tacoma towns to Moody's 3. That was not true for Toyota's Rav4; Moody won more Rav4 towns.
-
-
-Data accounting:
-The blend of data leaves some communities on the cutting room floor, considering communities that make up about 1,140,696 of 1,171,069 vehicles statewide, or about 97 percent of vehicles. It also includes about 96 percent of the total vote.
-
-This excludes towns where the top vehicle title was a tossup, sometimes shared between the Chevy Silverado and the Subaru Forester.
-
-Vehicles
+<!-- Vehicles
 Joined data | SOS data
-1,171,069 | 1,122,721 | 95.8%
+1,153,322 | 1,171,069 | 98.4%
 
 Janet:
 Joined data | SOS data
-308,744 | 320,962 | 96.2%
+315,612 | 320,962 | 98.3%
 
 Moody:
 Joined data | SOS data
-260,881 | 272,311 | 95.8%
+268,210 | 272,311 | 98.5%
+
+Total votes
+Joined data | SOS data
+635,648 | 646,013 | 98.4% -->
