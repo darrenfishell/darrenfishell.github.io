@@ -2,26 +2,28 @@
 layout: wide-page
 title: A political geography of Maine, or how winning truck town wasn't enough for Shawn Moody
 ---
-After a rough election for Republicans in Maine, it appears they might have a statewide electoral problem: winning truck town is not enough.
+After a rough election for Republicans in Maine, it appears they might have a statewide electoral problem: winning truck country is not enough.
 
 Election returns and a database of vehicle registrations by town show Republican gubernatorial candidate Shawn Moody relied heavily on votes from towns where the Ford F-150, Chevy Silverado or GMC Sierra are the most popular vehicles.
 
 Almost `7 in 10` votes for Moody came from such towns; he won `3 in 4` towns where a truck is the most popular vehicle.
 
-### Cut too thin to win
-Moody's vote margin in truck country were relatively thin, when compared with the lead Democratic Gov. Janet Mills amassed in Subaru country.
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Townswonintruckcountry?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
-In places where the Subaru Forester is the most popular vehicle, Mills got nearly 3 times the votes as Moody. By town, Mills won Subaru Forester country `25:1`; Moody had a little more than a `3:1` lead on Mills for Chevy Silverado towns, where he picked up most of his votes.
+### Cut too thin to win
+While Moody cleaned up in truck towns, his margins there were relatively thin when compared with the lead Democratic Gov. Janet Mills amassed in Subaru country. That reflects a general urban-rural split, but vehicle data shows that's not the whole story.
+
+In places where the Subaru Forester is the most popular vehicle, Mills got nearly 3 times the votes as Moody. Mills almost matched Moody's votes from Silverado towns.
+
+By town, Mills won Subaru Forester country `25:1`; Moody had a little more than a `3:1` lead on Mills for Chevy Silverado towns, where he picked up most of his votes.
 
 (Truck towns hold some relation to the vote share Moody ultimately picked up. If the leading truck made up a larger share of all vehicles, that showed a [slight correlation](https://public.tableau.com/views/Topvehiclesbygubernatorialvote/Moodysmarginintrucktown?:embed=y&:display_count=yes&publish=yes) with higher vote margins for Moody.)
 
-The vote totals by car make shed light on the split: Moody had a `16,705` vote lead in Chevy towns; Mills led by `47,832` in Subaru towns.
-
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Townswonintruckcountry?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
-
-Overall, Mills performed better in truck towns than Moody did in places where other vehicles are the most popular. In truck country, Mills lagged Moody by about `21,600` votes. Moody fell behind by about `69,000` votes in areas where trucks were not the most popular choice.
+By vehicle make, Moody had a `16,705` vote lead in Chevy towns; Mills led by `47,832` in Subaru towns.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Votesbytopvehicle?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe></div>
+
+Overall, Mills lagged Moody by about `21,600` votes in truck country. Moody lost by about `69,000` votes in areas where trucks were not the most popular choice.
 
 ### What does your vehicle say about your partisan leanings?
 
@@ -35,14 +37,14 @@ Among the trucks, there was one outlier: the Toyota Tacoma. Mills and Moody both
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/PartisanleanofMainevehicles?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
-By make, GMC- and Chevy-led towns leaned heavily Republican. Subaru-led towns leaned way to the left (with the exceptions only of Woolwich and Kingfield).
+By make, GMC- and Chevy-led towns leaned heavily Republican. Subaru-led towns leaned left (with the exceptions only of Woolwich and Kingfield).
 
-The graphic below shows those fault lines in more detail. For instance, you can see the Silverado towns that went for Mills and the Toyota Camry towns that went for Moody.
+The graphic below shows those fault lines in more detail. For instance, you can see the Silverado town votes that went for Mills and the Toyota Camry votes that went for Moody.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Vehiclesbyvote?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
 ### Search your towns
-Use the search below to search for local election results and the top 25 vehicles in that town.
+Use the search below to find local election results and the top 25 vehicles in Maine towns.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Localtownsearch?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe></div>
 
