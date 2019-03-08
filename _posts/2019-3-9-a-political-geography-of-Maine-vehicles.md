@@ -4,18 +4,22 @@ title: A political geography of Maine, or how winning truck town wasn't enough f
 ---
 After a rough election for Republicans in Maine, it appears they might have a statewide electoral problem: winning truck town is not enough.
 
-Election returns and a database of vehicle registrations by town show Republican gubernatorial candidate Shawn Moody relied heavily on towns where the Ford F-150, Chevy Silverado or GMC Sierra are the most popular vehicles.
+Election returns and a database of vehicle registrations by town show Republican gubernatorial candidate Shawn Moody relied heavily on votes from towns where the Ford F-150, Chevy Silverado or GMC Sierra are the most popular vehicles.
 
-Almost `9 in 10` votes for Moody came from such towns; he won `3 in 4` towns where a truck is the most popular vehicle.
+Almost `7 in 10` votes for Moody came from such towns; he won `3 in 4` towns where a truck is the most popular vehicle.
 
 ### Cut too thin to win
-Moody's vote margins in truck country were relatively thin, when compared with the lead Democratic Gov. Janet Mills amassed in Subaru country.
+Moody's vote margin in truck country were relatively thin, when compared with the lead Democratic Gov. Janet Mills amassed in Subaru country.
 
-In places where the Subaru Forester is the most popular vehicle, Mills defeated Moody nearly `65:1`; meanwhile, Moody had just less than a `3:1` lead on Mills in Chevy Silverado towns, where he won most of his votes. (Futhermore, in truck towns, if the leading truck made up a greater share of all vehicles, that showed a [slight correlation](https://public.tableau.com/views/Topvehiclesbygubernatorialvote/Moodysmarginintrucktown?:embed=y&:display_count=yes&publish=yes) with Moody's eventual vote margin.)
+In places where the Subaru Forester is the most popular vehicle, Mills got nearly 3 times the votes as Moody. By town, Mills won Subaru Forester country `25:1`; Moody had a little more than a `3:1` lead on Mills for Chevy Silverado towns, where he picked up most of his votes.
+
+(Truck towns hold some relation to the vote share Moody ultimately picked up. If the leading truck made up a larger share of all vehicles, that showed a [slight correlation](https://public.tableau.com/views/Topvehiclesbygubernatorialvote/Moodysmarginintrucktown?:embed=y&:display_count=yes&publish=yes) with higher vote margins for Moody.)
+
+The vote totals by car make shed light on the split: Moody had a `16,705` vote lead in Chevy towns; Mills led by `47,832` in Subaru towns.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Townswonintruckcountry?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
-Overall, Mills performed better in truck towns than Moody did in places where other vehicles are the most popular. In truck country, Mills lagged Moody by about `21,600` votes. Moody fell behind by about `69,000` votes where other vehicles were the most popular choice.
+Overall, Mills performed better in truck towns than Moody did in places where other vehicles are the most popular. In truck country, Mills lagged Moody by about `21,600` votes. Moody fell behind by about `69,000` votes in areas where trucks were not the most popular choice.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Votesbytopvehicle?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe></div>
 
@@ -27,7 +31,7 @@ For this analysis, I winnowed the data down to a pairing of an election winner a
 
 The result allows us to see how towns voted, broken out by the most popular local vehicle.
 
-While trucks emerged as a clear trend, there was one outlier: the Toyota Tacoma. Mills and Moody both won 3 Tacoma towns each, making it the most bipartisan of top local vehicles.
+Among the trucks, there was one outlier: the Toyota Tacoma. Mills and Moody both won 3 Tacoma towns each, making it the most bipartisan by towns won. By votes, the Nissan Sentra was the most middle of the road. Moody edged out Mills in Sentra towns by `90` votes.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/PartisanleanofMainevehicles?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
