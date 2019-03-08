@@ -41,7 +41,7 @@ The graphic below shows those fault lines in more detail. For instance, you can 
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Vehiclesbyvote?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
-### Search your towns
+### Search by town
 Use the search below to find local election results and the top 25 vehicles in Maine towns.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Localtownsearch?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe></div>
