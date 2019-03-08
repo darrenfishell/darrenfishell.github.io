@@ -2,28 +2,26 @@
 layout: wide-page
 title: A political geography of Maine, or how winning truck town wasn't enough for Shawn Moody
 ---
-After a rough election for Republicans in Maine, it appears they might have a statewide electoral problem: winning truck country is not enough.
+After a [rough election for Republicans in Maine](https://bangordailynews.com/2018/11/07/politics/democrats-surge-to-solid-control-of-maine-legislature/), it appears they might have a statewide electoral problem: winning Maine's truck country is not enough.
 
 Election returns and a database of vehicle registrations by town show Republican gubernatorial candidate Shawn Moody relied heavily on votes from towns where the Ford F-150, Chevy Silverado or GMC Sierra are the most popular vehicles.
 
-Almost `7 in 10` votes for Moody came from such towns; he won `3 in 4` towns where a truck is the most popular vehicle.
+Almost `7 in 10` votes for Moody came from such towns; he won `3 in 4` towns where a truck is the most popular vehicle. As trucks make up the top three vehicles in the state -- the Chevy Silverado, Ford F-150 and GMC Sierra -- that's a big pond to fish. But it wasn't enough.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Townswonintruckcountry?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
 ### Cut too thin to win
-While Moody cleaned up in truck towns, his margins there were relatively thin when compared with the lead Democratic Gov. Janet Mills amassed in Subaru country. That reflects a general urban-rural split, but vehicle data shows that's not the whole story.
+While Moody cleaned up in winning truck towns, his vote margins there were relatively thin. They were dwarfed by the lead Democratic Gov. Janet Mills amassed in Subaru country. That reflects a general urban-rural split, but vehicle data shows that's not the whole story.
 
-In places where the Subaru Forester is the most popular vehicle, Mills got nearly 3 times the votes as Moody. Mills almost matched Moody's votes from Silverado towns.
-
-By town, Mills won Subaru Forester country `25:1`; Moody had a little more than a `3:1` lead on Mills for Chevy Silverado towns, where he picked up most of his votes.
-
-(Truck towns hold some relation to the vote share Moody ultimately picked up. If the leading truck made up a larger share of all vehicles, that showed a [slight correlation](https://public.tableau.com/views/Topvehiclesbygubernatorialvote/Moodysmarginintrucktown?:embed=y&:display_count=yes&publish=yes) with higher vote margins for Moody.)
-
-By vehicle make, Moody had a `16,705` vote lead in Chevy towns; Mills led by `47,832` in Subaru towns.
+In places where the Subaru Forester is the most popular vehicle, Mills got nearly 3 times the votes as Moody. Mills nearly matched Moody's votes from Silverado towns.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Votesbytopvehicle?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe></div>
 
+By town, Mills won Subaru Forester country `25:1`; Moody had a little more than a `3:1` lead on Mills for Chevy Silverado towns, where he picked up most of his votes.
+
 Overall, Mills lagged Moody by about `21,600` votes in truck country. Moody lost by about `69,000` votes in areas where trucks were not the most popular choice.
+
+(Truck towns hold some relation to the vote share Moody ultimately picked up. If the leading truck made up a larger share of all vehicles, that showed a [slight correlation](https://public.tableau.com/views/Topvehiclesbygubernatorialvote/Moodysmarginintrucktown?:embed=y&:display_count=yes&publish=yes) with higher vote margins for Moody.)
 
 ### What does your vehicle say about your partisan leanings?
 
