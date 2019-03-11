@@ -30,14 +30,13 @@ Here's a sampling of some of my recent work. And the full list for [Bangor Daily
 + [Pitfalls and strengths of local data on income and housing](bangordailynews.com/2018/09/10/mainefocus/pitfalls-and-strengths-of-local-data-on-income-and-housing/)
 
 ### Electricity resellers cash in
-+ [Full "Power Grab" series](http://bangordailynews.com/series/powergrab/)
-
 + [How electricity providers siphoned more than $20 million from Maine customers](http://bangordailynews.com/2016/08/31/the-point/how-electricity-providers-siphoned-more-than-20m-from-maine-customers/) / Later: [How Mainers spent $50 million they didn't need to on electricity](http://bangordailynews.com/2016/11/16/the-point/mainers-spent-50-million-they-didnt-need-to-on-electricity/)
 + [State confirms home power customers spent $77M they didn’t need to](https://bangordailynews.com/2018/02/21/mainefocus/state-confirms-home-power-customers-spent-77m-they-didnt-need-to/)
 + [‘Leading edge’ restrictions on electricity sellers become Maine law](http://bangordailynews.com/2017/05/23/politics/leading-edge-restrictions-on-electricity-sellers-become-maine-law/)
 + [Electricity sellers allegedly pose as utility workers to poach customers](https://bangordailynews.com/2018/06/22/mainefocus/electricity-sellers-allegedly-posed-as-cmp-auditors-to-poach-customers/)
 + [After complaints, Maine’s biggest electricity seller faces suspension](http://bangordailynews.com/2018/07/24/mainefocus/after-complaints-maines-biggest-electricity-seller-faces-suspension/)
 + [Power sellers overcharged Maine customers by $16 million in 2017](http://bangordailynews.com/2018/10/17/mainefocus/power-sellers-overcharged-maine-customers-by-16-million-last-year/)
++ [Full "Power Grab" series](http://bangordailynews.com/series/powergrab/)
 
 ### The costs of buoying a troubled biomass industry
 + [LePage keeps backing energy firm seeking taxpayer help, despite failings after bailout](https://bangordailynews.com/2017/10/04/mainefocus/lepage-keeps-backing-energy-firm-seeking-taxpayer-help-despite-failings-after-bailout/)
