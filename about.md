@@ -6,7 +6,9 @@ permalink: /about/
 
 I'm a data visualization analyst based in Portland, Maine. I was previously an investigative and business reporter.
 
-I grew up in the suburb of [Diamond Bar, California](https://en.wikipedia.org/wiki/Diamond_Bar,_California), before coming to Maine [for college](http://bowdoin.edu) and staying in Portland. Professionally, I spent a year as the first local editor for [Patch.com](https://patch.com/users/darren-fishell) in my hometown but came back to Maine for a reporting job at a small, [afternoon daily paper](http://timesrecord.com) in Brunswick. Landed next at [Mainebiz](http://mainebiz.com) before three years covering business, Maine's economy and energy for the [Bangor Daily News](http://bangordailynews.com). I joined the MaineFocus team in September 2017. 
+I grew up in the suburb of [Diamond Bar, California](https://en.wikipedia.org/wiki/Diamond_Bar,_California), before coming to Maine [for college](http://bowdoin.edu) and staying in Portland. I started my journalism career as the first local editor for [Patch.com](https://patch.com/users/darren-fishell) in my hometown. I came back to Maine for a staff job at a small, [afternoon daily paper](http://timesrecord.com) in Brunswick. I grew a fondness for data reporting at [Mainebiz](http://mainebiz.com) before three years covering Maine's economy and investigations at the [Bangor Daily News](http://bangordailynews.com).
+
+I now work for [Arkatechture](https://www.arkatechture.com/), a data consulting firm with offices on Portland's East End.
 
 ### Contact me
 
