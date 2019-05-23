@@ -4,7 +4,7 @@ title: Mapping CMP's controversial power line proposal in Tableau 2019.2
 ---
 Central Maine Power Co.'s controversial power line proposal winds its way through 37 different communities, which has elicited opposition from towns along the route and even from three communities outside of the project path.
 
-By the latest tally compiled by opponents at the Natural Resources Council of Maine, 15 communities have come out against the project. The City of Lewiston has maintained its support, while a number of those opposing communities reversed their earlier support.
+By the latest tally compiled by opponents at the Natural Resources Council of Maine, 15 communities have come out against or rescinded support for the project. The City of Lewiston has maintained its support, while a number of those opposing communities reversed their earlier support.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/TownsalongtheNECECroute/TownsalongtheNECECroute?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
