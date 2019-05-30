@@ -4,7 +4,7 @@ title: A reference for selected Opportunity Zones in Maine
 ---
 Gov. Paul LePage last year picked 31 census tracts in Maine where investors could receive federal tax benefits.
 
-[More here on the program from the IRS](https://www.irs.gov/newsroom/opportunity-zones-frequently-asked-questions)
+([More here on the program from the IRS](https://www.irs.gov/newsroom/opportunity-zones-frequently-asked-questions))
 
 These "Opportunity Zones" are based on census tracts, which are not geographies that the average person, or even city officials, would readily recognize.
 
