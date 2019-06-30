@@ -6,6 +6,8 @@ After President Donald J. Trump's election, Maine's partisan divide grew to its 
 
 The share of unenrolled voters hit a 10-year low, as voters shifted to third parties and others came off the sidelines to join one of the two major political parties.
 
+<iframe style="border: none;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/Mainevotersdecidedtopickalane?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe>
+
 In some ways, that's expected. The president's party [most often loses seats in the House of Representatives](https://news.gallup.com/poll/242093/midterm-seat-loss-averages-unpopular-presidents.aspx) during the following mid-term election. But Trump's election didn't play out in the same way in Maine.
 
 In 2010, following Democratic President Barack Obama's election two years prior, voter registration almost everywhere in Maine went _way red._ Every county but Knox got redder.
