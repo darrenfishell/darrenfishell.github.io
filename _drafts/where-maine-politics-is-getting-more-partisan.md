@@ -1,7 +1,6 @@
 ---
 layout: wide-page
 title: Maine's electorate is getting more divided. See how your town is split.
-draft: true
 ---
 After President Donald J. Trump's election, Maine's partisan divide grew to its widest in a decade.
 
