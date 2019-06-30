@@ -2,11 +2,26 @@
 layout: wide-page
 title: Maine's electorate is getting more divided. See how your town is split.
 ---
-After President Donald J. Trump's election, Maine quickly became more partisan than it had been for a decade.
+After President Donald J. Trump's election, Maine's partisan divide grew to its widest in a decade.
 
-The share of voters not enrolled in a political party hit a 10-year low last year, thanks to a gradual rise in third-party voter registrations and others coming off the sidelines to join two of the major political parties.
+The share of unenrolled voters hit a 10-year low, as voters shifted to third parties and others came off the sidelines to join one of the two major political parties.
 
-In most ways, that's expected. In 2008, following Democratic President Barack Obama's election, unenrolled voter registrations dropped as Republican voter registration climbed.
+In some ways, that's expected. The president's party [most often loses seats in the House of Representatives](https://news.gallup.com/poll/242093/midterm-seat-loss-averages-unpopular-presidents.aspx) during the following mid-term election. But Trump's election didn't play out in the same way in Maine.
+
+In 2010, following Democratic President Barack Obama's election two years prior, voter registration almost everywhere in Maine went _way red._ Every county but Knox got redder.
+
+After Trump, however, the state split almost down the middle: Republican voter registration gains outpaced that of Democrats in half of counties.
+
+Go more local and the contrast is even starker: After Obama, there was backlash in 96 Maine House districts that became redder; after Trump, the split couldn't have been more even, with 59 districts getting bluer and 58 getting redder.
+
+Trends in voter registration data from the Maine Secretary of State's Office reveals emerging fault lines in Maine politics that followed Trump's election.
+
+Those trends don't necessarily indicate who is going to win at the polls. Democrats still hold a voter registration advantage, with `33.1%` of the vote, to Republicans' `27.3%`, in 2018. Democrats swept in state elections, taking over the Blaine House and both chambers of the Legislature.
+
+But there appears a line in the sand where voters have made their choice: Androscoggin, Kennebec and Penobscot counties all continued to get redder while inland Franklin County and every coastal county but for Washington County got bluer.
+
+[Post-Obama/Post-Trump graphic]
+
 
 But there's a clear shift after Trump's election in 2016: third-party registrations stalled as the ranks of registered Democrats and Republicans rose across the state.
 
