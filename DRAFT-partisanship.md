@@ -2,52 +2,49 @@
 layout: wide-page
 title: Maine's electorate is getting more divided. See how your town is split.
 ---
-After President Donald J. Trump's election, Maine's partisan divide grew to its widest in a decade.
+After Democratic President Barack Obama's election, every Maine county but Knox swung to the right.
 
-The share of unenrolled voters hit a 10-year low, as voters shifted to third parties and others came off the sidelines to join one of the two major political parties.
+[Backlash against a newly elected president is typical](https://news.gallup.com/poll/242093/midterm-seat-loss-averages-unpopular-presidents.aspx), but trends in voter registration show that something different is happening in Maine after the election of Donald Trump: Many parts of the state are doubling down.
 
-<iframe style="border: none;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/Mainevotersdecidedtopickalane?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe>
+That alone doesn't indicate who's going to win at the polls. By outright numbers, Democrats continue to wield an advantage that helped them to victories at the Blaine House, the Legislature and Maine's 2nd Congressional District.
 
-In some ways, that's expected. The president's party [most often loses seats in the House of Representatives](https://news.gallup.com/poll/242093/midterm-seat-loss-averages-unpopular-presidents.aspx) during the following mid-term election. But Trump's election didn't play out in the same way in Maine.
+But underneath that, Republicans continued to gain a greater share of the electorate in 2018, as unenrolled voters dropped off dramatically and third-party registrations hit a standstill.
 
-In 2010, following Democratic President Barack Obama's election two years prior, voter registration almost everywhere in Maine went _way red._ Every county but Knox got redder.
+<iframe style="border: none; margin: 0 auto;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/Mainevotersdecidedtopickalane?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe>
 
-After Trump, however, the state split almost down the middle: Republican voter registration gains outpaced that of Democrats in half of counties.
+In your town, perhaps the product of that increasing partisanship is visible: bumper stickers or hats or giant lawn signs demonstrating victory.
 
-Go more local and the contrast is even starker: After Obama, there was backlash in 96 Maine House districts that became redder; after Trump, the split couldn't have been more even, with 59 districts getting bluer and 58 getting redder.
+That's the case in communities like Gorham and Topsham, two of the largest communities where both Democrats and Republicans gained a greater share of local registered voters after Trump's election.
 
-Trends in voter registration data from the Maine Secretary of State's Office reveals emerging fault lines in Maine politics that followed Trump's election.
+That wasn't uncommon for 2018. More than `45%` of registered Maine voters lived in communities where the partisan divide widened.
 
-Those trends don't necessarily indicate who is going to win at the polls. Democrats still hold a voter registration advantage, with `33.1%` of the vote, to Republicans' `27.3%`, in 2018. Democrats swept in state elections, taking over the Blaine House and both chambers of the Legislature.
+That number was 10 percent lower after Obama's election. Almost `55%` of voters lived in areas that swung Republican. Only `35%` lived in districts where both parties gained a share of the electorate.
 
-But there appears a line in the sand where voters have made their choice: Androscoggin, Kennebec and Penobscot counties all continued to get redder while inland Franklin County and every coastal county but for Washington County got bluer.
+<iframe style="border: none; margin: 0 auto;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/HowMainepartisanshipshiftedpost-Trump?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe>
 
-[Post-Obama/Post-Trump graphic]
+By county, the map is almost a stereotype: after Trump's election, every coastal county but for Washington got bluer, as did Democratic Gov. Janet Mills' home turf, Franklin County. Eight other counties got redder.
 
+That may sound obvious, but it's not how the map played out in 2010, when the state almost uniformly swung right.
 
-But there's a clear shift after Trump's election in 2016: third-party registrations stalled as the ranks of registered Democrats and Republicans rose across the state.
+Those trends in voter registration data from the Maine Secretary of State's Office reveal growing fault lines in Maine politics that have a new geographic pattern.
 
-[Line chart]
+_Follow the key takeaways in the interactive below._
 
-In your town, perhaps the product of that increasing partisanship is visible: bumper stickers or hats or giant lawn signs out to enjoy a victory lap.
+1. In 2010, following Democratic President Barack Obama's election two years prior, voter registration almost everywhere in Maine went _way red._ Every county but Knox got redder. After Trump, however, the state split almost down the middle: Republican voter registration gains outpaced that of Democrats in half of counties.
+2. Go more local and the contrast is even starker: After Obama, there was backlash in 96 Maine House districts that became redder; after Trump, the split couldn't have been more even, with 59 districts getting bluer and 58 getting redder.
+3. At the municipal level, Democrats gained on Republicans in more populous areas, winning a greater share of registered voters in towns representing about `565,000` voters, in 2018. Democrats gained on Republicans in `170 communities`; Republicans gained in `263 communities`.
 
-That's most likely the case in Southern Maine communities like Gorham and Topsham, two of the largest communities where both Democrats and Republicans gained a greater share of local registered voters after Trump's election.
+<div><iframe style="border: none; margin: 0 auto;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/Post-ObamaandPost-Trump?:showVizHome=no&amp;:embed=true" width="100%" height="935px"></iframe></div>
 
-That wasn't uncommon for 2018. More than `45 percent` of registered Maine voters lived in communities where the partisan divide widened.
+While Maine's two most populous counties -- Cumberland and York -- got bluer after Trump's election, towns in the western parts of those counties only got more divided: Republicans and Democrats gained.
 
-[How partisanship shifted post-Trump]
-
-Two years after Obama's election, in 2010, `35 percent` of Maine voters lived in such districts, while almost `55 percent` lived in areas that swung more Republican.
-
-While voter registration trends have been lopsided in favor of Democrats, they don't look quite like that from 2016 to 2018, as a widening partisan divide better characterizes local trends than a swing to the left, despite overall Democratic gains statewide.
-
-[comparative bars]
+Androscoggin, Kennebec and Penobscot -- the third-, fourth- and fifth-most populous counties -- all became redder.
 
 That picture varies widely at the local level. For instance, the Trumpiest community in the state, Magalloway Plantation, became less partisan in 2018, with a sharp decline in Republican registration and a rise in unenrolled voters, which now make up `54 percent` of local voters.
 
 _Explore the local vote shares gained and lost by party in the visualization below. You can explore these trends by a variety of geographies, including Maine Senate and House Districts, counties and congressional districts._
 
-[color intensity map]
+<div><iframe style="border: none; margin: 0 auto;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/colorintensitymap?:showVizHome=no&amp;:embed=true" width="100%" height="935px"></iframe></div>
 
 <!--Sample Embed Code
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesbygubernatorialvote/Townswonintruckcountry?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
