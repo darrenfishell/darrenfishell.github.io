@@ -14,6 +14,6 @@ The visualization above uses a feature new to the latest version of Tableau, cal
 
 Search individual donations from Maine political donors in the Senate race in the dashboard below.
 
-<iframe style="border: none;" src="https://public.tableausoftware.com/views/ItemizedSenatecontributionsbystate/Mainedonorsearch?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe>
+<p><iframe style="border: none;" src="https://public.tableausoftware.com/views/ItemizedSenatecontributionsbystate/Mainedonorsearch?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></p>
 
 _The data here is from line [11(a)(i)](https://www.fec.gov/resources/cms-content/documents/fecfrm3xi.pdf) of the candidates' reports, covering the period through June 30, 2019_.
