@@ -12,4 +12,8 @@ _Explore the breakdown of state-by-state donations in the interactive below_
 
 The visualization above uses a feature new to the latest version of Tableau, called [set actions](https://onlinehelp.tableau.com/current/pro/desktop/en-us/actions_sets.htm), using the lower state bar chart to target the in-state/out-of-state selections, by candidate.
 
+Search individual donations from Maine political donors in the Senate race in the dashboard below.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/ItemizedSenatecontributionsbystate/Mainedonorsearch?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
+
 _The data here is from line [11(a)(i)](https://www.fec.gov/resources/cms-content/documents/fecfrm3xi.pdf) of the candidates' reports, covering the period through June 30, 2019_.
