@@ -8,7 +8,7 @@ By county, Penobscot led Maine for the number of pills issued per person from 20
 
 _Explore the local trends in the chart below. Hover to see yearly prescribing patterns and totals by pharmacy for a location._
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/opioid-data-workbook/Mainecities?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/opioid-data-workbook/Mainecities?:showVizHome=no&amp;:embed=true" width="100%" height="785px"></iframe></div>
 
 The data includes an extreme outlier in Indian Island, where the pharmacy PIN Rx received the equivalent of 819 pills for each of the island's 610 residents during its years in operation.
 
