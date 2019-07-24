@@ -8,7 +8,7 @@ By county, Penobscot led Maine for the number of pills issued per person from 20
 
 _Explore the local trends in the chart below. Hover to see yearly prescribing patterns and totals by pharmacy for a location._
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/opioid-data-workbook/Mainecities?:showVizHome=no&amp;:embed=true" width="100%" height="785px"></iframe></div>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/opioid-data-workbook/Mainecities?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
 
 The data includes an extreme outlier in Indian Island, where the pharmacy PIN Rx received the equivalent of 819 pills for each of the island's 610 residents during its years in operation.
 
@@ -20,7 +20,7 @@ For instance, the data for Washington County shows outsize prescription totals f
 
 For average annual pills distributed, Bangor topped all communities in Maine, but the city lagged many other smaller communities when adjusting for population size. In Penobscot County alone, the communities of Newport, Lincoln and Patten had more pills distributed at local pharmacies, per capita.
 
-<iframe style="border: none;" src="https://public.tableausoftware.com/views/opioid-data-workbook/countytrend?:showVizHome=no&amp;:embed=true" width="100%" height="535px"></iframe>
+<p><iframe style="border: none;" src="https://public.tableausoftware.com/views/opioid-data-workbook/countytrend?:showVizHome=no&amp;:embed=true" width="100%" height="535px"></iframe></p>
 
 *Notes on the data and access to files:* The data for the above visualization was cleaned slightly, as a handful of towns in the DEA records were incorrectly identified or misspelled. For instance, the Cumberland County town of Bridgton (no 'e') was spelled as "Bridgeton" in multiple cases. Other addresses referred to villages of towns that, for the purpose of a per capita comparison, should be considered as part of the larger municipality.
 
