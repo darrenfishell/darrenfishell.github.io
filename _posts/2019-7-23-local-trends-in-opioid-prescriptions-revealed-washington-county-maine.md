@@ -1,6 +1,6 @@
 ---
 layout: wide-page
-title: Data shows communities in Washington County, with highest rate of opioid deaths, had high prescription rates
+title: See the towns where opioid prescriptions soared in Maine from 2006 to 2012
 ---
 In the Maine county with the [highest rate of opioid deaths in the state in 2016](https://www.pressherald.com/2017/04/12/maps-maines-2016-overdose-deaths-county/), three communities received some of the highest amounts of prescription opioids statewide from 2006 to 2012, according to data [acquired](https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/?utm_term=.cef8ecb6fb18#download-resources) through a freedom of information lawsuit by The Washington Post and HD Media.
 
