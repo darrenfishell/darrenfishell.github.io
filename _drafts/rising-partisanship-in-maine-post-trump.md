@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: wide-page
 title: Maine's electorate is getting more divided. See how your town is split.
-permalink: /draft/
 ---
 Maine's electorate is more partisan than any time in at least the last decade, with a gap that widened between Maine's coastal and inland counties after the election of Republican President Donald Trump.
 
