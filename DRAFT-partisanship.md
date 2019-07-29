@@ -1,5 +1,5 @@
 ---
-layout:page
+layout: page
 title: Maine's electorate is getting more divided. See how your town is split.
 permalink: /draft/
 ---
