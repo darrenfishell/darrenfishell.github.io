@@ -1,14 +1,29 @@
 ---
-layout: wide-page
+layout:page
 title: Maine's electorate is getting more divided. See how your town is split.
+permalink: /draft/
 ---
-After Democratic President Barack Obama's election, every Maine county but Knox swung to the right.
+Maine's electorate is more partisan than any time in at least the last decade, with a gap that widened between Maine's coastal and inland counties after the election of Republican President Donald Trump.
+
+That wasn't the case in Maine after President Barack Obama's election. Two years after Obama won office, all but Knox County swung to the right, based on party registration trends.
+
+The trends in voter registration from the Maine Secretary of State's Office reveal growing fault lines in Maine politics that have a more distinct geographic pattern.
+
+_Follow the key takeaways in the interactive below._
+
+<p>1. In 2010, following Democratic President Barack Obama's election two years prior, voter registration almost everywhere in Maine went _way red._ Every county but Knox got redder. After Trump, however, the state split almost down the middle: Republican voter registration gains outpaced that of Democrats in half of counties.</p>
+<p>2. Go more local and the contrast is even starker: After Obama, there was backlash in 96 Maine House districts that became redder; after Trump, the split couldn't have been more even, with 59 districts getting bluer and 58 getting redder.</p>
+<p>3. At the municipal level, Democrats gained on Republicans in more populous areas, winning a greater share of registered voters in towns representing about `565,000` voters, in 2018. Democrats gained on Republicans in `170 communities`; Republicans gained in `263 communities`.</p>
+
+<div><iframe style="border: none; margin: 0 auto;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/Post-ObamaandPost-Trump?:showVizHome=no&amp;:embed=true" width="100%" height="935px"></iframe></div>
 
 [Backlash against a newly elected president is typical](https://news.gallup.com/poll/242093/midterm-seat-loss-averages-unpopular-presidents.aspx), but trends in voter registration show that something different is happening in Maine after the election of Donald Trump: Many parts of the state are doubling down.
 
-That alone doesn't indicate who's going to win at the polls. By outright numbers, Democrats continue to wield an advantage that helped them to victories at the Blaine House, the Legislature and Maine's 2nd Congressional District.
+The trends don't reflect who's going to win an election, but rather affinity for one party or another.
 
-But underneath that, Republicans continued to gain a greater share of the electorate in 2018, as unenrolled voters dropped off dramatically and third-party registrations hit a standstill.
+By outright numbers, Democrats continue to wield an advantage that helped them to victories at the Blaine House, the Legislature and Maine's 2nd Congressional District.
+
+Underneath that, Republicans continued to gain a greater share of the electorate in 2018, as unenrolled voters dropped off dramatically and third-party registrations hit a standstill.
 
 <iframe style="border: none; margin: 0 auto;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/Mainevotersdecidedtopickalane?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe>
 
@@ -22,17 +37,7 @@ And that was fairly uncommon for 2018. More than `45%` of registered Maine voter
 
 By county, the map is almost a stereotype: after Trump's election, every coastal county but for Washington got bluer, as did Democratic Gov. Janet Mills' home turf, Franklin County. Eight other counties got redder.
 
-That may sound obvious, but it's not how the map played out in 2010, when the state almost uniformly swung right.
-
-Those trends in voter registration changes from the Maine Secretary of State's Office reveal growing fault lines in Maine politics that have a new geographic pattern.
-
-_Follow the key takeaways in the interactive below._
-
-<p>1. In 2010, following Democratic President Barack Obama's election two years prior, voter registration almost everywhere in Maine went _way red._ Every county but Knox got redder. After Trump, however, the state split almost down the middle: Republican voter registration gains outpaced that of Democrats in half of counties.</p>
-<p>2. Go more local and the contrast is even starker: After Obama, there was backlash in 96 Maine House districts that became redder; after Trump, the split couldn't have been more even, with 59 districts getting bluer and 58 getting redder.</p>
-<p>3. At the municipal level, Democrats gained on Republicans in more populous areas, winning a greater share of registered voters in towns representing about `565,000` voters, in 2018. Democrats gained on Republicans in `170 communities`; Republicans gained in `263 communities`.</p>
-
-<div><iframe style="border: none; margin: 0 auto;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/Post-ObamaandPost-Trump?:showVizHome=no&amp;:embed=true" width="100%" height="935px"></iframe></div>
+That may sound obvious, but it's not at all how the map played out in 2010, after Obama and Gov. Paul LePage's elections.
 
 While Maine's two most populous counties -- Cumberland and York -- got bluer after Trump's election, towns in the western parts of those counties only got more divided: Republicans and Democrats gained.
 
