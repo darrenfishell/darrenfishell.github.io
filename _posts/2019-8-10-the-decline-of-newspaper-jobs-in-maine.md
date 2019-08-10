@@ -33,7 +33,7 @@ The data includes all payroll jobs, full- and part-time (that is why industries 
 
 Viewing changes in wages and jobs together, we have the last sad chart for the newspaper industry. The scatterplot below shows what an outlier the newspaper industry is, with some of the steepest job losses and also some of the slowest wage growth.
 
-<iframe style="border: none;" src="https://public.tableausoftware.com/views/mainenewspaperjobdecline/Scatterplot?:showVizHome=no&amp;:embed=true" width="100%" height="535px"></iframe>
+<iframe style="border: none;" src="https://public.tableausoftware.com/views/mainenewspaperjobdecline/Scatterplot?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
 
 The struggles of local and regional news have major impacts that, itself, warrants coverage and attention. Dermot Murphy, an assistant finance professor at the University of Illinois at Chicago who specializes in public finance, found that the death of such news outlets [translated to higher borrowing costs and less efficient operations for local governments](https://www.cjr.org/united_states_project/public-finance-local-news.php):
 
