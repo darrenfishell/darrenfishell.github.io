@@ -43,4 +43,4 @@ Other research Murphy cited indicates that "a lack of local media coverage is as
 
 As for how to fix it? All I can say for sure -- from experience reporting in California and Maine -- is that the answer is not simply throwing money at the problem. Nor is it nostalgia.
 
-But beyond that: It's hard tellin', not knowin'.
+But beyond that: It's clearly hard tellin', not knowin'.
