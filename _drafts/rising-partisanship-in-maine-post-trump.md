@@ -42,15 +42,15 @@ Two years after Obama's election, `35%` of voters lived in areas where that divi
 
 <iframe style="border: none; margin: 0 auto;" src="https://public.tableausoftware.com/views/Mainehistoricalvoterregistration/HowMainepartisanshipshiftedpost-Trump?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe>
 
-By county, the map is almost a stereotype: after Trump's election, every coastal county but for Washington got bluer, as did Democratic Gov. Janet Mills' home turf, Franklin County. Eight other counties got redder.
+By county, the post-Trump trend is almost a stereotype: every coastal county except Washington got bluer, as did Democratic Gov. Janet Mills' home turf, Franklin County. Eight other counties got redder.
 
-That may sound obvious, but it's not at all how the map played out in 2010, after Obama and Gov. Paul LePage's elections.
+But even Cumberland and York County got redder after Obama's election. The reverse did not happen after Trump landed in office.
 
-While Maine's two most populous counties -- Cumberland and York -- got bluer after Trump's election, towns in the western parts of those counties only got more divided: Republicans and Democrats gained.
+And while Cumberland and York did get bluer, the local trend shows something different: Towns in the western parts of those counties only got more divided, with Democrats _and_ Republicans gaining shares of registered voters.
 
 Androscoggin, Kennebec and Penobscot -- the third-, fourth- and fifth-most populous counties -- all became redder.
 
-That picture varies widely at the local level. For instance, the Trumpiest community in the state, Magalloway Plantation, became less partisan in 2018, with a sharp decline in Republican registration and a rise in unenrolled voters, which now make up `54 percent` of local voters.
+That picture in those counties varies widely at the local level, too. For instance, the [Trumpiest community in the state](http://widgetsanddigits.bangordailynews.com/2017/02/26/economy/how-trumpy-is-your-town/), Magalloway Plantation, became less partisan in 2018, with a sharp decline in Republican registration and a rise in unenrolled voters, which now make up `54%` of local voters.
 
 _Explore the local vote shares gained and lost by party in the visualization below. Click a bar or line representing a particular party to change the perspective of the map. For instance, clicking a Green Party data point will change the map to show local Green Party gains and losses.
 
