@@ -4,24 +4,32 @@ title: A political geography of Maine, or how winning truck town wasn't enough f
 ---
 After a [rough 2018 election for Republicans in Maine](https://bangordailynews.com/2018/11/07/politics/democrats-surge-to-solid-control-of-maine-legislature/), it appears they might have a statewide electoral problem: winning Maine's truck country was not enough to take the Blaine House.
 
-Election returns and a database of vehicle registrations, as of September 2018, show Republican gubernatorial candidate Shawn Moody relied heavily on votes from towns where the Ford F-150, Chevy Silverado or GMC Sierra are the most popular vehicles.
+Republican gubernatorial candidate Shawn Moody won `3 in 4` of Maine's truck towns, but his margins there were relatively slim.
 
-Almost `7 in 10` votes for Moody came from such towns; he won `3 in 4` towns where a truck is the most popular vehicle. As trucks make up the top three vehicles in the state -- the Chevy Silverado, Ford F-150 and GMC Sierra -- that's a big pond to fish. But it wasn't enough. And he narrowly lost F-150 country.
+That may signal a tougher challenge for Sen. Susan Collins' road to re-election, but things would have to get more than a little tougher for Collins to lose. She was last tested in 2014, when she won with a whopping 68.5% of the vote.
+
+What is clear, however, is that Maine's truck country preferred Republican Shawn Moody. Analysis of election results and vehicle registration data from September 2018 shows that more trucks in a town correlated with a higher share of the vote for Moody.
+
+<p><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesandthegovernorsracerevised/TrucktownstendedtovoteforMoody?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></p>
+
+Election returns and a database of vehicle registrations, as of September 2018, show Moody relied heavily on votes from towns where the Ford F-150, Chevy Silverado or GMC Sierra are the most popular vehicles.
+
+Almost `7 in 10` votes for Moody came from such towns. As trucks make up the top three vehicles in the state -- the Chevy Silverado, Ford F-150 and GMC Sierra -- that's a big pond to fish. But it wasn't enough. And he narrowly lost F-150 country to Farmington Democrat, Gov. Janet Mills.
 
 <p><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesandthegovernorsracerevised/Votesbytopvehicle?:showVizHome=no&amp;:embed=true" width="100%" height="485px"></iframe></p>
 
-For a frame of reference, let's focus first on the vehicles, establishing what we're dealing with for what we'll call truck- and non-truck towns. Generally, a truck was not the most popular vehicle in the state's coastal communities and urban centers.
+For a frame of reference, let's focus first on the vehicles and the geography of Maine's truck- and non-truck towns. Generally, trucks were not preferred in coastal communities and urban centers.
 
-There are some exceptions to that trend: for instance, the Chevy Impala was the most popular vehicle in the Southern Aroostook County town of Sherman, by one vehicle.
+There are some exceptions: for instance, the Chevy Impala was the most popular vehicle in the Southern Aroostook County town of Sherman, by one vehicle.
 
 <!--TRUCK TOWNS AND NON-TRUCK TOWNS-->
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesandthegovernorsracerevised/Trucktownsandnon-trucktowns?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe></div>
 
-As you can see hovering over towns in the map above, many places are like Sherman, where the top vehicle has a narrow lead. But, the same goes for the governor's race. In both cases, we're going with majority rule for the rest of this analysis.
+As you can see hovering over towns in the map above, many places are like Sherman, where the top vehicle has a narrow lead. But, the same goes for the governor's race. In both cases, this analysis is going by the plurality of the vote.
 
 ### Cut too thin to win in truck country
 
-While Moody cleaned up in winning truck towns, his vote margins there were relatively thin. They were dwarfed by the lead Democratic Gov. Janet Mills amassed in Subaru country.
+While Moody cleaned up in winning truck towns, his vote margins there were relatively thin. And they were dwarfed by the lead Democratic Gov. Janet Mills amassed in Subaru country.
 
 Overall, Mills held a pretty even margin in truck towns while dominating elsewhere by a nearly two-to-one margin.
 
@@ -56,7 +64,7 @@ Use the search below to find local election results and the top 25 vehicles in M
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/Topvehiclesandthegovernorsracerevised/Localtownsearch?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe></div>
 
-### Data accounting
+### Notes on the data
 The analysis leaves some data on the cutting room floor, but ultimately accounts for more than 98 percent of all vehicle registrations and votes cast in the 2018 gubernatorial election. The vehicle registration data was captured before the election, as of Sept. 18, 2018, by request to the Maine Secretary of State's Office.
 
 From the vehicle registration data, the analysis excludes towns where there was no clear top vehicle — ties of `1–1`, for instance. From the election data, it does not factor in overseas votes. A group of smaller towns were also not included because the voting district does not align with a distinct municipal boundary.

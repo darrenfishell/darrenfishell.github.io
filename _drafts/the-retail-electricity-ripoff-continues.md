@@ -95,6 +95,14 @@ It gets more complicated still. Electricity Maine also offers a range of differe
 
 In his deposition, Clavet argues those kinds of details provide value that's not included in a straight comparison with the standard offer. What value do you place on knowing that a price will stay the same for 24 months, compared with a price that will change in 12?
 
+But Electricity Maine's early ads made exactly that comparison. In 2013, they touted saving customers around $7 million, a calculation they said was based on [description].
+
+[Clavet also stated that his company did not view its prices as an average among all of its customers of a certain class. But if that's not a lie, it's very close to one.]
+
+[That's because Clavet was set to be paid from Electricity Maine's buyer based [on exactly that number](https://www.documentcloud.org/documents/2998320-Spark-Energy-purchase-agreement-for-Provider-Power.html#document/p6/a524926). The agreement provided a bonus to Clavet and Dean based on the number of customers and the average rate they paid.]
+
+[Clavet said "You can't take a twelve-month contract or a 24-month contract and only put a year of it in here and have it be relative to others that your're comparing that might have been built with six-month and then twelve-month or one-month variable contracts."]
+
 Other retail supply plans can vary in other ways. For instance, they can have "clean power" attributes, whether the contract is actually backed by a renewable energy project or whether the premium just pays for the cost of renewable energy credits.
 
 Public reporting and industry groups have declined to disclose just how many of their customers choose such plans, as opposed to the customers who are signing up based on price.
