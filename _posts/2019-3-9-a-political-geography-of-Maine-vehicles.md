@@ -6,7 +6,7 @@ After a [rough 2018 election for Republicans in Maine](https://bangordailynews.c
 
 Republican gubernatorial candidate Shawn Moody won `3 in 4` of Maine's truck towns, but his margins there were relatively slim.
 
-That may signal a tougher challenge for Sen. Susan Collins' road to re-election, but things would have to get more than a little tougher for Collins to lose. She was last tested in 2014, when she won with a whopping 68.5% of the vote.
+That may signal a tougher challenge for Sen. Susan Collins' road to re-election, but things would have to get more than a little tougher for Collins to lose. She was last tested in 2014, when she [won with a whopping 68.5% of the vote](https://www.nytimes.com/elections/2014/maine-elections).
 
 What is clear, however, is that Maine's truck country preferred Republican Shawn Moody. Analysis of election results and vehicle registration data from September 2018 shows that more trucks in a town correlated with a higher share of the vote for Moody.
 
