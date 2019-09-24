@@ -31,7 +31,7 @@ To put that in more detailed context: Among Maine industries with an average of 
 
 The data includes all payroll jobs, full- and part-time (that is why industries such as skiing facilities have such a low average weekly wage for any given year).
 
-Viewing changes in wages and jobs together, we have the last sad chart for the newspaper industry. The scatterplot below shows what an outlier the newspaper industry is, with some of the steepest job losses and also some of the slowest wage growth.
+In the last sad chart for the newspaper industry, we can look at changes in both wages and jobs. The scatterplot below shows what an outlier the newspaper industry is, with some of the steepest job losses and also some of the slowest wage growth.
 
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/mainenewspaperjobdecline/Scatterplot?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
 
@@ -41,6 +41,22 @@ The struggles of local and regional news have major impacts that, itself, warran
 
 Other research Murphy cited indicates that "a lack of local media coverage is associated with [less informed voters](https://www.researchgate.net/publication/37704315_Nothing_to_Read_Newspapers_and_Elections_in_a_Social_Experiment), [lower voter turnouts](https://www.aeaweb.org/articles?id=10.1257/aer.104.10.3073), and [less engaged local politicians](https://www.journals.uchicago.edu/doi/10.1086/652903)."
 
+### Explore reporting jobs and other wages
+
+Looking more broadly, all reporting and correspondent jobs don't seem so bad. Jobs as a reporter or correspondent paid a median wage of $39,290 last year, which is higher than all but two of the 10 most common jobs in Maine.
+
+However, those figures include reporters at other outlets, including television stations and magazines.
+
+Even considering that, the short list of jobs making comparable wages last year included: pipelayers, chemical technicians, credit counselors and correctional officers.
+
+_Use the interactive below to compare the median wage, entry wage and experienced employee wage for reporting and correspondent jobs to any other job in Maine._
+
+<iframe style="border: none;" src="https://public.tableausoftware.com/views/mainenewspaperjobdecline/Comparereporterwages?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
+
+Reporters and correspondent jobs paid `$2,170` more than the statewide median of `$37,120` last year, but the estimated entry-level and experienced wages were slightly below average.
+
+<iframe style="border: none;" src="https://public.tableausoftware.com/views/mainenewspaperjobdecline/HowreportingjobscomparewithallothersinMaine?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
+
 As for how to fix it? All I can say for sure -- from experience reporting in California and Maine -- is that the answer is not simply throwing money at the problem. Nor is it nostalgia.
 
-But beyond that: It's clearly hard tellin', not knowin'.
+But beyond that: It's hard tellin', not knowin'.
