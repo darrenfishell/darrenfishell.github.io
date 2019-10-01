@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The decline of newspaper jobs in Maine, in 4 sad charts
+title: The decline of newspaper jobs in Maine, in six sad charts
 ---
 In the past 20 years, Maine lost more than half of its newspaper publishing jobs.
 
