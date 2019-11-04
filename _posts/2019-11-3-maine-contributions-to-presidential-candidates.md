@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wide-page
 title: See the 2020 candidates hauling in the most cash from Maine donors
 ---
 Vermont Democrat Sen. Bernie Sanders has so far pulled in the most money from individual contributors in Maine, where in 2016 he won the party caucus.
