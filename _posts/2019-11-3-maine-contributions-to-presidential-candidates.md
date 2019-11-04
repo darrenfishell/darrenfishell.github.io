@@ -13,8 +13,8 @@ Sen. Elizabeth Warren and South Bend, Indiana, mayor Pete Buttegieg raised the n
 _See where 2020 candidates got money in Maine in the map below. Filtering a candidate will show individual donors in the table at the bottom._
 
 <!--Donations map-->
-<iframe style="border: none;" src="https://public.tableausoftware.com/views/maine-presidential-contributions/Contributionsmapped?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/maine-presidential-contributions/Contributionsmapped?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
 Trump had a significant head start, with individual donations from Maine starting to flow steadily in late 2018.
 
-<iframe style="border: none;" src="https://public.tableausoftware.com/views/maine-presidential-contributions/Timeline?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/maine-presidential-contributions/Timeline?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe></div>
