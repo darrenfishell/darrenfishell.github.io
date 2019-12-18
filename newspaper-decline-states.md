@@ -18,6 +18,12 @@ Earlier this year, his company linked advertising among all of those outlets thr
 
 The Bangor Daily News also merged its own marketing arm, [Streamside Marketing](http://tsdr.uspto.gov/#caseNumber=87629835&caseType=SERIAL_NO&searchType=statusSearch), into the [Pulse Marketing Agency](https://pulsemarketingagency.com/), which it purchased in late 2018 for an undisclosed sum.
 
+But they're not exempt from industry-wide declines in advertising revenue and circulation that a [Brookings study](https://www.brookings.edu/research/local-journalism-in-crisis-why-america-must-revive-its-local-newsrooms/) that described how newspapers are forced into what research analyst Clara Hendrickson called "the impossible situation of trying to do more with less."
+
+That phrase rings a bell. As a friend noticed, many newsroom revitalization plans have roughly fit this mold. Eventually, the joke goes, newspapers will do _everything_ with _nothing_.
+
+There's a valid fear of that becoming literally true.
+
 Through that independent ownership, Maine's newspaper employment has not been hit as hard as 18 other states. Maine ranks 19th for job losses from 2000 to 2018.
 
 But newspaper publishers in Maine raised wages at the second slowest rate in the country, behind only Rhode Island, according to figures from the Quarterly Census of Employment and Wages. In Massachusetts, newspaper publishing wages rose 107 percent, not adjusted for inflation, during that time. Maine's rose 57 percent.
@@ -44,7 +50,7 @@ Those interviews helped establish how these journalists experienced cutbacks in 
 
 The researchers did find that newspapers have tried to protect local government reporting from cuts. Meanwhile, features and other desks have been eliminated or have gotten smaller.
 
-That's trouble because of what I mentioned before: everyone at a newspaper does a little reporting. Stories that begin outside of City Hall can provide some of the best insight into the impacts of local government. Those beats are also ways that a news organization builds trust.
+That's trouble because of what I mentioned above: everyone at a newspaper does a little reporting. Stories that begin outside of City Hall can provide some of the best insight into the impacts of local government. Those beats are also ways that a news organization builds trust.
 
 A newspaper loses out when it is not with a community for better or for worse, in good times and in bad. If people feel the news is always bad, it makes sense they might eye a reporter like the Grim Reaper showing up on their doorstep.
 
@@ -90,8 +96,6 @@ Reporters and correspondent jobs paid `$2,170` more than the statewide median of
 >More than 2,000 local newspapers — mostly weeklies — have gone out of business in the past 15 years, the University of North Carolina’s Penny Muse Abernathy told me in an interview last summer.
 
 
-
-
 [Local journalism in crisis](https://www.brookings.edu/research/local-journalism-in-crisis-why-america-must-revive-its-local-newsrooms/)
 --Puts big number trends in context: advertising, news deserts, etc.
 
@@ -108,7 +112,6 @@ Reporters and correspondent jobs paid `$2,170` more than the statewide median of
 
 
 >As experts and policymakers devise and debate possible public policy approaches, one actionable policy recommendation to implement today is raising awareness about the financial health of the local news industry.
-
 
 
 [New Yorker: Does Journalism Have a Future?](https://www.newyorker.com/magazine/2019/01/28/does-journalism-have-a-future)
