@@ -6,7 +6,7 @@ It's because of a legal market for reselling electricity to residential customer
 
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-workbook-light/Averageannualprice?:showVizHome=no&amp;:embed=true" width="100%" height="435px"></iframe>
 
-The rate from CEPs can be only fractions of a penny different. When you add that difference up across millions of kilowatt-hours and hundreds of thousands of customers in Maine, however, it adds up fast.
+The rate from CEPs can be pennies or fractions of a penny different. When you add that difference up across millions of kilowatt-hours and hundreds of thousands of customers in Maine, however, it adds up fast.
 
 As a result, the state's public advocate wants lawmakers to consider shutting down the entire market, and customers of the largest CEP -- Electricity Maine -- are nearing a settlement in a class-action lawsuit.
 
