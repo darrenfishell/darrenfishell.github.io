@@ -22,7 +22,7 @@ For every household in Maine, the $132 million could buy about 21 one-pound lobs
 
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-workbook-light/Whatyoucouldbuy?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe>
 
-###On the record
+### On the record
 
 Emile Clavet and Kevin Dean, two serial entrepreneurs based in Auburn, founded Electricity Maine in 2011 and became the state's first large-scale CEP for residential customers.
 
