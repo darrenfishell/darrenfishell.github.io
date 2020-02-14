@@ -1,18 +1,63 @@
-Every household in Maine could have about 21 one-pound lobsters -- or six one-pound lobsters and a pair of chamois-lined Bean Boots -- for the price of a residential electricity ripoff that's now in its seventh year.
+Mainers have spent $132.5 million more than they needed to on electricity over the past seven years.
 
-The ripoff isn't the product of monopoly utility control, but rather a competitive market for electricity supply that emerged for residential customers in 2012.
+It's not because of a faulty billing system or other mistakes.
 
-Since then, Maine's residential power customers could have saved $132.5 million if they'd changed nothing with their power supply and taken the default service price, according to a Maine Center for Public Interest Reporting analysis of annual reports filed with the U.S. Energy Information Administration.
+It's because of a legal market for reselling electricity to residential customers that opened in 2012 and since 2014 has struggled to compete with the power Mainers get by default, called the standard offer.
+
+<iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-workbook-light/Averageannualprice?:showVizHome=no&amp;:embed=true" width="100%" height="435px"></iframe>
+
+The rate from CEPs can be only fractions of a penny different. When you add that difference up across millions of kilowatt-hours and hundreds of thousands of customers in Maine, however, it adds up fast.
+
+As a result, the state's public advocate wants lawmakers to consider shutting down the entire market, and customers of the largest CEP -- Electricity Maine -- are nearing a settlement in a class-action lawsuit.
+
+In 2018, Maine residential customers paid so-called "competitive electricity providers," or CEPs, another $20 million they didn't need to, according to a Maine Center for Public Interest Reporting analysis of the latest annual reports filed with the U.S. Energy Information Administration.
 
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-workbook-light/Thecostofretailpowersupply?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe>
 
-It has not been reported that the sum rose another $20 million in 2018, according to federal statistics released in October.
+Estimating for small business costs using [state power consumption data](https://www.maine.gov/mpuc/electricity/choosing_supplier/migration_statistics.shtml) adds another $33.2 million to the total from 2012 to 2018.
 
-The price retail suppliers have charged over the standard offer is even higher when estimated using [state power consumption data](https://www.maine.gov/mpuc/electricity/choosing_supplier/migration_statistics.shtml), which groups usage by homes and small businesses.The ripoff has little to do with the barrage of attention on Central Maine Power Co.'s billing system, which the public advocate says continues to issue incorrect bills to thousands of customers.
+To put that in perspective with the Central Maine Power Co.'s high-profile billing system errors: the amount residential customers have lost to private electricity sellers could have paid for all of CMP's billing system, twice.
 
-By comparison, the amount residential customers have lost to private electricity sellers could have paid for all of CMP's billing system, twice.
+For every household in Maine, the $132 million could buy about 21 one-pound lobsters, or six one-pound lobsters and a pair of chamois-lined Bean Boots.
 
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-workbook-light/Whatyoucouldbuy?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe>
+
+###On the record
+
+Emile Clavet and Kevin Dean, two serial entrepreneurs based in Auburn, founded Electricity Maine in 2011 and became the state's first large-scale CEP for residential customers.
+
+In their first year, they undercut the standard offer and quickly grew to more than 150,000 customers.
+
+By 2018, the company would be responsible for charging Maine residential customers $100 million more than they needed to pay.
+
+Customers have since sued the company and its founders, alleging they were deceived into higher-cost power plans over multiple years. The case is nearing a settlement, according to court filings.
+
+Though Clavet and Dean sold the company in 2016, neither has spoken out publicly to account for Clavet's 2011 [lie to customers](https://perma.cc/W2U7-UFH7): "We will always beat the standard offer. You’ll never, ever pay more than the standard offer, or we won’t be back."
+
+But recent court filings show contradictions in Clavet's testimony during the class-action lawsuit, where in a deposition he raised doubts about how state regulators evaluated his company's overcharging.
+
+---EDITING HERE---
+
+
+In fact, Electricity Maine stopped beating the standard offer by a fraction of a cent in 2013. And it kept on going while suppliers like Dead River Power [called it quits](https://www.documentcloud.org/documents/4437823-Dead-River-Power.html), writing:
+
+>...the escalating cost of natural gas has contributed to the increased cost of electricity. As a result, many electricity supply providers increased their rates to levels above the Standard Offer, costing consumers more on their energy bills. Dead River Company upheld its promise to offer you savings by keeping our rates below the Standard Offer.
+
+
+
+The pair had been silent about the amount their Maine-based enterprise extracted from residential customers, until this year when two lawsuits put them on the record.
+
+
+
+Electricity Maine saved its customers about $3.3 million in 2012, its first full year, according to analysis of federal reports.
+
+"Just grab your power bill," one of the company's [2013 radio ads stated](https://www.documentcloud.org/documents/3005978-Electricity-Maine-response-to-marketing-inquiry.html#document/p7/a313344). "If on page 2 it says 'standard offer,' you're paying too much."
+
+By that point, the company had been beating that drum for two years.
+
+In 2011, Clavet made a  that he and Dean did not keep:
+
+
 
 Sen. David Woodsome, R-York, has sponsored [a bill](http://legislature.maine.gov/bills/getPDF.asp?paper=SP0664&item=1&snum=129) on behalf of Public Advocate Barry Hobbins to eliminate the retail competitive electricity market altogether.
 
@@ -34,25 +79,13 @@ That standard offer is what most customers receive. But after starting in 2012, 
 
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/cep-tracking/CEPenrollmenttrend?:showVizHome=no&amp;:embed=true" width="100%" height="435px"></iframe>
 
-The group of retail suppliers was led by Electricity Maine, founded in 2011 by two serial entrepreneurs in Auburn, Emile Clavet and Kevin Dean.
-
-The company and its founders were the target of a class-action lawsuit, alleging the company deceived customers into higher-cost power plans over multiple years. The case is nearing a settlement, according to court filings.
-
-The pair had been silent about the amount their Maine-based enterprise extracted from residential customers, until this year when two lawsuits put them on the record.
-
 ### Signing up customers becomes a 'futile effort'
 
 Electricity Maine stands out for the amount of money it has charged customers over the standard offer -- $102 million from 2012 to 2018.
 
 <iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-workbook-light/Supplierdetail?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe>
 
-It didn't start that way. Electricity Maine saved its customers about $3.3 million in 2012, its first full year, according to analysis of federal reports. The savings was key to its early enrollment efforts.
 
-"Just grab your power bill," one of the company's [2013 radio ads stated](https://www.documentcloud.org/documents/3005978-Electricity-Maine-response-to-marketing-inquiry.html#document/p7/a313344). "If on page 2 it says 'standard offer,' you're paying too much."
-
-By that point, the company had been beating that drum for two years. In 2011, Clavet made a [big promise](https://perma.cc/W2U7-UFH7) that he and Dean did not keep:
-
-> We will always beat the standard offer. You’ll never, ever pay more than the standard offer, or we won’t be back.
 
 In a [July deposition](https://github.com/darrenfishell/darrenfishell.github.io/blob/master/public-docs/EMaine%20class%20action/clavet-deposition.pdf), Clavet provided new detail about what happened in 2014, when the company's fate started to turn.
 
