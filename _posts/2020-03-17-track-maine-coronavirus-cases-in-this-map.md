@@ -12,3 +12,7 @@ _For ongoing coverage of coronavirus in Maine, see the free coverage from the [B
 
 ## The process behind the map
 The data above is scraped from the Maine CDC website in Python, based on table names at the CDC's coronavirus webpage (more details in this [Github repository](https://github.com/darrenfishell/data-projects/tree/master/covid-19-me)). The scraper not currently scheduled to run on a regular cadence, as the state's reporting methods could change as the pandemic continues to spread.
+
+You can find the raw output in this [project at data.world](https://data.world/darrenfishell/covid-19-me) or this [Google Sheet](https://docs.google.com/spreadsheets/d/1DXlFVTgbXE3avpFPp1gJ5IFu7cEN9Hl9yhYSFskffGE/edit#gid=0).
+
+The Maine CDC may update summary and case-level records at different times of day. 
