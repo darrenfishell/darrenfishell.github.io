@@ -6,7 +6,7 @@ The virus COVID-19 continues to spread throughout Maine, with the first signs em
 
 The Maine CDC is [publishing](https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml) details about each confirmed and presumptive positive case in the state, as well as negative tests, which are visualized below.
 
-_Update:_ The dashboard now updates daily, Monday through Friday.
+_Update:_ The dashboard now updates daily from Google Sheets. The Google Sheet updates hourly, from 1 p.m. to 5 p.m., based on the CDC's historical daily update time.
 
 _For ongoing coverage of coronavirus in Maine, see the free coverage from the [Bangor Daily News](https://bangordailynews.com/topic/coronavirus/) and the [Portland Press Herald](https://www.pressherald.com/coronavirus/). On Twitter, [OpenMaine](https://twitter.com/Open_Maine) also has some cool digital resources in the works._
 
