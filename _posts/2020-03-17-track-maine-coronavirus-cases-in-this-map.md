@@ -4,11 +4,15 @@ title: Track Maine coronavirus cases by county in this interactive map
 ---
 The virus COVID-19 continues to spread throughout Maine, with the first signs emerging of "community spread" in Cumberland County as of Tuesday, March 17.
 
-The Maine CDC is [publishing](https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml) details about each confirmed and presumptive positive case in the state, as well as negative tests, which are visualized below.
+The Maine CDC is [publishing](https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml) details about each confirmed case in the state, as well as negative tests, which are visualized below.
+
+As the CDC publishes these numbers, its director has, Dr. Nirav Shah, has noted that it's unclear how much the data lags behind the real spread of the virus.
+
+"What we know about outbreaks is that we are often just detecting the tip of the iceberg," Shah told reporters Sunday, according to [Maine Public](https://www.mainepublic.org/post/number-maine-covid-19-cases-rises-89).
+
+_For ongoing coverage of coronavirus in Maine, see the free coverage from the [Bangor Daily News](https://bangordailynews.com/topic/coronavirus/), the [Portland Press Herald](https://www.pressherald.com/coronavirus/) and [Maine Public](https://www.mainepublic.org/post/what-mainers-need-know-about-coronavirus). On Twitter, [OpenMaine](https://twitter.com/Open_Maine) also has some cool digital resources in the works._
 
 _Update:_ The dashboard now updates daily from Google Sheets. The Google Sheet updates hourly, from 1 p.m. to 5 p.m., based on the CDC's historical daily update time.
-
-_For ongoing coverage of coronavirus in Maine, see the free coverage from the [Bangor Daily News](https://bangordailynews.com/topic/coronavirus/) and the [Portland Press Herald](https://www.pressherald.com/coronavirus/). On Twitter, [OpenMaine](https://twitter.com/Open_Maine) also has some cool digital resources in the works._
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/COVID-19casesbyMainecounty?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
 
