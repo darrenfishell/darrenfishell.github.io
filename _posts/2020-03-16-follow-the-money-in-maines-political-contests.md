@@ -24,8 +24,6 @@ Amounts to support are added into a candidate's total while amounts to oppose ar
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/senate-race-summary-dashboards/CD1?:showVizHome=no&amp;:embed=true" width="100%" height="935px"></iframe></div>
 
-https://public.tableau.com/profile/darren.fishell#!/vizhome/?publish=yes
-
 ## Data details
 The data is provided by the Federal Election Commission's API, for races in Maine. The data source is updated nightly.
 
