@@ -35,6 +35,6 @@ The pipeline will eventually replace the unitemized donations with those itemize
 
 I will also be adding different visualizations to track state races, coming nightly from the Maine Ethics Commission.
 
-The state and federal data are stored in separate repositories at data.world: [Congressional races](https://data.world/darrenfishell/2020-election-repo) | [State races](https://data.world/darrenfishell/2020-maine-state-campaign-finance).
+The state and federal data are stored in separate repositories at data.world: [Congressional races](https://data.world/darrenfishell/2020-election-repo) \| [State races](https://data.world/darrenfishell/2020-maine-state-campaign-finance).
 
 Data.world houses the raw output from the FEC for Maine and the SQL scripts to bring those different tables together, for export to Google Sheets. The Tableau graphics refresh nightly from the Google Sheet source.
