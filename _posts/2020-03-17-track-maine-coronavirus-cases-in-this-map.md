@@ -14,13 +14,13 @@ _For ongoing coverage of coronavirus in Maine, see the free coverage from the [B
 
 _Update:_ The dashboard now updates daily from Google Sheets. The Google Sheet updates hourly, from 11 a.m. to 6 p.m., based on the CDC's historical daily update time.
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/COVID-19casesbyMainecounty?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/COVID-19casesbyMainecounty?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
 The chart on the left warrants a close look, as it reflects the growth trend in cases, on a logarithmic scale. As [The New York Times](https://www.nytimes.com/2020/03/20/health/coronavirus-data-logarithm-chart.html) detailed:
 
 >Unconstrained, the coronavirus spreads exponentially, the caseload doubling at a steady rate. That curve, plotted linearly, is a skyrocketing curve. Plotted logarithmically, however, it transforms into a straight line — which means that deviations from the exponential spread of the virus become much easier to discern.
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/BigCurve?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/BigCurve?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
 Similarly, we can use the current growth rate in confirmed COVID-19 cases to calculate how long it is taking for cases to double, called the doubling time.
 
