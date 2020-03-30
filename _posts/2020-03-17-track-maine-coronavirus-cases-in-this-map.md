@@ -1,6 +1,6 @@
 ---
 layout: wide-page
-title: Track Maine coronavirus cases by county in this interactive map
+title: Track Maine coronavirus cases and rates by county
 ---
 The virus COVID-19 continues to spread throughout Maine, with the first signs emerging of "community spread" in Cumberland County as of Tuesday, March 17.
 
