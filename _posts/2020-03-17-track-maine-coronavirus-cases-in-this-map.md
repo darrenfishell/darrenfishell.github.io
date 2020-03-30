@@ -26,7 +26,7 @@ Similarly, we can use the current growth rate in confirmed COVID-19 cases to cal
 
 The chart below shows this doubling time for each state, also starting from the first day where each state had at least 10 cases.
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/DoublingRate?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/DoublingRate?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
 ## The process behind the charts
 The data above is scraped from the Maine CDC website in Python, based on table names at the CDC's coronavirus webpage (more details in this [Github repository](https://github.com/darrenfishell/data-projects/tree/master/covid-19-me)). The scraper runs every hour from 11 a.m. to 6 p.m. and stores a time series of the daily updates from the Maine CDC, starting March 10.
