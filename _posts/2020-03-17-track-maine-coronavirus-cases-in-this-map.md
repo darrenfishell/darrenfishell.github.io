@@ -14,7 +14,7 @@ _For ongoing coverage of coronavirus in Maine, see the free coverage from the [B
 
 _Update:_ The dashboard now updates daily from Google Sheets. The Google Sheet updates hourly, from 11 a.m. to 6 p.m., based on the CDC's historical daily update time.
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/COVID-19casesbyMainecounty?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/COVID-19casesbyMainecounty?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
 
 The chart on the left warrants a close look, as it reflects the growth trend in cases, on a logarithmic scale. As [The New York Times](https://www.nytimes.com/2020/03/20/health/coronavirus-data-logarithm-chart.html) detailed:
 
