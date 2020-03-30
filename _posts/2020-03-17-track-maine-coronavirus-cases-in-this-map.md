@@ -8,7 +8,7 @@ The Maine CDC is [publishing](https://www.maine.gov/dhhs/mecdc/infectious-diseas
 
 As the CDC publishes these numbers, its director has, Dr. Nirav Shah, has noted that it's unclear how much the data lags behind the real spread of the virus.
 
-"What we know about outbreaks is that we are often just detecting the tip of the iceberg," Shah told reporters Sunday, according to [Maine Public](https://www.mainepublic.org/post/number-maine-covid-19-cases-rises-89).
+"What we know about outbreaks is that we are often just detecting the tip of the iceberg," Shah told reporters on March 22, according to [Maine Public](https://www.mainepublic.org/post/number-maine-covid-19-cases-rises-89).
 
 _For ongoing coverage of coronavirus in Maine, see the free coverage from the [Bangor Daily News](https://bangordailynews.com/topic/coronavirus/), the [Portland Press Herald](https://www.pressherald.com/coronavirus/) and [Maine Public](https://www.mainepublic.org/post/what-mainers-need-know-about-coronavirus). On Twitter, [OpenMaine](https://twitter.com/Open_Maine) also has some cool digital resources in the works._
 
@@ -16,7 +16,19 @@ _Update:_ The dashboard now updates daily from Google Sheets. The Google Sheet u
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/COVID-19casesbyMainecounty?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
 
-## The process behind the map
+The chart on the left warrants a close look, as it reflects the growth trend in cases, on a logarithmic scale. As [The New York Times](https://www.nytimes.com/2020/03/20/health/coronavirus-data-logarithm-chart.html) detailed:
+
+>Unconstrained, the coronavirus spreads exponentially, the caseload doubling at a steady rate. That curve, plotted linearly, is a skyrocketing curve. Plotted logarithmically, however, it transforms into a straight line — which means that deviations from the exponential spread of the virus become much easier to discern.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/BigCurve?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
+
+Similarly, we can use the current growth rate in confirmed COVID-19 cases to calculate how long it is taking for cases to double, called the doubling time.
+
+The chart below shows this doubling time for each state, also starting from the first day where each state had at least 10 cases.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/DoublingRate?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
+
+## The process behind the charts
 The data above is scraped from the Maine CDC website in Python, based on table names at the CDC's coronavirus webpage (more details in this [Github repository](https://github.com/darrenfishell/data-projects/tree/master/covid-19-me)). The scraper runs every hour from 11 a.m. to 6 p.m. and stores a time series of the daily updates from the Maine CDC, starting March 10.
 
 Tableau Public refreshes every 24 hours, in the afternoon.
