@@ -22,6 +22,10 @@ The chart on the left warrants a close look, as it reflects the growth trend in 
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/BigCurve?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
+Here is that same type of curve, comparing confirmed cases in by Maine county, also since the first day that an area hit 10 cases or more.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/mainecountycurve?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
+
 Similarly, we can use the current growth rate in confirmed COVID-19 cases to calculate how long it is taking for cases to double, called the doubling time.
 
 The chart below shows this doubling time for each state, also starting from the first day where each state had at least 10 cases.
