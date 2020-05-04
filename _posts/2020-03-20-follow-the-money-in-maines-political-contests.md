@@ -12,15 +12,9 @@ For instance, the top left element combines totals contributed directly to a cam
 
 Amounts to support are added into a candidate's total while amounts to oppose are noted as negative values on the x-axis.
 
-### Maine Senate
-
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/senate-race-summary-dashboards/Senate?:showVizHome=no&amp;:embed=true" width="100%" height="935px"></iframe></div>
 
-## Congressional District 2
-
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/senate-race-summary-dashboards/CD2?:showVizHome=no&amp;:embed=true" width="100%" height="935px"></iframe></div>
-
-## Congressional District 1
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/senate-race-summary-dashboards/CD1?:showVizHome=no&amp;:embed=true" width="100%" height="935px"></iframe></div>
 
