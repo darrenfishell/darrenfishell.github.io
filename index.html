@@ -1,23 +1,20 @@
-<style>
-#blm{display:block;
-  z-index:1000}
+---
+layout: default
+---
 
-body{background:#000}
+<div class="tagline"><em>Maine COVID-19 tracker: <a href="http://www.darrenfishell.website/track-maine-coronavirus-cases-in-this-map/">Visualizations</a> | <a href="https://docs.google.com/spreadsheets/d/1DXlFVTgbXE3avpFPp1gJ5IFu7cEN9Hl9yhYSFskffGE/edit#gid=1531769028">Google Sheet</a></em></div>
 
-#blm span{color:#fff;
-  position:absolute;
-  width:100%;
-  text-align:center;
-  top:50%;
-  display:block;
-  margin-top:-12px;
-  font-size:24px;
-  font-family:Open Sans,sans-serif}
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-</style>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-<body>
-<div id="blm">
-	<span>Black Lives Matter</span>
+      <div class="entry">
+        <em>{{ post.excerpt }}</em>
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
 </div>
-</body>
