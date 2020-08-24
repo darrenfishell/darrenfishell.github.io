@@ -16,7 +16,7 @@ _For ongoing coverage of coronavirus in Maine, see the free coverage from the [B
 
 The trend in unresolved cases has gradually declined since a peak in late May. Unresolved cases are calculated as the sum of all reported cases, less deaths and recoveries.
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/Unresolvedcasesbycounty?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/Unresolvedcasesbycounty?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe></div>
 
 The chart below shows an overview of case trends, also filterable by county.
 
