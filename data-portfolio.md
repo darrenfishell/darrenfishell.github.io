@@ -3,7 +3,7 @@ layout: page
 title: Portfolio
 permalink: /data-portfolio/
 ---
-Here's a sampling of some of my recent data visualizations.
+Here's a sampling of some of my recent data visualizations. More at [Tableau Public](https://public.tableau.com/profile/darren.fishell#!/).
 
 # Demographics
 
