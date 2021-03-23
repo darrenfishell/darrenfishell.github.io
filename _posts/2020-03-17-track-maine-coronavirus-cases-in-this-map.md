@@ -14,12 +14,6 @@ _The dashboards below update daily from Google Sheets._
 
 _For ongoing coverage of coronavirus in Maine, see the free coverage from the [Bangor Daily News](https://bangordailynews.com/topic/coronavirus/), the [Portland Press Herald](https://www.pressherald.com/coronavirus/) and [Maine Public](https://www.mainepublic.org/post/what-mainers-need-know-about-coronavirus). On Twitter, [OpenMaine](https://twitter.com/Open_Maine) also has some cool digital resources in the works._
 
-The trend in unresolved cases has gradually declined since a peak in late May. Unresolved cases are calculated as the sum of all reported cases, less deaths and recoveries.
-
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/Unresolvedcasesbycounty?:showVizHome=no&amp;:embed=true" width="100%" height="635px"></iframe></div>
-
-The chart below shows an overview of case trends, also filterable by county.
-
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/COVID-19casesbyMainecounty?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
 
 The chart on the left warrants a close look, as it reflects the growth trend in cases, on a logarithmic scale. As [The New York Times](https://www.nytimes.com/2020/03/20/health/coronavirus-data-logarithm-chart.html) detailed:
