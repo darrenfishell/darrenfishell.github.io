@@ -25,7 +25,7 @@ The reason retail suppliers took a greater share over the standard offer during 
 
 In fact, enrollment with retail suppliers has dropped steadily in recent years, according to [data from the Maine Public Utilities Commission](https://www1.maine.gov/mpuc/electricity/choosing_supplier/migration_statistics.shtml).
 
-<!-- <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-2021/CEP-enrollment-trend?:showVizHome=no&amp;:embed=true" width="100%" height="435px"></iframe></div> -->
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-2021/CEP-enrollment-trend?:showVizHome=no&amp;:embed=true" width="100%" height="435px"></iframe></div>
 
 In most years since 2012, the rate of almost all retail suppliers has exceeded the average standard offer rate. In its first year, Electricity Maine did beat the standard offer, but never again. Since, only smaller suppliers have had a lower average rate.
 
