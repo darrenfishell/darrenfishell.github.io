@@ -35,6 +35,10 @@ Since 2012, Electricity Maine has dominated the market in Maine, though its cust
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-2021/Providersbyenrollmentdash?:showVizHome=no&amp;:embed=true" width="100%" height="535px"></iframe></div>
 
+By far, Electricity Maine has charged customers the most over the going rate for power since 2012.
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-2021/Supplierdetail?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
+
 For the most part, those suppliers are offering the same mix of electricity generation as the standard offer. However, about 5 percent of the 88,000 customers signed up with CEPs last year signed contracts with companies that exclusively offer clean or renewable energy supply, which could charge higher rates for those attributes.
 
 The retail power industry argues this makes it hard to compare standard offer rates directly to retail supply rates.
