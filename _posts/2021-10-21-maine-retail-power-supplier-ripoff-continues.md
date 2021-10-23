@@ -3,15 +3,15 @@ layout: wide-page
 title: Residential electricity ripoff accelerates for the first time in five years
 ---
 
-Electricity sellers charged Mainers $226 million more than the going rate for electricity from 2012 to 2020, driven largely by predatory marketing practices.
+Electricity sellers charged Maine households $175 million more than the going rate for electricity from 2012 to 2020, driven largely by predatory marketing practices.
 
 Since 2015, this amount had dwindled annually, until last year, a period of unprecedented economic upheaval and hardship due to the COVID-19 pandemic.
+
+Including an estimate for small businesses, the total is nearly $30 million last year and $226 million back to 2012.
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/retail-power-premium-2021/Thecostofretailpowersupply?:showVizHome=no&amp;:embed=true" width="100%" height="735px"></iframe></div>
 
 Electricity retailers — called "competitive electricity providers" in state law — charged Maine residential customers $20.5 million more than the average standard offer rate in 2020, according to analysis of the [latest annual data from the U.S. Energy Information Administration](https://www.eia.gov/electricity/data/eia861/).
-
-Including an estimate for small businesses, the total is nearly $30 million last year.
 
 [_See documentation and data behind this analysis_](https://github.com/darrenfishell/data-projects/tree/master/retail-power-compare)
 
