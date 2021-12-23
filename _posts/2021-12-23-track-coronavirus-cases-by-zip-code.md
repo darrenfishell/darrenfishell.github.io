@@ -8,6 +8,6 @@ This increase is present in most areas of the state, according to local data fro
 
 The visualizations below reflect the collection of reports issued approximately weekly by ZIP code, with some weeks of data excluded from the trend chart to ensure completeness.
 
-<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/ZipCode?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
-
 _[See overall COVID-19 trends in this earlier series of dashboards](http://www.darrenfishell.website/track-maine-coronavirus-cases-in-this-map/)_
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/covid-19-maine-dashboard/ZipCode?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
