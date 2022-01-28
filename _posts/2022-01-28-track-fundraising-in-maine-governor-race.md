@@ -2,7 +2,7 @@
 layout: wide-page
 title: Track contributions to Maine's gubernatorial candidates
 ---
-Election season is all up on us. Again. It's an off-cycle year, the last two years have been a blur: it's hard to believe. But it's back -- and so is former Gov. Paul LePage ([see Maine's term limits(https://www.maine.gov/legis/const/#a5)]).
+Election season is all up on us. Again. It's an off-cycle year, the last two years have been a blur: it's hard to believe. But it's back -- and so is former Gov. Paul LePage ([see Maine's term limits](https://www.maine.gov/legis/const/#a5)).
 
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/governors-race-2022/ContributionSummary?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
 
