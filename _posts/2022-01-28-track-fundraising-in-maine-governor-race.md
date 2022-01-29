@@ -11,3 +11,7 @@ The candidates disclosed their first big batch of fundraising earlier this month
 Democrats John Glowa and and Kenneth Capron have also reported small contributions, as has Green Independent candidate Michael Barden.
 
 As of now, there's not been any outside spending in the race, but that will be incorporated here when the time comes.
+
+To see who exactly has donated to each candidate, use the dashboard below to filter a list of all contributors. You can download these records into Excel or another tool using the Download button (select the sheet 'DOWNLOAD DETAIL' if that's not already selected).
+
+<div><iframe style="border: none;" src="https://public.tableausoftware.com/views/governors-race-2022/ContributorDetail?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
