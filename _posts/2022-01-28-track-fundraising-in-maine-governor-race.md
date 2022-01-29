@@ -14,4 +14,6 @@ As of now, there's not been any outside spending in the race, but that will be i
 
 To see who exactly has donated to each candidate, use the dashboard below to filter a list of all contributors. You can download these records into Excel or another tool using the Download button (select the sheet 'DOWNLOAD DETAIL' if that's not already selected).
 
+A number of donors have [maxed out](https://www.maine.gov/ethics/political-activity/contributing-information) already to both LePage and Mills, giving $3,450. That includes former Google and Alphabet CEO Eric Schmidt for Mills and liquor magnate Paul Coulombe and his wife Giselaine Coulombe for LePage.
+
 <div><iframe style="border: none;" src="https://public.tableausoftware.com/views/governors-race-2022/ContributorDetail?:showVizHome=no&amp;:embed=true" width="100%" height="835px"></iframe></div>
