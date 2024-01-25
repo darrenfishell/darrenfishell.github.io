@@ -4,18 +4,16 @@ title: About me
 permalink: /about/
 ---
 
-I'm a data visualization analyst, freelance reporter and data scientist in training, based in Portland, Maine. I was previously a full-time investigative and business reporter.
+I'm a business intelligence manager and data scientist in training, based in Portland, Maine. I previously worked as an investigative, business and general assignment reporter at publications in Maine and California.
 
 I grew up in the suburb of [Diamond Bar, California](https://en.wikipedia.org/wiki/Diamond_Bar,_California), before coming to Maine [for college](http://bowdoin.edu) and staying in Portland. I started my journalism career as the first local editor for [Patch.com](https://patch.com/users/darren-fishell) in my hometown. I came back to Maine for a staff job at a small, [afternoon daily paper](http://timesrecord.com) in Brunswick. I grew a fondness for data reporting at [Mainebiz](http://mainebiz.com) before three years covering Maine's economy and investigations at the [Bangor Daily News](http://bangordailynews.com).
 
-I'm the business intelligence analyst for the accounting firm [Baker Newman Noyes](https://www.bnncpa.com/). I'm also a master's student at the Roux Institute, a Portland-based program of Northeastern University.
+Witnessing some live data science and statistics wizardry one election night at the Bangor Daily News (when the paper had a data scientist on staff!) fascinated me and pushed me in a new direction.
 
-As a freelance reporter, I contribute to the nonprofit Maine Monitor and Mainer.
+I currently manage business intelligence tools for the accounting firm [Baker Newman Noyes](https://www.bnncpa.com/). I'm also a master's student at the Roux Institute, a Portland-based program of Northeastern University.
+
+As a freelance reporter, I've contributed to the nonprofit Maine Monitor and Mainer. The electricity price [ripoff of competitive electricity providers](https://themainemonitor.org/private-electricity-suppliers-cost-mainers-132-million-more-than-necessary/) is my particular bone to pick.
 
 ### Contact me
 
-[darren.fishell@gmail.com](mailto:darren.fishell@gmail.com)
-
-[@darrenfishell](http://twitter.com/darrenfishell)
-
-Signal/phone: 207-370-8834
+[darrenfishell@proton.me](mailto:darrenfishell@proton.me)

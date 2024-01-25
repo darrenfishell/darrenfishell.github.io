@@ -6,7 +6,7 @@
 name: Darren Fishell
 
 # Short bio or description (displayed in the header)
-description: Data reporter and wrangler
+description: Business Intelligence Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/darrenfishell/darrenfishell.github.io/master/images/avatar.jpg
@@ -18,8 +18,8 @@ avatar: https://raw.githubusercontent.com/darrenfishell/darrenfishell.github.io/
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: darren.fishell@gmail.com
-  twitter: darrenfishell
+  email: darrenfishell@proton.me
+  twitter:
   github: darrenfishell
   instagram: darrenfishell
   linkedin: darrenfishell

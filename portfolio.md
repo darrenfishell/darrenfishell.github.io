@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-Here's a sampling of some of my recent work. And the full list for [Bangor Daily News](http://bangordailynews.com/author/dfishell/).
+Here's a sampling of some of my past reporting work. And the full list for [Bangor Daily News](http://bangordailynews.com/author/dfishell/).
 
 ### 2018 Gubernatorial race
 + [Republican candidate Moody declines to release tax returns](bangordailynews.com/2018/09/21/mainefocus/moody-declines-to-release-tax-returns/)
