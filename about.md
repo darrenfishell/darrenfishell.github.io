@@ -10,7 +10,7 @@ I grew up in the suburb of [Diamond Bar, California](https://en.wikipedia.org/wi
 
 Witnessing some live data science and statistics wizardry one election night at the Bangor Daily News (when the paper had a data scientist on staff!) fascinated me and pushed me in a new direction.
 
-I currently manage business intelligence tools for the accounting firm [Baker Newman Noyes](https://www.bnncpa.com/). I'm also a master's student at the Roux Institute, a Portland-based program of Northeastern University.
+I currently manage business intelligence tools for the accounting firm [Baker Newman Noyes](https://www.bnncpa.com/). I received a Master's in data science in fall 2024 from Northeastern University.
 
 As a freelance reporter, I've contributed to the nonprofit Maine Monitor and Mainer. The electricity price [ripoff of competitive electricity providers](https://themainemonitor.org/private-electricity-suppliers-cost-mainers-132-million-more-than-necessary/) is my particular bone to pick.
 
