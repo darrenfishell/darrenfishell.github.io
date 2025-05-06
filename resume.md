@@ -1,3 +1,9 @@
+---
+layout: page
+title: Darren Fishell
+permalink: /resume/
+---
+
 ## Business Intelligence Leader & Data Scientist
 Los Angeles, California, 90025
 
