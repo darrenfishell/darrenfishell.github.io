@@ -1,4 +1,3 @@
-# Darren Fishell
 ## Business Intelligence Leader & Data Scientist
 Los Angeles, California, 90025
 
