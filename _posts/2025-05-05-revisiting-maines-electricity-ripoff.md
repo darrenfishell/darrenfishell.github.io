@@ -11,7 +11,11 @@ I'm delighted to share the dedicated project page for this work, which puts some
 
 > [The project page: Maine's retail electricity ripoff](https://www.darrenfishell.website/retail-electricity/)
 
-The backend is built with dlt and dbt and is currently run locally, producing a database in DuckDB that is ready for further analysis. 
+The backend is built with dlt and dbt and is currently run locally, producing a database in DuckDB that is ready for further analysis. The dbt lineage is much more straightforward. The primary lifting it does is transforming and generating a weighted standard offer average for a given year, based on kWh load for each of Maine's investor-owned utilities (Central Maine Power Co. and Versant's Bangor Hydro and Maine Public Service districts).
+
+Standard offer data is not readily available from the PUC and is the only source that is manually compiled. Customer migration statistics and EIA files are parsed and loaded directly in the dlt pipeline. The lineage for the dbt project is below, which is fairly simple. 
+
+![dbt lineage](../images/dbt-retail-electricity.png)
 
 The database is used directly in Observable data loaders upon deployment, with Github actions. The whole update of the process means the entire pipeline is much easier to maintain going forward.
 
