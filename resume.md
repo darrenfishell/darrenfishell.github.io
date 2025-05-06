@@ -1,33 +1,28 @@
----
-layout: page
-title: Resume
-permalink: /resume/
----
-
+# Darren Fishell
 ## Business Intelligence Leader & Data Scientist
-[LinkedIn](https://claude.ai/chat/ee45f89b-457c-46c1-8e79-a0d406434d5c#) | [Personal website](https://claude.ai/chat/ee45f89b-457c-46c1-8e79-a0d406434d5c#) | [Github](https://claude.ai/chat/ee45f89b-457c-46c1-8e79-a0d406434d5c#)
+Los Angeles, California, 90025
+
+[Email](darrenfishell@proton.me) • [LinkedIn](https://www.linkedin.com/in/darrenfishell/) • [Github](https://github.com/darrenfishell) • [Tableau Public](https://public.tableau.com/app/profile/darren.fishell/vizzes)
 
 ## SUMMARY
-
 Data scientist and business intelligence leader with 7+ years experience designing metrics, building data pipelines, and delivering actionable insights that drive business decisions. Data visualization expert with 10+ years experience with Tableau and 5 years experience in Power BI. Combines technical expertise in SQL, Python, and machine learning with proven ability to collaborate across departments. Experience built leading small, agile teams through greenfield development, navigating ambiguity guided by a fundamental understanding of the toolkit and best practices.
 
 ## EDUCATION
 
 **M.S., Data Science**  
-_Northeastern University_ | Portland, Maine  
+*Northeastern University* • Portland, Maine  
 Jan 2020 — Jan 2024  
-GPA: 3.77 | Studied a range of techniques in supervised and unsupervised learning, data cleaning and management, predictive modeling, model analysis, avoiding false discoveries and large language models.
+GPA: 3.77 • Studied a range of techniques in supervised and unsupervised learning, data cleaning and management, predictive modeling, model analysis, avoiding false discoveries and large language models.
 
 **B.A., English, Minor Italian**  
-_Bowdoin College_ | Brunswick, Maine  
+*Bowdoin College* • Brunswick, Maine  
 Jan 2005 — Jan 2009  
 GPA: 3.55; English GPA: 3.91
 
 ## WORK EXPERIENCE
 
 ### Business Intelligence Manager
-
-_Baker Newman Noyes_ | Portland, Maine, United States  
+*Baker Newman Noyes* • Portland, Maine, United States  
 Jul 2022 — Present
 
 - Defined enterprise BI strategy including architecture for self-service semantic models enabling role-based metrics access in Excel and Power BI
@@ -37,8 +32,7 @@ Jul 2022 — Present
 - Presented to BNN clients on evaluating AI tools and large language models for business applications during the company's annual client update
 
 ### Business Intelligence Analyst
-
-_Baker Newman Noyes_ | Portland, Maine, United States  
+*Baker Newman Noyes* • Portland, Maine, United States  
 Jun 2021 — Jul 2022
 
 - Engineered unified snowflake schema that transformed 20+ fragmented reports into a cohesive data architecture with real-time analytics, developing a new data reporting model for the IRIS STAR Practice Management system, which required intensive investigations and requirement gathering as the database vendor does not provide an ERD or data dictionaries for its database
@@ -47,8 +41,7 @@ Jun 2021 — Jul 2022
 - Supported ad-hoc business requests for data access and data updates
 
 ### Senior Consultant, Business Intelligence
-
-_Arkatechture_ | Portland, Maine  
+*Arkatechture* • Portland, Maine  
 Nov 2018 — Jun 2021
 
 - Built and maintained reports in Tableau, Power BI and upstream database views in Snowflake for major retailers, including Cole Haan and SONY
@@ -57,8 +50,7 @@ Nov 2018 — Jun 2021
 - Conducted advanced market basket analysis for regional coffee chain and delivered Tableau training for multiple client organizations, including for Arkatecture's credit union reporting product
 
 ### Data Journalist and Investigative Reporter
-
-_The Bangor Daily News_ | Portland, Maine Area  
+*The Bangor Daily News* • Portland, Maine Area  
 Apr 2014 — Oct 2018
 
 - Conducted analysis of retail electricity pricing that led to a $14 million class-action settlement and established methodology adopted by state regulators
@@ -73,36 +65,40 @@ Apr 2014 — Oct 2018
 - **scikit-learn**
 - **pandas**
 - **Git**
-- **Data visualization:** PowerBI | Tableau | Observable
+- **Data visualization:** PowerBI, Tableau, Observable
 - **Semantic modeling**
 - **Natural language processing**
 - **DuckDB**
 - **Writing**
 - **Research**
-- **Public speaking | presenting**
+- **Public speaking & presenting**
 
 ## PROJECTS
 
 ### Semantic similarity analysis in Maine legislative testimony
-
-_Portland, Maine_ | Sep 2024 — Present
+*Portland, Maine* • Sep 2024 — Present
 
 Built end-to-end pipeline for 20,000+ bills with semantic clustering (0.535 silhouette score) and vector embedding system for 3.6M sentences using HuggingFace transformers. Created vector search in DuckDB for real-time similarity queries, enabling analysis of testimony influence patterns for Sierra Club advocacy.
 
-### [Cost analysis for Maine's residential retail electricity suppliers]({{ site.baseurl }}/retail-electricity)
-
-_Portland, Maine_ | Jan 2015 — Present
+### Cost analysis for Maine's residential retail electricity suppliers
+*Portland, Maine* • Jan 2015 — Present
 
 Developed a data pipeline and framework for comparing cost of Maine's retail electricity supplier prices to the state's standard offer. This framework was validated and adopted by the Maine Public Utilities Commission in their own study. The analysis revealed Maine customers could have saved $180.5 million from 2012-2024. Initial analysis at the Bangor Daily News was done manually and visualized in Tableau. The updated project uses dlt for data ingestion, dbt for transformations and the Observable Framework to display interactive visualizations.
 
 ### Improving data quality and data model for healthcare client deliverables: Crossover and Disproportionate Share Hospital reporting
-
-_Portland, Maine_ | Jan 2024 — Dec 2025
+*Portland, Maine* • Jan 2024 — Dec 2025
 
 Refactored brittle Perl/VBA pipeline with Python ETL for Medicare EDI 835 files and PDF remittance advice, implementing pattern-based extraction, DuckDB storage, and SQL view transformations. Cut annual development costs by 90% while improving modularity, speed and data quality.
 
 ### Bias detection in Paycheck Protection Program funding
-
-_Portland, Maine_ | Jan 2022 — Jun 2022
+*Portland, Maine* • Jan 2022 — Jun 2022
 
 Identified statistically significant biases in PPP loan distribution during COVID-19 by integrating multiple data sources and applying regression modeling that controlled for confounding variables including rural-urban differences and industry concentration.
+
+<style>
+
+body {
+	background-color: antiquewhite;
+}
+
+</style>
