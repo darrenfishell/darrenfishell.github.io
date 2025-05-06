@@ -9,7 +9,7 @@ So, I've thought about that work a lot since 2022, when I stopped freelance repo
 
 I'm delighted to share the dedicated project page for this work, which puts some of the data in context. 
 
-# [The project page: Maine's retail electricity ripoff](https://www.darrenfishell.website/retail-electricity/)
+> [The project page: Maine's retail electricity ripoff](https://www.darrenfishell.website/retail-electricity/)
 
 The backend is built with dlt and dbt and is currently run locally, producing a database in DuckDB that is ready for further analysis. 
 
@@ -23,9 +23,8 @@ Find all of the technical details [here](https://github.com/darrenfishell/retail
 
 <style>
 	
-h1 a {
+blockquote a {
   /* Bold, larger text */
-  font-weight: 700;
   font-size: 1.1em;
   
   /* Create a subtle background highlight */
@@ -43,7 +42,7 @@ h1 a {
 }
 
 /* Interactive effects on hover */
-h1 a:hover {
+blockquote a:hover {
   background-color: rgba(255, 255, 0, 0.3);
   color: #004499;
   text-decoration: none;
@@ -51,7 +50,7 @@ h1 a:hover {
 }
 
 /* Active state for clicking */
-h1 a:active {
+blockquote a:active {
   transform: translateY(1px);
 }
 
