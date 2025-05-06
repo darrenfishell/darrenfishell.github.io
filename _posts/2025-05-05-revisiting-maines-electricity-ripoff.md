@@ -11,10 +11,48 @@ I'm delighted to share the dedicated project page for this work, which puts some
 
 # [The project page: Maine's retail electricity ripoff](https://www.darrenfishell.website/retail-electricity/)
 
-The backend is built with dlt and dbt and is currently run locally, outputting a database in DuckDB that is ready for further analysis. 
+The backend is built with dlt and dbt and is currently run locally, producing a database in DuckDB that is ready for further analysis. 
 
 The database is used directly in Observable data loaders upon deployment, with Github actions. The whole update of the process means the entire pipeline is much easier to maintain going forward.
 
 Of course, I'm still partial to the ease of visualization development within Tableau, but the Observable and Plot frontend is much simpler, cleaner and snappier. 
 
-I'm a big fan of this entire stack for future development. Find all of the technical details [here](https://github.com/darrenfishell/retail-electricity). 
+I'm a fan of this entire stack for future development, but am inclined to use d3 directly for some of the more expensive preloads required in Observable Framework sites. If anyone has any optimization tips for improving that load time, let me know. 
+
+Find all of the technical details [here](https://github.com/darrenfishell/retail-electricity).
+
+<style>
+	
+h1 a {
+  /* Bold, larger text */
+  font-weight: 700;
+  font-size: 1.1em;
+  
+  /* Create a subtle background highlight */
+  background-color: rgba(255, 255, 0, 0.2);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  
+  /* Better link styling */
+  color: #0066cc;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  /* Add a slight underline effect */
+  border-bottom: 2px solid currentColor;
+}
+
+/* Interactive effects on hover */
+h1 a:hover {
+  background-color: rgba(255, 255, 0, 0.3);
+  color: #004499;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Active state for clicking */
+h1 a:active {
+  transform: translateY(1px);
+}
+
+</style>
