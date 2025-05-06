@@ -1,11 +1,11 @@
 ---
 layout: wide-page
-title: A durable data pipeline for tracking Revisiting Maine's retail electricity ripoff 
+title: A durable data pipeline for tracking Maine's retail electricity ripoff 
 ---
 
-Some of the best things in journalism are your unique obsessions. I consider retail electricity pricing in Maine one of mine. 
+Some of the best things in journalism are the kinds of unique obsessions that come from working a specific beat for the right amount of time. The retail electricity supply market is one such obsession for me.
 
-So, it's fitting that I've thought about that work a lot since 2022, when I really stopped freelance reporting and focused solely on business intelligence work. But with those years of professional and academic experience done, I've turned to rebuilding that data pipeline and front end with a dedicated project I'm much more easily able to maintain. 
+So, I've thought about that work a lot since 2022, when I stopped freelance reporting as part of my business intelligence work. Since, I've turned to rebuilding that data pipeline and front end with a dedicated project I'm much more easily able to maintain. 
 
 I'm delighted to share the dedicated project page for this work, which puts some of the data in context. 
 
