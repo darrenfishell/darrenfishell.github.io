@@ -1,4 +1,4 @@
-### [Cost analysis for Maine's residential retail electricity suppliers]({{ site.baseurl }}/retail-electricity)
+### [Cost analysis for Maine's residential retail electricity suppliers]({{ site.baseurl }}/retail-electricity-ripoff)
 *Portland, Maine* • Jan 2015 — Present
 
 Developed a data pipeline and framework for comparing cost of Maine's retail electricity supplier prices to the state's standard offer. This framework was validated and adopted by the Maine Public Utilities Commission in their own study. The analysis revealed Maine customers could have saved $180.5 million from 2012-2024. Initial analysis at the Bangor Daily News was done manually and visualized in Tableau. The updated project uses dlt for data ingestion, dbt for transformations and the Observable Framework to display interactive visualizations.

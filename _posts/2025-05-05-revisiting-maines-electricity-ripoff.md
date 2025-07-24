@@ -9,7 +9,7 @@ So, I've thought about that work a lot since 2022, when I stopped freelance repo
 
 I'm delighted to share the dedicated project page for this work, which puts some of the data in context. 
 
-> [The project page: Maine's retail electricity ripoff]({{ site.baseurl }}/retail-electricity/)
+> [The project page: Maine's retail electricity ripoff]({{ site.baseurl }}/retail-electricity-ripoff/)
 
 The backend is built with dlt and dbt and is currently run locally, producing a database in DuckDB that is ready for further analysis. The dbt lineage is much more straightforward. The primary lifting it does is transforming and generating a weighted standard offer average for a given year, based on kWh load for each of Maine's investor-owned utilities (Central Maine Power Co. and Versant's Bangor Hydro and Maine Public Service districts).
 
