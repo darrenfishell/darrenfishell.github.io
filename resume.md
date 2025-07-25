@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 
 Los Angeles, CA, 90025  
-909-573-4605 | [darrenfishell@protonmail.com](mailto:darrenfishell@protonmail.com) | [LinkedIn](https://www.linkedin.com/in/darrenfishell/) | [GitHub](https://github.com/darrenfishell) | [Personal site](https://www.darrenfishell.website/)
+909-573-4605 | [darrenfishell@protonmail.com](mailto:darrenfishell@protonmail.com) | [LinkedIn](https://www.linkedin.com/in/darrenfishell/) | [GitHub](https://github.com/darrenfishell)
 
 ## THE GIST
 
