@@ -19,13 +19,13 @@ It's not surprising that newspaper jobs have been on a steady decline, but the e
 
 The map below allows you to explore these trends by individual state or region (lasso select) to see the raw change of jobs, the percentage change relative to all jobs, and the percentage change in average pay compared to all jobs.
 
-{% include tableau_public/newspaper_jobs_map.md %}
+{% include tableau_public/newspaper_jobs_map.html %}
 
 Diving more into pay, it's interesting that there are many markets where newspaper publishing jobs do make more than the average job in the area. You could perhaps guess at most of the places where this is the case, but it does support the perception of places associated with the "media elite."
 
 Of course, this doesn't include Maine or most of the country.
 
-{% include tableau_public/newspaper_jobs_comparison.md %}
+{% include tableau_public/newspaper_jobs_comparison.html %}
 
 ## The Challenge: Making Government Data Accessible
 
