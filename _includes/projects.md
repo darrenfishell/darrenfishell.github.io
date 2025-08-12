@@ -10,6 +10,11 @@ Identified statistically significant biases in PPP loan distribution during COVI
 
 Group project originally written in R and refactored in Python within above repository.
 
+### [Newspaper jobs in freefall](https://github.com/darrenfishell/newspaper-jobs)
+*Portland, Maine* • August 2025
+
+Formalized a data pipeline for statewide payroll jobs data from the U.S. Bureau of Labor Statistics' Quarterly Census of Employment and Wages. This project includes visualizations highlighting particular trends within newspaper publishing jobs, a subject I previously reported on for the [Maine Monitor](https://themainemonitor.org/the-growing-crisis-in-the-maine-newspaper-industry/).
+
 ### [Semantic similarity analysis in Maine legislative testimony](https://github.com/darrenfishell/maine-legislative-interpreter)
 *Portland, Maine* • Sep 2024 — Present
 
