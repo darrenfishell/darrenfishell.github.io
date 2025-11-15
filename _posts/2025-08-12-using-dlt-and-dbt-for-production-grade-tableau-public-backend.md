@@ -66,6 +66,7 @@ To simplify this, I created a dedicated `tableau_public` schema in dbt that cont
 
 The magic happens in the `dbt_project.yml` configuration:
 
+{% raw %}
 ```yaml
 models:
   newspaper_jobs:
@@ -73,6 +74,7 @@ models:
       +materialized: view
       +post-hook: "COPY (SELECT * FROM {{ this }}) TO '{{ env_var('DBT_PROJECT_DIR') }}/tableau_public/{{ this.name }}.csv' (HEADER, DELIMITER ',')"
 ```
+{% endraw %}
 
 This configuration automatically exports every model in the `tableau_public` schema to a CSV file after it's built. The post-hook runs a DuckDB `COPY` command that:
 
