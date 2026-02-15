@@ -28,6 +28,8 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  position: relative;
+  z-index: 0;
 }
 
 .wide {
@@ -176,11 +178,18 @@ code {
 
 .wrapper-masthead {
   margin-bottom: 30px;
+  position: relative;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 0;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 10;
 
   @include mobile {
     text-align: center;
@@ -216,18 +225,20 @@ code {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: rgba(255, 255, 255, 0.95);
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .site-description {
   margin: -3px 0 0 0;
-  color: $gray;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 
   @include mobile {
     margin: 3px 0;
@@ -243,6 +254,8 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  position: relative;
+  z-index: 10;
 
   @include mobile {
     float: none;
@@ -253,14 +266,23 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: rgba(255, 255, 255, 0.9);
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    position: relative;
+    z-index: 10;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    }
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: rgba(255, 255, 255, 0.9);
     }
   }
 }
@@ -307,12 +329,358 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: transparent;
+  position: relative;
+  z-index: 10;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+/*********************/
+/* 1990s STYLING */
+/*********************/
+
+// Homepage About Section
+.homepage-about {
+  position: relative;
+  z-index: 10;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 20px;
+  margin-bottom: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+
+  .about-content {
+    max-width: 740px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 3px solid #ff00ff;
+
+    h1 {
+      font-family: 'Comic Sans MS', 'Arial Black', sans-serif;
+      color: #ff00ff;
+      text-shadow: 2px 2px 0px #00ffff, 4px 4px 0px #000;
+      font-size: 36px;
+      margin-bottom: 20px;
+      animation: blink 2s infinite;
+    }
+
+    h3 {
+      font-family: 'Arial Black', sans-serif;
+      color: #00ffff;
+      text-shadow: 1px 1px 0px #ff00ff;
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    a {
+      color: #0066ff;
+      font-weight: bold;
+      text-decoration: underline;
+
+      &:hover {
+        color: #ff00ff;
+        text-shadow: 0 0 5px #ff00ff;
+      }
+    }
+  }
+}
+
+// Headlines Container
+#headlines-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(255, 0, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 20%, rgba(255, 255, 0, 0.1) 0%, transparent 50%),
+    linear-gradient(135deg, #000428 0%, #004e92 100%);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  animation: backgroundShift 20s ease infinite;
+  overflow: hidden;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+
+  // Animated stars background
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      radial-gradient(2px 2px at 20% 30%, #fff, transparent),
+      radial-gradient(2px 2px at 60% 70%, #fff, transparent),
+      radial-gradient(1px 1px at 50% 50%, #fff, transparent),
+      radial-gradient(1px 1px at 80% 10%, #fff, transparent),
+      radial-gradient(2px 2px at 90% 60%, #fff, transparent),
+      radial-gradient(1px 1px at 33% 80%, #fff, transparent),
+      radial-gradient(1px 1px at 10% 40%, #fff, transparent);
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    animation: twinkle 3s ease-in-out infinite alternate;
+    opacity: 0.8;
+  }
+}
+
+// Floating Headlines
+.floating-headline {
+  position: absolute;
+  pointer-events: auto;
+  z-index: 2;
+  cursor: pointer;
+  max-width: 320px;
+  padding: 12px 18px;
+  border: 3px solid;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7), 
+              0 0 15px currentColor,
+              inset 0 0 10px rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+
+  &:hover {
+    transform: scale(1.05);
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.95);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.9), 
+                0 0 25px currentColor,
+                inset 0 0 15px rgba(255, 255, 255, 0.15);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    text-shadow: 
+      2px 2px 4px rgba(0, 0, 0, 0.9),
+      0 0 8px rgba(0, 0, 0, 0.8),
+      -1px -1px 2px rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.3px;
+  }
+
+  // Style variations
+  &.style-1 {
+    color: #ff66ff;
+    border-color: #ff00ff;
+    font-family: 'Comic Sans MS', cursive;
+    
+    a {
+      font-size: 17px;
+      text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.9),
+        0 0 10px rgba(255, 0, 255, 0.6),
+        -1px -1px 2px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  &.style-2 {
+    color: #66ffff;
+    border-color: #00ffff;
+    font-family: 'Arial Black', sans-serif;
+    
+    a {
+      font-size: 16px;
+      text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.9),
+        0 0 10px rgba(0, 255, 255, 0.6),
+        -1px -1px 2px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  &.style-3 {
+    color: #ffff66;
+    border-color: #ffff00;
+    font-family: 'Impact', sans-serif;
+    
+    a {
+      font-size: 18px;
+      text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.9),
+        0 0 10px rgba(255, 255, 0, 0.6),
+        -1px -1px 2px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  &.style-4 {
+    color: #66ff66;
+    border-color: #00ff00;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    
+    a {
+      font-size: 16px;
+      text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.9),
+        0 0 10px rgba(0, 255, 0, 0.6),
+        -1px -1px 2px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  &.style-5 {
+    color: #ff9933;
+    border-color: #ff6600;
+    font-family: 'Trebuchet MS', sans-serif;
+    
+    a {
+      font-size: 17px;
+      text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.9),
+        0 0 10px rgba(255, 102, 0, 0.6),
+        -1px -1px 2px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+  // Animation types
+  &.anim-float {
+    animation: floatAround var(--animation-duration, 20s) linear infinite;
+  }
+
+  &.anim-marquee {
+    animation: marqueeScroll var(--animation-duration, 15s) linear infinite;
+  }
+
+  &.anim-drift {
+    animation: drift var(--animation-duration, 25s) ease-in-out infinite;
+  }
+}
+
+// Keyframe Animations
+
+// Blinking text
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.3; }
+}
+
+// Floating around
+@keyframes floatAround {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(100px, -50px) rotate(5deg);
+  }
+  50% {
+    transform: translate(-50px, -100px) rotate(-5deg);
+  }
+  75% {
+    transform: translate(-100px, 50px) rotate(3deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+// Marquee scrolling
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(-100vw) translateY(0);
+  }
+  50% {
+    transform: translateX(100vw) translateY(100px);
+  }
+  100% {
+    transform: translateX(-100vw) translateY(0);
+  }
+}
+
+// Drifting
+@keyframes drift {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  33% {
+    transform: translate(150px, 80px) rotate(8deg);
+  }
+  66% {
+    transform: translate(-80px, 150px) rotate(-8deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+// Background animation
+@keyframes backgroundShift {
+  0% {
+    background-position: 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%, 50% 50%, 25% 75%, 0% 0%;
+  }
+  100% {
+    background-position: 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+// Twinkling stars
+@keyframes twinkle {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Mobile adjustments
+@include mobile {
+  .homepage-about {
+    padding: 20px 10px;
+
+    .about-content {
+      padding: 20px;
+      border-width: 2px;
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .floating-headline {
+    max-width: 250px;
+    padding: 10px 14px;
+    border-width: 2px;
+
+    a {
+      font-size: 14px;
+      line-height: 1.4;
+      text-shadow: 
+        1px 1px 3px rgba(0, 0, 0, 0.9),
+        0 0 8px rgba(0, 0, 0, 0.8);
+    }
+    
+    &.style-1 a { font-size: 15px; }
+    &.style-2 a { font-size: 14px; }
+    &.style-3 a { font-size: 15px; }
+    &.style-4 a { font-size: 14px; }
+    &.style-5 a { font-size: 15px; }
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

@@ -2,17 +2,25 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div class="homepage-about">
+  <div class="about-content">
+    <h1>About me</h1>
+    
+    <p>I'm a data scientist and business intelligence specialist based in Los Angeles, California. I work on BI tools at <a href="https://www.relativityspace.com/">Relativity Space</a>. I have worked in business intelligence roles since 2018, after a nine-year career in journalism, where I worked as an investigative, business, and general assignment reporter at publications in Maine and California.</p>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        {{ post.date | date: "%B %d, %Y" }}
-      <div class="entry">
-        <em>{{ post.excerpt }}</em>
-      </div>
+    <p>I grew up in the suburb of <a href="https://en.wikipedia.org/wiki/Diamond_Bar,_California">Diamond Bar, California</a>, before going to Maine <a href="http://bowdoin.edu">for college</a>. Maine is amazing and I stayed in Portland, where my wife and I met and lived from 2011 to 2025, when we relocated to Los Angeles to be closer to family.</p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+    <p>I started my journalism career as the first local editor for <a href="https://patch.com/users/darren-fishell">Patch.com</a> in my hometown. I came back to Maine for a staff job at a small, <a href="http://timesrecord.com">afternoon daily paper</a> in Brunswick. I developed a fondness for data reporting at <a href="http://mainebiz.com">Mainebiz</a> before three years covering Maine's economy and investigations at the <a href="http://bangordailynews.com">Bangor Daily News</a>.</p>
+
+    <p>Witnessing some live data science and statistics wizardry one election night at the Bangor Daily News (when the paper had a data scientist on staff!) fascinated me and pushed me in a new direction. I received a master's degree in data science in the Fall 2024 from Northeastern University, through its new Portland, Maine, campus.</p>
+
+    <p>Before Relativity, I started the business intelligence practice at the regional accounting firm <a href="https://www.bnncpa.com/">Baker Newman Noyes</a>. Before that, I worked primarily in Tableau as a BI consultant at Arkatechture, working for clients including Cole Haan, Sony and L.L.Bean.</p>
+
+    <h3>Contact me</h3>
+    <p><a href="mailto:darrenfishell@protonmail.com">Email</a> • <a href="https://www.linkedin.com/in/darrenfishell/">LinkedIn</a></p>
+  </div>
 </div>
+
+<div id="headlines-container"></div>
+
+<script src="{{ site.baseurl }}/assets/js/news-headlines.js"></script>
