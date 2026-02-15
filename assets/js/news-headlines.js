@@ -25,11 +25,31 @@
   const CACHE_KEY = 'news-headlines-cache';
   const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
   
-  // Request timeout (milliseconds)
-  const REQUEST_TIMEOUT = 10000; // 10 seconds
+  // Request timeout (milliseconds) - reduced for faster initial appearance
+  const REQUEST_TIMEOUT = 6000; // 6 seconds
 
   // Store all headlines
   let allHeadlines = [];
+  
+  // Store headlines ready for immediate rendering (pre-loaded from cache)
+  let preloadedHeadlines = null;
+  
+  // Check cache immediately on script load (before DOM ready)
+  (function checkCacheEarly() {
+    try {
+      const cached = localStorage.getItem(CACHE_KEY);
+      if (cached) {
+        const { headlines, timestamp } = JSON.parse(cached);
+        const age = Date.now() - timestamp;
+        if (age < CACHE_DURATION) {
+          preloadedHeadlines = headlines;
+          console.log('Pre-loaded headlines from cache');
+        }
+      }
+    } catch (error) {
+      // Silently fail during early cache check
+    }
+  })();
   
   // Debounce helper
   function debounce(func, wait) {
@@ -159,8 +179,38 @@
     }
   }
   
+  // Progressive rendering: render headlines as they arrive
+  let renderedHeadlines = new Set();
+  let progressiveRenderCallback = null;
+  
+  function addHeadlinesProgressively(newHeadlines) {
+    if (!newHeadlines || newHeadlines.length === 0) return;
+    
+    // Filter out duplicates
+    const uniqueHeadlines = newHeadlines.filter(h => {
+      const key = h.id || `${h.source}-${h.title}`;
+      if (renderedHeadlines.has(key)) return false;
+      renderedHeadlines.add(key);
+      return true;
+    });
+    
+    if (uniqueHeadlines.length === 0) return;
+    
+    // Add to existing headlines
+    allHeadlines = [...allHeadlines, ...uniqueHeadlines];
+    
+    // Shuffle and limit
+    shuffleArray(allHeadlines);
+    const displayHeadlines = allHeadlines.slice(0, MAX_HEADLINES);
+    
+    // Render immediately if callback is set
+    if (progressiveRenderCallback) {
+      progressiveRenderCallback(displayHeadlines);
+    }
+  }
+
   // Fetch all RSS feeds with caching and progressive rendering
-  async function fetchAllHeadlines(renderCallback = null) {
+  async function fetchAllHeadlines(renderCallback = null, progressive = false) {
     // Check cache first
     const cached = getCachedHeadlines();
     if (cached) {
@@ -171,10 +221,24 @@
       return cached;
     }
 
-    // Fetch all feeds in parallel
-    const promises = Object.entries(RSS_FEEDS).map(async ([source, url]) => {
+    // Set up progressive rendering if requested
+    if (progressive && renderCallback) {
+      progressiveRenderCallback = renderCallback;
+      renderedHeadlines.clear();
+      allHeadlines = [];
+    }
+
+    // Fetch all feeds in parallel, but render as each completes
+    const feedEntries = Object.entries(RSS_FEEDS);
+    const promises = feedEntries.map(async ([source, url]) => {
       try {
         const headlines = await fetchRSSFeed(url, source);
+        
+        // If progressive rendering, add headlines immediately as they arrive
+        if (progressive && headlines.length > 0) {
+          addHeadlinesProgressively(headlines);
+        }
+        
         return headlines;
       } catch (error) {
         console.error(`Error fetching ${source}:`, error);
@@ -182,19 +246,34 @@
       }
     });
 
-    // Use Promise.allSettled to handle partial failures gracefully
+    // Wait for all to complete (but progressive rendering already showed some)
     const results = await Promise.allSettled(promises);
-    allHeadlines = results
+    const finalHeadlines = results
       .filter(result => result.status === 'fulfilled')
       .map(result => result.value)
       .flat();
     
-    // Shuffle and limit headlines
-    shuffleArray(allHeadlines);
-    allHeadlines = allHeadlines.slice(0, MAX_HEADLINES);
+    // If not progressive, process all at once
+    if (!progressive) {
+      allHeadlines = finalHeadlines;
+      shuffleArray(allHeadlines);
+      allHeadlines = allHeadlines.slice(0, MAX_HEADLINES);
+      
+      if (renderCallback) {
+        renderCallback(allHeadlines);
+      }
+    } else {
+      // For progressive, we've already rendered, just ensure we have the final set
+      allHeadlines = finalHeadlines;
+      shuffleArray(allHeadlines);
+      allHeadlines = allHeadlines.slice(0, MAX_HEADLINES);
+    }
     
-    // Cache the results
+    // Cache the final results
     cacheHeadlines(allHeadlines);
+    
+    // Clear progressive callback
+    progressiveRenderCallback = null;
     
     return allHeadlines;
   }
@@ -249,34 +328,60 @@
   }
 
   // Render headlines to page (optimized with DocumentFragment)
-  function renderHeadlines(headlines) {
+  // Supports incremental rendering for progressive updates
+  function renderHeadlines(headlines, append = false) {
     const container = document.getElementById('headlines-container');
     if (!container) {
       console.error('Headlines container not found');
       return;
     }
 
-    // Clear container
-    container.innerHTML = '';
+    // Clear container only if not appending
+    if (!append) {
+      container.innerHTML = '';
+    }
 
     // Use DocumentFragment for better performance
     const fragment = document.createDocumentFragment();
     
+    // Get existing headline IDs to avoid duplicates
+    const existingIds = new Set();
+    if (append) {
+      container.querySelectorAll('.floating-headline').forEach(el => {
+        const id = el.getAttribute('data-headline-id');
+        if (id) existingIds.add(id);
+      });
+    }
+    
     // Create headline elements
+    let newCount = 0;
     headlines.forEach((headline, index) => {
+      const headlineId = headline.id || `${headline.source}-${headline.title}`;
+      
+      // Skip if already rendered (for incremental updates)
+      if (append && existingIds.has(headlineId)) {
+        return;
+      }
+      
       const element = createHeadlineElement(headline);
+      element.setAttribute('data-headline-id', headlineId);
       fragment.appendChild(element);
       
-      // Stagger appearance
+      // Stagger appearance (reduced delay for faster initial appearance)
       element.style.opacity = '0';
+      const delay = append ? newCount * 20 : index * 20; // Even faster for incremental
       setTimeout(() => {
-        element.style.transition = 'opacity 0.5s';
+        element.style.transition = 'opacity 0.2s';
         element.style.opacity = '1';
-      }, index * 50); // Reduced delay for faster appearance
+      }, delay);
+      
+      newCount++;
     });
     
     // Append all at once for better performance
-    container.appendChild(fragment);
+    if (fragment.children.length > 0) {
+      container.appendChild(fragment);
+    }
   }
 
   // Initialize when DOM is ready
@@ -288,18 +393,30 @@
       return;
     }
 
-    // Fetch and render headlines (with callback for progressive rendering)
-    fetchAllHeadlines((headlines) => {
+    // Set up progressive rendering callback (for incremental updates)
+    progressiveRenderCallback = (headlines) => {
       if (headlines && headlines.length > 0) {
-        renderHeadlines(headlines);
+        // Use incremental rendering for progressive updates
+        const isFirstRender = container.children.length === 0;
+        renderHeadlines(headlines, !isFirstRender);
       }
-    }).then(headlines => {
-      if (headlines && headlines.length > 0) {
-        renderHeadlines(headlines);
-      } else {
-        console.warn('No headlines fetched');
-      }
-    });
+    };
+
+    // If we have pre-loaded headlines from cache, render immediately
+    if (preloadedHeadlines && preloadedHeadlines.length > 0) {
+      renderHeadlines(preloadedHeadlines);
+      // Still fetch fresh headlines in background for next time
+      fetchAllHeadlines();
+    } else {
+      // Start fetching with progressive rendering enabled
+      // Headlines will appear as soon as the first feed responds
+      fetchAllHeadlines((headlines) => {
+        // Final callback after all feeds complete
+        if (headlines && headlines.length > 0) {
+          renderHeadlines(headlines);
+        }
+      }, true); // Enable progressive rendering
+    }
 
     // Update container size on window resize (debounced for performance)
     const debouncedResize = debounce(() => {

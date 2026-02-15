@@ -22,6 +22,16 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    
+    {% if page.url == '/' or page.url == '/index.html' %}
+    <!-- Preload hints for news headlines (homepage only) -->
+    <link rel="dns-prefetch" href="https://api.allorigins.win">
+    <link rel="preconnect" href="https://api.allorigins.win" crossorigin>
+    <link rel="dns-prefetch" href="https://rss.nytimes.com">
+    <link rel="dns-prefetch" href="https://rss.cnn.com">
+    <link rel="dns-prefetch" href="http://feeds.bbci.co.uk">
+    <link rel="dns-prefetch" href="https://feeds.npr.org">
+    {% endif %}
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
