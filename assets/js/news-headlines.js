@@ -53,35 +53,11 @@
   // Maximum items to parse per feed (performance optimization)
   const MAX_ITEMS_PER_FEED = 15;
   
-  // Cache settings
-  const CACHE_KEY = 'news-headlines-cache';
-  const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
-  
   // Request timeout (milliseconds) - reduced for faster initial appearance
   const REQUEST_TIMEOUT = 6000; // 6 seconds
 
   // Store all headlines
   let allHeadlines = [];
-  
-  // Store headlines ready for immediate rendering (pre-loaded from cache)
-  let preloadedHeadlines = null;
-  
-  // Check cache immediately on script load (before DOM ready)
-  (function checkCacheEarly() {
-    try {
-      const cached = localStorage.getItem(CACHE_KEY);
-      if (cached) {
-        const { headlines, timestamp } = JSON.parse(cached);
-        const age = Date.now() - timestamp;
-        if (age < CACHE_DURATION) {
-          preloadedHeadlines = headlines;
-          console.log('Pre-loaded headlines from cache');
-        }
-      }
-    } catch (error) {
-      // Silently fail during early cache check
-    }
-  })();
   
   // Debounce helper
   function debounce(func, wait) {
@@ -176,41 +152,6 @@
     return headlines;
   }
 
-  // Get cached headlines if available and fresh
-  function getCachedHeadlines() {
-    try {
-      const cached = localStorage.getItem(CACHE_KEY);
-      if (!cached) return null;
-      
-      const { headlines, timestamp } = JSON.parse(cached);
-      const age = Date.now() - timestamp;
-      
-      if (age < CACHE_DURATION) {
-        return headlines;
-      }
-      
-      // Cache expired, remove it
-      localStorage.removeItem(CACHE_KEY);
-      return null;
-    } catch (error) {
-      console.error('Error reading cache:', error);
-      return null;
-    }
-  }
-  
-  // Save headlines to cache
-  function cacheHeadlines(headlines) {
-    try {
-      const cacheData = {
-        headlines,
-        timestamp: Date.now()
-      };
-      localStorage.setItem(CACHE_KEY, JSON.stringify(cacheData));
-    } catch (error) {
-      console.error('Error caching headlines:', error);
-    }
-  }
-  
   // Progressive rendering: render headlines as they arrive
   let renderedHeadlines = new Set();
   let progressiveRenderCallback = null;
@@ -241,18 +182,8 @@
     }
   }
 
-  // Fetch all RSS feeds with caching and progressive rendering
+  // Fetch all RSS feeds with progressive rendering
   async function fetchAllHeadlines(renderCallback = null, progressive = false) {
-    // Check cache first
-    const cached = getCachedHeadlines();
-    if (cached) {
-      console.log('Using cached headlines');
-      if (renderCallback) {
-        renderCallback(cached);
-      }
-      return cached;
-    }
-
     // Set up progressive rendering if requested
     if (progressive && renderCallback) {
       progressiveRenderCallback = renderCallback;
@@ -300,9 +231,6 @@
       shuffleArray(allHeadlines);
       allHeadlines = allHeadlines.slice(0, MAX_HEADLINES);
     }
-    
-    // Cache the final results
-    cacheHeadlines(allHeadlines);
     
     // Clear progressive callback
     progressiveRenderCallback = null;
@@ -434,21 +362,14 @@
       }
     };
 
-    // If we have pre-loaded headlines from cache, render immediately
-    if (preloadedHeadlines && preloadedHeadlines.length > 0) {
-      renderHeadlines(preloadedHeadlines);
-      // Still fetch fresh headlines in background for next time
-      fetchAllHeadlines();
-    } else {
-      // Start fetching with progressive rendering enabled
-      // Headlines will appear as soon as the first feed responds
-      fetchAllHeadlines((headlines) => {
-        // Final callback after all feeds complete
-        if (headlines && headlines.length > 0) {
-          renderHeadlines(headlines);
-        }
-      }, true); // Enable progressive rendering
-    }
+    // Start fetching with progressive rendering enabled
+    // Headlines will appear as soon as the first feed responds
+    fetchAllHeadlines((headlines) => {
+      // Final callback after all feeds complete
+      if (headlines && headlines.length > 0) {
+        renderHeadlines(headlines);
+      }
+    }, true); // Enable progressive rendering
 
     // Update container size on window resize (debounced for performance)
     const debouncedResize = debounce(() => {
