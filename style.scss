@@ -816,6 +816,301 @@ footer {
   }
 }
 
+// 404 Page - Inferno Theme with Gustave Doré illustration
+body.inferno-404-page {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.inferno-404 {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0a0a0a;
+  
+  // Dark overlay for text contrast
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+  }
+}
+
+.inferno-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.inferno-image {
+  width: 90vw;
+  height: 70vh;
+  max-width: 1000px;
+  max-height: 750px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_8_%28Canto_III_-_Abandon_all_hope_ye_who_enter_here%29.jpg/2820px-Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_8_%28Canto_III_-_Abandon_all_hope_ye_who_enter_here%29.jpg');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: brightness(0.75);
+  transition: filter 0.3s ease, transform 0.2s ease;
+  margin: 20px 0;
+  
+  @include mobile {
+    width: 95vw;
+    height: 65vh;
+    max-width: none;
+    max-height: none;
+    margin: 15px 0;
+  }
+  
+  &:hover {
+    filter: brightness(0.85);
+    transform: scale(1.01);
+  }
+  
+  &:active {
+    transform: scale(0.99);
+  }
+}
+
+// Neon 1990s-style 404 with wave animation
+@keyframes wave-pulse {
+  0%, 100% {
+    transform: scaleY(1) translateY(0);
+    filter: brightness(1) drop-shadow(0 0 10px #00ffff) drop-shadow(0 0 20px #00ffff) drop-shadow(0 0 30px #ff00ff);
+  }
+  25% {
+    transform: scaleY(1.1) translateY(-5px);
+    filter: brightness(1.2) drop-shadow(0 0 15px #00ffff) drop-shadow(0 0 25px #ff00ff) drop-shadow(0 0 35px #00ffff);
+  }
+  50% {
+    transform: scaleY(0.95) translateY(3px);
+    filter: brightness(0.9) drop-shadow(0 0 12px #ff00ff) drop-shadow(0 0 22px #00ffff) drop-shadow(0 0 32px #ff00ff);
+  }
+  75% {
+    transform: scaleY(1.05) translateY(-2px);
+    filter: brightness(1.1) drop-shadow(0 0 14px #00ffff) drop-shadow(0 0 24px #ff00ff) drop-shadow(0 0 34px #00ffff);
+  }
+}
+
+@keyframes wave-undulate {
+  0%, 100% {
+    transform: skewY(0deg) scaleX(1);
+  }
+  25% {
+    transform: skewY(2deg) scaleX(1.02);
+  }
+  50% {
+    transform: skewY(-2deg) scaleX(0.98);
+  }
+  75% {
+    transform: skewY(1deg) scaleX(1.01);
+  }
+}
+
+.error-404 {
+  position: relative;
+  z-index: 2;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: 'Arial Black', 'Impact', sans-serif;
+  color: #00ffff;
+  text-shadow: 
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 30px #00ffff,
+    0 0 40px #ff00ff,
+    0 0 50px #ff00ff,
+    0 0 60px #ff00ff,
+    2px 2px 0px #000,
+    -2px -2px 0px #ff00ff;
+  letter-spacing: 20px;
+  margin-bottom: 30px;
+  animation: wave-pulse 2s ease-in-out infinite, wave-undulate 3s ease-in-out infinite;
+  transform-origin: center center;
+  
+  @include mobile {
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+  }
+  
+  // Individual character wave effect
+  &::before {
+    content: '404';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ff00ff;
+    z-index: -1;
+    animation: wave-undulate 2.5s ease-in-out infinite reverse;
+    opacity: 0.7;
+  }
+}
+
+.dante-attribution {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(139, 0, 0, 0.3);
+  
+  .dante-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(255, 200, 0, 0.9);
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 
+      2px 2px 4px rgba(0, 0, 0, 0.9),
+      0 0 15px rgba(255, 200, 0, 0.3);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    
+    @include mobile {
+      font-size: 22px;
+      letter-spacing: 2px;
+    }
+  }
+  
+  .dante-subtitle {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.dante-quote {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 
+    2px 2px 6px rgba(0, 0, 0, 0.9),
+    0 0 12px rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  max-width: 550px;
+  
+  @include mobile {
+    padding: 15px 20px;
+    max-width: 85vw;
+    margin-bottom: 15px;
+  }
+  
+  .quote-line {
+    font-size: 20px;
+    line-height: 1.7;
+    margin: 8px 0;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    
+    @include mobile {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 6px 0;
+    }
+  }
+}
+
+.inferno-warning {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0;
+  
+  .warning-text {
+    font-size: 14px;
+    color: rgba(255, 200, 0, 0.95);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+      2px 2px 4px rgba(0, 0, 0, 0.9),
+      0 0 10px rgba(255, 200, 0, 0.5);
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 18px;
+    border-radius: 4px;
+    display: inline-block;
+    
+    @include mobile {
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      padding: 8px 12px;
+    }
+  }
+}
+
+.return-link {
+  position: relative;
+  z-index: 3;
+  margin-top: 30px;
+  padding: 12px 28px;
+  background: rgba(139, 0, 0, 0.6);
+  border: 2px solid rgba(255, 200, 0, 0.8);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+  box-shadow: 
+    0 0 20px rgba(255, 200, 0, 0.3),
+    inset 0 0 10px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  white-space: nowrap;
+  
+  @include mobile {
+    font-size: 12px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+  }
+  
+  &:hover {
+    background: rgba(139, 0, 0, 0.8);
+    border-color: rgba(255, 200, 0, 0.95);
+    box-shadow: 
+      0 0 30px rgba(255, 200, 0, 0.5),
+      inset 0 0 15px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
