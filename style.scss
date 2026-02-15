@@ -864,7 +864,17 @@ body.inferno-404-page {
   text-align: center;
 }
 
+// Hidden checkbox for CSS-only toggle
+.image-toggle-checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
 .inferno-image {
+  display: block;
   width: 90vw;
   height: 70vh;
   max-width: 1000px;
@@ -874,8 +884,9 @@ body.inferno-404-page {
   background-position: center center;
   background-repeat: no-repeat;
   filter: brightness(0.75);
-  transition: filter 0.3s ease, transform 0.2s ease;
+  transition: filter 0.3s ease, transform 0.2s ease, background-image 0.3s ease;
   margin: 20px 0;
+  cursor: pointer;
   
   @include mobile {
     width: 95vw;
@@ -893,6 +904,13 @@ body.inferno-404-page {
   &:active {
     transform: scale(0.99);
   }
+  
+}
+
+// Toggle to Lucifer image when checkbox is checked
+.image-toggle-checkbox:checked + .inferno-image {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/ad/DVinfernoLuciferKingOfHell_m.jpg');
+}
 }
 
 // Neon 1990s-style 404 with wave animation
