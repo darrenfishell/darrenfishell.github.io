@@ -40,10 +40,11 @@ dev: install
 build:
 	@$(RUN_RUBY) bundle exec jekyll build
 
-# Remove generated site and optional bundle cache
+# Remove generated site, Jekyll cache, and dependency metadata (fixes stale include content)
 clean:
 	rm -rf _site
 	rm -rf .jekyll-cache
+	rm -f .jekyll-metadata
 
 # Ruby setup when install fails (e.g. racc, commonmarker on system Ruby or Ruby 4.x)
 help-ruby:

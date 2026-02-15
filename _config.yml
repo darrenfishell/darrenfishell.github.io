@@ -49,6 +49,10 @@ url: http://darrenfishell.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# Disable incremental build so pages that use {% include %} rebuild when includes change
+# (avoids stale homepage when _includes/about-bio.md is edited)
+incremental: false
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
