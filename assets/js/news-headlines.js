@@ -6,10 +6,42 @@
 
   // RSS Feed URLs
   const RSS_FEEDS = {
+    // General News
     nyt: 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',
     cnn: 'https://rss.cnn.com/rss/edition.rss',
     bbc: 'http://feeds.bbci.co.uk/news/rss.xml',
-    npr: 'https://feeds.npr.org/1001/rss.xml'
+    npr: 'https://feeds.npr.org/1001/rss.xml',
+    fox: 'https://feeds.foxnews.com/foxnews/latest',
+    breitbart: 'https://feeds.breitbart.com/breitbart',
+    wsj: 'https://feeds.wsj.com/wallstreetjournal',
+    
+    // Technology
+    theverge: 'https://www.theverge.com/rss/index.xml',
+    wired: 'https://www.wired.com/feed/rss',
+    techcrunch: 'https://techcrunch.com/feed/',
+    arstechnica: 'http://feeds.arstechnica.com/arstechnica/index',
+    reutersTech: 'https://www.reuters.com/rssFeed/technologyNews',
+    
+    // Business / Finance
+    bloomberg: 'https://www.bloomberg.com/feed/podcast/etf-report.xml',
+    financialtimes: 'https://www.ft.com/?format=rss',
+    economistBiz: 'https://www.economist.com/business/rss.xml',
+    
+    // Science & Health
+    nature: 'https://www.nature.com/nature/articles?type=article&format=rss',
+    sciencemag: 'https://www.sciencemag.org/rss/current.xml',
+    newscientist: 'https://www.newscientist.com/feed/home/',
+    
+    // World / Politics
+    aljazeera: 'https://www.aljazeera.com/xml/rss/all.xml',
+    reutersWorld: 'https://www.reuters.com/rssFeed/worldNews',
+    politico: 'https://www.politico.com/rss/politicopicks.xml',
+    guardianWorld: 'https://www.theguardian.com/world/rss',
+    apNews: 'https://apnews.com/apf-topnews&output=rss',
+    
+    // Culture / Entertainment
+    rollingStone: 'https://www.rollingstone.com/music/music-news/feed/',
+    pitchfork: 'https://pitchfork.com/rss/news/'
   };
 
   // CORS Proxy (fallback if direct access fails)
