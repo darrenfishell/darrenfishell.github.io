@@ -342,6 +342,10 @@ nav {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.posts > .post:not(:first-child) {
+  padding-top: 2em;
+}
+
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
@@ -910,7 +914,6 @@ body.inferno-404-page {
 // Toggle to Lucifer image when checkbox is checked
 .image-toggle-checkbox:checked + .inferno-image {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/ad/DVinfernoLuciferKingOfHell_m.jpg');
-}
 }
 
 // Neon 1990s-style 404 with wave animation
