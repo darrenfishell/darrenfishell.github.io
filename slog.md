@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /slog/
+---
+
+<div class="posts">
+  {% for post in site.slog_posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        {{ post.date | date: "%B %d, %Y" }}
+      <div class="entry">
+        <em>{{ post.content | markdownify }}</em>
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+

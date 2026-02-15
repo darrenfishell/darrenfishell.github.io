@@ -86,4 +86,10 @@ exclude:
   - CNAME
   - vendor
 
+# Collections
+collections:
+  slog_posts:
+    output: true
+    permalink: /:collection/:name/
+
 theme: jekyll-theme-cayman
