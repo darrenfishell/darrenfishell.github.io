@@ -2,3 +2,9 @@
 _drafts/
 _archive/
 .obsidian
+vendor/
+_site/
+.jekyll-cache
+Gemfile
+Gemfile.lock
+Makefile
