@@ -521,17 +521,25 @@ footer {
     height: 100%;
     z-index: 0;
     background-image: 
-      radial-gradient(2px 2px at 20% 30%, #fff, transparent),
-      radial-gradient(2px 2px at 60% 70%, #fff, transparent),
-      radial-gradient(1px 1px at 50% 50%, #fff, transparent),
-      radial-gradient(1px 1px at 80% 10%, #fff, transparent),
-      radial-gradient(2px 2px at 90% 60%, #fff, transparent),
-      radial-gradient(1px 1px at 33% 80%, #fff, transparent),
-      radial-gradient(1px 1px at 10% 40%, #fff, transparent);
+      radial-gradient(1.5px 1.5px at 17.3% 28.7%, #fff, transparent),
+      radial-gradient(1px 1px at 43.1% 61.2%, #fff, transparent),
+      radial-gradient(2px 2px at 67.8% 34.5%, #fff, transparent),
+      radial-gradient(1px 1px at 12.4% 78.9%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 89.2% 15.6%, #fff, transparent),
+      radial-gradient(1px 1px at 31.7% 52.3%, #fff, transparent),
+      radial-gradient(2px 2px at 55.9% 87.1%, #fff, transparent),
+      radial-gradient(1px 1px at 76.4% 23.8%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 8.6% 45.2%, #fff, transparent),
+      radial-gradient(1px 1px at 94.3% 68.4%, #fff, transparent),
+      radial-gradient(2px 2px at 24.1% 91.7%, #fff, transparent),
+      radial-gradient(1px 1px at 38.9% 16.3%, #fff, transparent),
+      radial-gradient(1.5px 1.5px at 62.5% 49.8%, #fff, transparent),
+      radial-gradient(1px 1px at 85.7% 72.6%, #fff, transparent),
+      radial-gradient(1px 1px at 19.4% 37.1%, #fff, transparent);
     background-repeat: repeat;
-    background-size: 200px 200px;
+    background-size: 347px 283px;
     animation: twinkle 3s ease-in-out infinite alternate;
-    opacity: 0.8;
+    opacity: 0.6;
     pointer-events: none;
   }
 }
