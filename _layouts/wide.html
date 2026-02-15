@@ -15,7 +15,7 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body>
+  <body{% if page.date %} class="content-page"{% endif %}>
     {% include header.html %}
 <div id="main" role="main" class="wide">
       {{ content }}

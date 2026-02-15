@@ -1,17 +1,35 @@
 
 .highlight {
-  background-color: #efefef;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333;
   padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 3px 3px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px rgba(0,0,0,0.3);
   margin: 20px 0 20px 0;
   overflow: scroll;
+  border-radius: 5px;
 }
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  color: #333;
+}
+
+pre {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow-x: auto;
+  
+  code {
+    background-color: transparent;
+    padding: 0;
+    color: #333;
+  }
 }
 
 .highlight .c { color: #586E75 } /* Comment */
