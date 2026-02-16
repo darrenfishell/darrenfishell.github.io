@@ -34,30 +34,24 @@ layout: default
   function enterHoleMode() {
     document.body.classList.add('news-hole-mode');
     if (ui) ui.setAttribute('aria-hidden', 'false');
-    updateCounter();
+    window.dispatchEvent(new CustomEvent('news-hole-mode-change', { detail: { active: true } }));
   }
 
   function exitHoleMode() {
     document.body.classList.remove('news-hole-mode');
     if (ui) ui.setAttribute('aria-hidden', 'true');
-  }
-
-  function updateCounter() {
-    if (!counterEl) return;
-    var container = document.getElementById('headlines-container');
-    var count = container ? container.querySelectorAll('.floating-headline').length : 0;
-    counterEl.textContent = count + ' unique headline' + (count === 1 ? '' : 's');
+    window.dispatchEvent(new CustomEvent('news-hole-mode-change', { detail: { active: false } }));
   }
 
   if (btn) btn.addEventListener('click', enterHoleMode);
   if (exitBtn) exitBtn.addEventListener('click', exitHoleMode);
+
+  // Counter is managed solely by news-headlines.js via this event
   window.addEventListener('headlines-count', function(e) {
     if (e.detail && e.detail.count !== undefined && counterEl) {
       counterEl.textContent = e.detail.count + ' unique headline' + (e.detail.count === 1 ? '' : 's');
     }
   });
-  // Update counter when entering hole mode (in case headlines already loaded)
-  window.addEventListener('headlines-rendered', updateCounter);
 })();
 </script>
 

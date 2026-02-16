@@ -695,7 +695,7 @@ body.news-hole-mode .news-hole-ui {
   padding: 0;
 }
 
-// Floating Headlines
+// Floating Headlines (containment helps performance with many nodes)
 .floating-headline {
   position: absolute;
   pointer-events: auto;
@@ -712,10 +712,14 @@ body.news-hole-mode .news-hole-ui {
               inset 0 0 10px rgba(255, 255, 255, 0.1);
   font-weight: bold;
   text-decoration: none;
-  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  // Single travel animation driven by per-element CSS custom properties
+  animation: headline-travel var(--duration, 20s) linear infinite;
+  transition: scale 0.2s, box-shadow 0.2s, background 0.2s;
+  contain: layout style paint;
+  content-visibility: auto;
 
   &:hover {
-    transform: scale(1.05);
+    scale: 1.05; // separate from animated transform so both apply
     z-index: 100;
     background: rgba(0, 0, 0, 0.95);
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.9), 
@@ -809,17 +813,15 @@ body.news-hole-mode .news-hole-ui {
     }
   }
 
-  // Animation types
-  &.anim-float {
-    animation: floatAround var(--animation-duration, 20s) linear infinite;
-  }
+}
 
-  &.anim-marquee {
-    animation: marqueeScroll var(--animation-duration, 15s) linear infinite;
-  }
+// When many headlines are on screen, use lighter effects to keep paint/composite fast
+#headlines-container.many-headlines .floating-headline {
+  backdrop-filter: blur(2px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
 
-  &.anim-drift {
-    animation: drift var(--animation-duration, 25s) ease-in-out infinite;
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.8);
   }
 }
 
@@ -831,51 +833,15 @@ body.news-hole-mode .news-hole-ui {
   51%, 100% { opacity: 0.3; }
 }
 
-// Floating around
-@keyframes floatAround {
-  0% {
-    transform: translate(0, 0) rotate(0deg);
+// Direction-based headline travel: element starts off-screen (at its CSS left/top),
+// translates across the viewport by --travel-x/--travel-y, and ends off-screen on the
+// opposite edge.  Both 0% and 100% are off-screen so `infinite` loops are seamless.
+@keyframes headline-travel {
+  from {
+    transform: rotate(var(--rot-from, 0deg));
   }
-  25% {
-    transform: translate(100px, -50px) rotate(5deg);
-  }
-  50% {
-    transform: translate(-50px, -100px) rotate(-5deg);
-  }
-  75% {
-    transform: translate(-100px, 50px) rotate(3deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-}
-
-// Marquee scrolling
-@keyframes marqueeScroll {
-  0% {
-    transform: translateX(-100vw) translateY(0);
-  }
-  50% {
-    transform: translateX(100vw) translateY(100px);
-  }
-  100% {
-    transform: translateX(-100vw) translateY(0);
-  }
-}
-
-// Drifting
-@keyframes drift {
-  0% {
-    transform: translate(0, 0) rotate(0deg);
-  }
-  33% {
-    transform: translate(150px, 80px) rotate(8deg);
-  }
-  66% {
-    transform: translate(-80px, 150px) rotate(-8deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(0deg);
+  to {
+    transform: translate(var(--travel-x, 100vw), var(--travel-y, 0)) rotate(var(--rot-to, 0deg));
   }
 }
 
