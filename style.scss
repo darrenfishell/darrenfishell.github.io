@@ -701,6 +701,7 @@ body.news-hole-mode .news-hole-ui {
   pointer-events: auto;
   z-index: 2;
   cursor: pointer;
+  width: max-content;   // size to content regardless of left/top position
   max-width: 320px;
   padding: 12px 18px;
   border: 3px solid;
