@@ -4,44 +4,14 @@
 (function() {
   'use strict';
 
-  // RSS Feed URLs
+  // RSS Feed URLs (revised to exclude sources that timeout or block CORS)
   const RSS_FEEDS = {
     // General News
     nyt: 'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',
-    cnn: 'https://rss.cnn.com/rss/edition.rss',
-    bbc: 'http://feeds.bbci.co.uk/news/rss.xml',
-    npr: 'https://feeds.npr.org/1001/rss.xml',
     fox: 'https://feeds.foxnews.com/foxnews/latest',
-    breitbart: 'https://feeds.breitbart.com/breitbart',
-    wsj: 'https://feeds.wsj.com/wallstreetjournal',
-    
-    // Technology
-    theverge: 'https://www.theverge.com/rss/index.xml',
-    wired: 'https://www.wired.com/feed/rss',
-    techcrunch: 'https://techcrunch.com/feed/',
-    arstechnica: 'http://feeds.arstechnica.com/arstechnica/index',
-    reutersTech: 'https://www.reuters.com/rssFeed/technologyNews',
-    
-    // Business / Finance
-    bloomberg: 'https://www.bloomberg.com/feed/podcast/etf-report.xml',
-    financialtimes: 'https://www.ft.com/?format=rss',
-    economistBiz: 'https://www.economist.com/business/rss.xml',
-    
-    // Science & Health
-    nature: 'https://www.nature.com/nature/articles?type=article&format=rss',
-    sciencemag: 'https://www.sciencemag.org/rss/current.xml',
-    newscientist: 'https://www.newscientist.com/feed/home/',
-    
-    // World / Politics
-    aljazeera: 'https://www.aljazeera.com/xml/rss/all.xml',
-    reutersWorld: 'https://www.reuters.com/rssFeed/worldNews',
     politico: 'https://www.politico.com/rss/politicopicks.xml',
-    guardianWorld: 'https://www.theguardian.com/world/rss',
-    apNews: 'https://apnews.com/apf-topnews&output=rss',
-    
-    // Culture / Entertainment
-    rollingStone: 'https://www.rollingstone.com/music/music-news/feed/',
-    pitchfork: 'https://pitchfork.com/rss/news/'
+    // Technology
+    wired: 'https://www.wired.com/feed/rss',
   };
 
   // CORS Proxy (fallback if direct access fails)
@@ -85,10 +55,10 @@
   // Fetch RSS feed with CORS proxy fallback and timeout
   async function fetchRSSFeed(url, source) {
     try {
-      // Some feeds are known to have CORS issues, skip direct fetch
-      const skipDirectFetch = ['bbc', 'cnn'].includes(source);
+      // Skip direct fetch for sources that consistently block CORS (use proxy only)
+      const skipDirectFetch = [];
       
-      if (!skipDirectFetch) {
+      if (!skipDirectFetch.includes(source)) {
         try {
           // Try direct fetch first with timeout
           let response = await fetchWithTimeout(url, {}, REQUEST_TIMEOUT);
@@ -326,22 +296,40 @@
       const element = createHeadlineElement(headline);
       element.setAttribute('data-headline-id', headlineId);
       fragment.appendChild(element);
-      
-      // Stagger appearance (reduced delay for faster initial appearance)
-      element.style.opacity = '0';
-      const delay = append ? newCount * 20 : index * 20; // Even faster for incremental
-      setTimeout(() => {
-        element.style.transition = 'opacity 0.2s';
-        element.style.opacity = '1';
-      }, delay);
-      
       newCount++;
     });
     
+    const numNew = fragment.children.length;
+    if (numNew === 0) return;
+
     // Append all at once for better performance
-    if (fragment.children.length > 0) {
-      container.appendChild(fragment);
+    container.appendChild(fragment);
+
+    // Stagger visibility and update counter as each headline "appears" (continuous counter updates)
+    const allHeadlines = container.querySelectorAll('.floating-headline');
+    const baseCount = allHeadlines.length - numNew;
+    const newElements = Array.from(allHeadlines).slice(-numNew);
+
+    function updateNewsHoleCounter(count) {
+      const counterEl = document.getElementById('news-hole-counter');
+      if (counterEl) {
+        counterEl.textContent = count + ' unique headline' + (count === 1 ? '' : 's');
+      }
+      window.dispatchEvent(new CustomEvent('headlines-count', { detail: { count } }));
     }
+
+    newElements.forEach((element, i) => {
+      element.style.opacity = '0';
+      const delay = i * 20;
+      setTimeout(() => {
+        element.style.transition = 'opacity 0.2s';
+        element.style.opacity = '1';
+        const shownCount = baseCount + i + 1;
+        updateNewsHoleCounter(shownCount);
+      }, delay);
+    });
+
+    window.dispatchEvent(new CustomEvent('headlines-rendered'));
   }
 
   // Initialize when DOM is ready

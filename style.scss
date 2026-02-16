@@ -562,6 +562,124 @@ footer {
 }
 
 
+// News hole mode: hide header and footer; show only #headlines-container (+ counter/exit UI)
+// #headlines-container lives inside #main, so we must hide only the *other* children of #main
+body.news-hole-mode {
+  .wrapper-masthead,
+  .wrapper-footer {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    left: -9999px;
+  }
+
+  #main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+    background: transparent;
+    visibility: visible;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  // Hide everything in #main except the headlines container and the hole-mode UI (counter + exit)
+  #main > *:not(#headlines-container):not(.news-hole-ui) {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    left: -9999px;
+  }
+
+  #headlines-container {
+    visibility: visible;
+    z-index: 10;
+    pointer-events: auto;
+  }
+}
+
+// News hole entry button (top of homepage)
+.news-hole-entry {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 15px;
+
+  .news-hole-btn {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: rgba(255, 0, 255, 0.2);
+    color: #ff66ff;
+    border: 2px solid #ff00ff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+
+    &:hover {
+      background: rgba(255, 0, 255, 0.4);
+      transform: scale(1.02);
+    }
+  }
+}
+
+// News hole mode overlay (counter + exit) — visible only in hole mode
+.news-hole-ui {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  pointer-events: none;
+
+  .news-hole-top {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    pointer-events: none;
+    z-index: 101;
+  }
+
+  .news-hole-counter {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 20px;
+    color: #00ffff;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+    margin: 0 0 12px 0;
+  }
+
+  .news-hole-btn.news-hole-exit {
+    display: inline-block;
+    pointer-events: auto;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 16px;
+    padding: 10px 24px;
+    background: rgba(0, 255, 255, 0.2);
+    color: #66ffff;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+
+    &:hover {
+      background: rgba(0, 255, 255, 0.4);
+      transform: scale(1.02);
+    }
+  }
+}
+
+body.news-hole-mode .news-hole-ui {
+  display: block;
+}
+
 // Headlines Container
 #headlines-container {
   position: fixed;
