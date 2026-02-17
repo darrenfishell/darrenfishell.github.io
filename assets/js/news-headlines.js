@@ -33,7 +33,7 @@
   const MAX_HEADLINES = 200;
   // Maximum number of headlines rendered on screen at once (keeps DOM/performance in check)
   const MAX_HEADLINES_ONSCREEN_DEFAULT = 30;
-  const MAX_HEADLINES_ONSCREEN_HOLE = 80;
+  const MAX_HEADLINES_ONSCREEN_HOLE = 20;
   let maxHeadlinesOnScreen = MAX_HEADLINES_ONSCREEN_DEFAULT;
 
   // Maximum items to parse per feed (most news RSS feeds carry 25-50 items)
@@ -51,8 +51,149 @@
 
   // Store all headlines (pool of up to MAX_HEADLINES)
   let allHeadlines = [];
-  // Unique URLs that have ever been shown on screen (counter = this.size, can grow to 200)
+  // Unique URLs that have been shown on screen (used by rotation to pick unseen headlines)
   let displayedHeadlineUrls = new Set();
+
+  // News hole growth state
+  let holeStartTime = 0;
+  let holeTargetScale = 1;
+  let holeConsumed = false;
+  const HOLE_GROW_DURATION = 30000; // ms — time for hole to consume the full screen
+
+  function computeHoleTargetScale() {
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const diagonal = Math.sqrt(vw * vw + vh * vh);
+    const baseSize = vw < 768 ? 140 : 200;
+    return (diagonal / baseSize) * 1.2;
+  }
+
+  // Called each time a headline is consumed by the hole.
+  // Growth is proportional to elapsed time since hole mode began.
+  function growHole() {
+    if (!document.body.classList.contains('news-hole-mode')) return;
+    if (holeStartTime === 0) return;
+    const vortex = document.getElementById('news-hole-vortex');
+    if (!vortex) return;
+
+    const elapsed = Date.now() - holeStartTime;
+    const progress = Math.min(1, elapsed / HOLE_GROW_DURATION);
+    const scale = 1 + (holeTargetScale - 1) * progress;
+    vortex.style.setProperty('--hole-scale', scale.toFixed(3));
+
+    if (progress >= 1 && !holeConsumed) {
+      holeConsumed = true;
+      startEndgameSequence();
+    }
+  }
+
+  function resetHoleGrowth() {
+    holeStartTime = 0;
+    holeTargetScale = 1;
+    holeConsumed = false;
+    const vortex = document.getElementById('news-hole-vortex');
+    if (vortex) {
+      vortex.style.transition = 'none';
+      vortex.style.setProperty('--hole-scale', '1');
+      requestAnimationFrame(() => {
+        if (vortex) vortex.style.transition = '';
+      });
+    }
+    // Remove typing overlay if present
+    const overlay = document.getElementById('hole-consumed-overlay');
+    if (overlay) overlay.remove();
+  }
+
+  // Endgame: hole has consumed the screen. Let remaining headlines drain into
+  // the hole naturally (no new ones spawn thanks to holeConsumed flag).
+  // Once the last headline disappears, show the typing cursor.
+  function startEndgameSequence() {
+    waitForHeadlinesDrained();
+  }
+
+  function waitForHeadlinesDrained() {
+    if (!document.body.classList.contains('news-hole-mode')) return;
+    const ctr = document.getElementById('headlines-container');
+    const remaining = ctr ? ctr.querySelectorAll('.floating-headline').length : 0;
+    if (remaining === 0) {
+      // All headlines gone — pause briefly then show overlay
+      setTimeout(() => {
+        if (!document.body.classList.contains('news-hole-mode')) return;
+        showTypingOverlay();
+      }, 800);
+    } else {
+      // Check again soon
+      setTimeout(waitForHeadlinesDrained, 300);
+    }
+  }
+
+  function showTypingOverlay() {
+    // Create overlay
+    const overlay = document.createElement('div');
+    overlay.id = 'hole-consumed-overlay';
+    overlay.className = 'hole-consumed-overlay';
+    const textEl = document.createElement('span');
+    textEl.className = 'typing-text';
+    textEl.textContent = '';
+    overlay.appendChild(textEl);
+    document.body.appendChild(overlay);
+
+    // Wait a beat with just the blinking cursor, then start typing
+    setTimeout(() => {
+      if (!document.body.classList.contains('news-hole-mode')) return;
+      runTypingAnimation(textEl);
+    }, 1200);
+  }
+
+  // Human-like typing with typos and backspaces
+  function runTypingAnimation(textEl) {
+    // Sequence of actions: strings are typed, 'DELETE' removes last char, 'PAUSE' waits
+    const sequence = [
+      'W', 'h', 'a', 't', "'", 's', ' ',
+      'g', 'o', 'i', 'n', 'h',        // typo: 'h' instead of 'g'
+      'PAUSE',
+      'DELETE',
+      'g', ' ',
+      'o', 'n', ' ',
+      'w', 'i', 'h',                   // typo: 'h' instead of 'th'
+      'PAUSE',
+      'DELETE',
+      't', 'h', ' ',
+      'y', 'o', 'u', '?'
+    ];
+
+    let current = '';
+    let i = 0;
+
+    function getDelay(action) {
+      if (action === 'PAUSE') return 400 + Math.random() * 350;
+      if (action === 'DELETE') return 55 + Math.random() * 35;
+      // Regular character — variable human timing
+      return 70 + Math.random() * 90;
+    }
+
+    function step() {
+      if (!document.body.classList.contains('news-hole-mode')) return;
+      if (i >= sequence.length) return;
+
+      const action = sequence[i];
+      i++;
+
+      if (action === 'PAUSE') {
+        setTimeout(step, getDelay('PAUSE'));
+        return;
+      } else if (action === 'DELETE') {
+        current = current.slice(0, -1);
+      } else {
+        current += action;
+      }
+
+      textEl.textContent = current;
+      setTimeout(step, getDelay(action));
+    }
+
+    step();
+  }
 
   // Debounce helper
   function debounce(func, wait) {
@@ -308,19 +449,162 @@
     element.style.setProperty('--rot-from', `${((Math.random() - 0.5) * 6).toFixed(1)}deg`);
     element.style.setProperty('--rot-to',   `${((Math.random() - 0.5) * 6).toFixed(1)}deg`);
 
+    // In news hole mode: fly in from off-screen (same starting positions as homepage)
+    // then animate toward the center vortex with gravitational physics
+    if (document.body.classList.contains('news-hole-mode')) {
+      const estW = vw < 768 ? 210 : 280;
+      const estH = 70;
+      animateToHole(element, dir.left, dir.top, {
+        elWidth: estW,
+        elHeight: estH
+      });
+    }
+
     return element;
   }
 
-  function setNewsHoleCounter(count) {
-    const counterEl = document.getElementById('news-hole-counter');
-    if (counterEl) {
-      counterEl.textContent = count + ' unique headline' + (count === 1 ? '' : 's');
+  // Animate a headline toward the center hole using Web Animations API.
+  // Off-screen travel is fast (linear) so headlines appear on screen quickly.
+  // Once on screen the position curve slows down (t³ linger) then accelerates
+  // into the hole.  Scale/opacity stay at 1.0 until the headline has FULLY
+  // entered the viewport.
+  function animateToHole(element, fromX, fromY, opts) {
+    opts = opts || {};
+    const delay = opts.delay || 0;
+    const elW = opts.elWidth || 280;
+    const elH = opts.elHeight || 70;
+
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const centerX = vw / 2;
+    const centerY = vh / 2;
+
+    // Aim the element's visual center at the hole center, not its top-left corner
+    const dx = (centerX - elW / 2) - fromX;
+    const dy = (centerY - elH / 2) - fromY;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+
+    // Overall duration scaled by distance
+    const speed = 80 + Math.random() * 40; // px/s
+    const duration = Math.max(5000, Math.min(14000, (distance / speed) * 1000));
+
+    // Compute what fraction of the total distance the element must travel
+    // before it has FULLY entered the viewport (entire bounding box visible).
+    let entryPFrac = 0;
+    if (fromX < 0 && dx > 0) {
+      // Off-screen left — fully entered when left edge reaches x = 0
+      entryPFrac = Math.max(entryPFrac, -fromX / dx);
+    } else if (fromX + elW > vw && dx < 0) {
+      // Off-screen right — fully entered when right edge reaches x = vw
+      entryPFrac = Math.max(entryPFrac, (fromX + elW - vw) / (-dx));
     }
-    window.dispatchEvent(new CustomEvent('headlines-count', { detail: { count } }));
+    if (fromY < 0 && dy > 0) {
+      // Off-screen top — fully entered when top edge reaches y = 0
+      entryPFrac = Math.max(entryPFrac, -fromY / dy);
+    } else if (fromY + elH > vh && dy < 0) {
+      // Off-screen bottom — fully entered when bottom edge reaches y = vh
+      entryPFrac = Math.max(entryPFrac, (fromY + elH - vh) / (-dy));
+    }
+    entryPFrac = Math.min(entryPFrac, 0.80);
+
+    // Piecewise position curve:
+    //   Phase 1 (0 → flyInEnd): fast linear ramp to cross the off-screen gap
+    //   Phase 2 (flyInEnd → 1): t³ linger-then-accelerate for on-screen travel
+    // If already on screen (retargeted elements), use t³ for the whole thing.
+    const flyInEnd = entryPFrac > 0
+      ? Math.max(0.08, Math.min(0.18, entryPFrac * 0.35))
+      : 0;
+
+    function posFrac(t) {
+      if (flyInEnd <= 0) return Math.pow(t, 1.4);   // already on screen — gentle accel
+      if (t <= flyInEnd) return (t / flyInEnd) * entryPFrac; // fast fly-in
+      const rem = (t - flyInEnd) / (1 - flyInEnd);  // 0 → 1 for on-screen phase
+      return entryPFrac + (1 - entryPFrac) * Math.pow(rem, 1.3); // steady then accelerates into hole
+    }
+
+    // Shrink/fade thresholds: full size until fully inside viewport
+    const shrinkAt = entryPFrac + 0.05;
+    const fadeAt   = entryPFrac + 0.12;
+
+    const stops = [0, 0.10, 0.20, 0.35, 0.50, 0.65, 0.78, 0.88, 0.95, 1.0];
+    const keyframes = stops.map(t => {
+      const pFrac = posFrac(t);
+      const px = dx * pFrac;
+      const py = dy * pFrac;
+      // Scale: full size until fully on screen + buffer, then shrinks toward 0
+      const scale = t >= 1 ? 0
+        : pFrac <= shrinkAt ? 1
+        : Math.max(0, 1 - Math.pow((pFrac - shrinkAt) / (1 - shrinkAt), 0.7));
+      // Opacity: fully opaque a bit longer, then fades
+      const opacity = t >= 1 ? 0
+        : pFrac <= fadeAt ? 1
+        : Math.max(0, 1 - Math.pow((pFrac - fadeAt) / (1 - fadeAt), 0.8));
+
+      return {
+        transform: `translate3d(${px.toFixed(1)}px, ${py.toFixed(1)}px, 0) scale(${scale.toFixed(3)})`,
+        opacity: `${opacity.toFixed(3)}`,
+        offset: t
+      };
+    });
+
+    // Cancel any existing CSS travel animation
+    element.style.animation = 'none';
+    element.classList.add('hole-bound');
+
+    const anim = element.animate(keyframes, {
+      duration: duration,
+      easing: 'linear',   // keyframes encode the acceleration directly
+      fill: 'forwards',
+      delay: delay
+    });
+
+    // Self-sustaining: when consumed by the hole, grow the vortex and spawn a replacement
+    anim.onfinish = () => {
+      if (!element.parentNode) return;
+      element.remove();
+      growHole();
+
+      if (!document.body.classList.contains('news-hole-mode')) return;
+      if (holeConsumed) return; // hole filled the screen — no more headlines
+
+      const ctr = document.getElementById('headlines-container');
+      if (!ctr) return;
+
+      const urlKey = (h) => h.link || h.id || `${h.source}-${h.title}`;
+      let pool = allHeadlines.filter(h => !displayedHeadlineUrls.has(urlKey(h)));
+      if (pool.length === 0) pool = allHeadlines;
+      if (pool.length === 0) return;
+
+      const h = pool[Math.floor(Math.random() * pool.length)];
+      const el = createHeadlineElement(h);
+      el.setAttribute('data-headline-id', h.id || `${h.source}-${h.title}`);
+      el.setAttribute('data-headline-url', urlKey(h));
+      el.setAttribute('data-added-at', Date.now());
+      displayedHeadlineUrls.add(urlKey(h));
+      ctr.appendChild(el);
+    };
+
+    return anim;
+  }
+
+  // Retarget an existing on-screen headline to travel toward the hole.
+  // Captures the element's current visual position, cancels its CSS animation,
+  // repositions it in-place, then applies the gravitational animation.
+  function retargetToHole(el, delay) {
+    const rect = el.getBoundingClientRect();
+    // Set inline position to current visual location *before* cancelling
+    // the CSS animation so there is no visible jump when animation: none kicks in
+    el.style.left = rect.left + 'px';
+    el.style.top = rect.top + 'px';
+    animateToHole(el, rect.left, rect.top, {
+      delay: delay || 0,
+      elWidth: rect.width,
+      elHeight: rect.height
+    });
   }
 
   // Render headlines to page. Uses batched DOM insertion and limited stagger for performance.
-  // Never allows more than MAX_HEADLINES_ONSCREEN in the DOM. Counter = unique URLs that have entered the screen.
+  // Never allows more than MAX_HEADLINES_ONSCREEN in the DOM.
   function renderHeadlines(headlines, append = false) {
     const container = document.getElementById('headlines-container');
     if (!container) {
@@ -337,12 +621,10 @@
       }
       container.innerHTML = '';
       displayedHeadlineUrls.clear();
-      setNewsHoleCounter(0);
       headlines = headlines.slice(0, maxToShow);
     } else {
       const slotLeft = Math.max(0, maxToShow - existingCount);
       if (slotLeft === 0) {
-        setNewsHoleCounter(displayedHeadlineUrls.size);
         container.classList.toggle('many-headlines', existingCount >= maxToShow);
         return;
       }
@@ -366,7 +648,6 @@
     }
 
     if (toAdd.length === 0) {
-      setNewsHoleCounter(displayedHeadlineUrls.size);
       container.classList.toggle('many-headlines', container.children.length >= maxToShow);
       return;
     }
@@ -392,9 +673,6 @@
         }
       });
       container.appendChild(fragment);
-      if (!useStaggerForCount) {
-        setNewsHoleCounter(displayedHeadlineUrls.size);
-      }
 
       if (batchIndex === 0 && batchHeadlines.length <= STAGGER_CAP && !useBatched) {
         const newElements = Array.from(container.querySelectorAll('.floating-headline')).slice(-batchHeadlines.length);
@@ -405,7 +683,6 @@
             el.style.opacity = '1';
             const urlKey = el.getAttribute('data-headline-url') || batchHeadlines[i]?.link || batchHeadlines[i]?.id || `${batchHeadlines[i]?.source}-${batchHeadlines[i]?.title}`;
             if (urlKey) displayedHeadlineUrls.add(urlKey);
-            setNewsHoleCounter(displayedHeadlineUrls.size);
           }, i * staggerMs);
         });
       } else if (batchIndex === totalBatches - 1) {
@@ -469,6 +746,7 @@
 
     function startRotation() {
       setInterval(() => {
+        if (holeConsumed) return; // hole filled the screen — stop rotating
         const container = document.getElementById('headlines-container');
         if (!container || container.children.length === 0) return;
 
@@ -508,28 +786,44 @@
         } else {
           container.replaceChild(element, toRemove);
         }
-        setNewsHoleCounter(displayedHeadlineUrls.size);
         container.classList.toggle('many-headlines', container.children.length >= maxHeadlinesOnScreen);
       }, ROTATION_INTERVAL_MS);
     }
 
-    // Respond to news-hole-mode toggling: raise/lower the on-screen cap
+    // Respond to news-hole-mode toggling
     window.addEventListener('news-hole-mode-change', (e) => {
       const active = e.detail && e.detail.active;
-      const prevMax = maxHeadlinesOnScreen;
       maxHeadlinesOnScreen = active ? MAX_HEADLINES_ONSCREEN_HOLE : MAX_HEADLINES_ONSCREEN_DEFAULT;
 
-      if (maxHeadlinesOnScreen > prevMax && allHeadlines.length > 0) {
-        // Cap increased — fill new slots immediately
-        renderHeadlines(allHeadlines, true);
-      } else if (maxHeadlinesOnScreen < prevMax) {
-        // Cap decreased — trim excess DOM elements (remove oldest first)
-        const elements = Array.from(container.querySelectorAll('.floating-headline'));
-        if (elements.length > maxHeadlinesOnScreen) {
-          elements
-            .sort((a, b) => Number(a.getAttribute('data-added-at') || 0) - Number(b.getAttribute('data-added-at') || 0))
-            .slice(0, elements.length - maxHeadlinesOnScreen)
+      if (active) {
+        // Initialize hole growth tracking
+        holeStartTime = Date.now();
+        holeTargetScale = computeHoleTargetScale();
+
+        // Trim down to the hole-mode cap so the screen isn't overcrowded
+        const all = Array.from(container.querySelectorAll('.floating-headline'));
+        if (all.length > maxHeadlinesOnScreen) {
+          all.sort((a, b) => Number(a.getAttribute('data-added-at') || 0) - Number(b.getAttribute('data-added-at') || 0))
+            .slice(0, all.length - maxHeadlinesOnScreen)
             .forEach(el => el.remove());
+        }
+        // Retarget remaining headlines toward the hole
+        const existing = Array.from(container.querySelectorAll('.floating-headline:not(.hole-bound)'));
+        existing.forEach((el, i) => {
+          retargetToHole(el, 0);  // no delay — all start moving immediately
+        });
+      } else {
+        // Reset the hole back to its original size
+        resetHoleGrowth();
+        // Exiting hole mode: cancel all Web Animations on hole-bound elements,
+        // clear the DOM, and repopulate with fresh normal-mode headlines that
+        // float edge-to-edge at full size.
+        Array.from(container.querySelectorAll('.floating-headline')).forEach(el => {
+          el.getAnimations().forEach(a => a.cancel());
+          el.remove();
+        });
+        if (allHeadlines.length > 0) {
+          renderHeadlines(allHeadlines, false);
         }
         container.classList.toggle('many-headlines', container.children.length >= maxHeadlinesOnScreen);
       }

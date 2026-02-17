@@ -15,10 +15,12 @@ layout: default
 
 <div id="headlines-container"></div>
 
-<!-- News hole mode overlay: counter + exit at top (visible only in hole mode) -->
+<!-- The visual "hole" vortex (visible only in hole mode) -->
+<div class="news-hole-vortex" id="news-hole-vortex"></div>
+
+<!-- News hole mode overlay: exit button at top (visible only in hole mode) -->
 <div class="news-hole-ui" id="news-hole-ui" aria-hidden="true">
   <div class="news-hole-top">
-    <p class="news-hole-counter" id="news-hole-counter">0 unique headlines</p>
     <button type="button" id="exit-news-hole-btn" class="news-hole-btn news-hole-exit">exit the hole</button>
   </div>
 </div>
@@ -29,7 +31,6 @@ layout: default
   var btn = document.getElementById('news-hole-mode-btn');
   var exitBtn = document.getElementById('exit-news-hole-btn');
   var ui = document.getElementById('news-hole-ui');
-  var counterEl = document.getElementById('news-hole-counter');
 
   function enterHoleMode() {
     document.body.classList.add('news-hole-mode');
@@ -45,13 +46,6 @@ layout: default
 
   if (btn) btn.addEventListener('click', enterHoleMode);
   if (exitBtn) exitBtn.addEventListener('click', exitHoleMode);
-
-  // Counter is managed solely by news-headlines.js via this event
-  window.addEventListener('headlines-count', function(e) {
-    if (e.detail && e.detail.count !== undefined && counterEl) {
-      counterEl.textContent = e.detail.count + ' unique headline' + (e.detail.count === 1 ? '' : 's');
-    }
-  });
 })();
 </script>
 

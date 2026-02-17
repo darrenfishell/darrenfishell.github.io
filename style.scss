@@ -588,8 +588,8 @@ body.news-hole-mode {
     z-index: 5;
   }
 
-  // Hide everything in #main except the headlines container and the hole-mode UI (counter + exit)
-  #main > *:not(#headlines-container):not(.news-hole-ui) {
+  // Hide everything in #main except the headlines container, hole-mode UI, and the vortex
+  #main > *:not(#headlines-container):not(.news-hole-ui):not(.news-hole-vortex) {
     visibility: hidden;
     pointer-events: none;
     position: absolute;
@@ -598,13 +598,15 @@ body.news-hole-mode {
 
   #headlines-container {
     visibility: visible;
-    z-index: 10;
+    z-index: 60;
     pointer-events: auto;
-    // Pause expensive background animations so the compositor can cache the surface
+    // Make transparent so the vortex (z-index 50) shows through;
+    // body's own %shared-background provides the space backdrop.
+    background: transparent !important;
     animation: none;
 
     &::before {
-      animation: none;
+      display: none;
     }
   }
 }
@@ -633,7 +635,7 @@ body.news-hole-mode {
   }
 }
 
-// News hole mode overlay (counter + exit) — visible only in hole mode
+// News hole mode overlay (exit button) — visible only in hole mode
 .news-hole-ui {
   display: none;
   position: fixed;
@@ -652,14 +654,6 @@ body.news-hole-mode {
     text-align: center;
     pointer-events: none;
     z-index: 101;
-  }
-
-  .news-hole-counter {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 20px;
-    color: #00ffff;
-    text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
-    margin: 0 0 12px 0;
   }
 
   .news-hole-btn.news-hole-exit {
@@ -684,6 +678,133 @@ body.news-hole-mode {
 
 body.news-hole-mode .news-hole-ui {
   display: block;
+}
+
+// The visual vortex/hole in the center of the screen (news hole mode only)
+.news-hole-vortex {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: -100px;
+  margin-top: -100px;
+  border-radius: 50%;
+  z-index: 50;
+  pointer-events: none;
+  transform: scale(var(--hole-scale, 1));
+  transition: transform 0.8s ease-out;
+  will-change: transform;
+
+  box-shadow:
+    0 0 80px 40px rgba(0, 0, 0, 0.9),
+    0 0 160px 80px rgba(20, 0, 50, 0.4);
+
+  // Spinning accretion ring
+  &::before {
+    content: '';
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    right: -35px;
+    bottom: -35px;
+    border-radius: 50%;
+    background: conic-gradient(
+      from 0deg,
+      rgba(120, 0, 255, 0.6),
+      rgba(0, 180, 255, 0.35),
+      rgba(255, 0, 200, 0.35),
+      transparent,
+      rgba(0, 220, 220, 0.25),
+      rgba(120, 0, 255, 0.6)
+    );
+    animation: vortex-spin 5s linear infinite;
+    filter: blur(8px);
+    opacity: 0.8;
+  }
+
+  // Dark center (the singularity)
+  &::after {
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      #000 0%,
+      #000 40%,
+      rgba(5, 0, 15, 0.98) 55%,
+      rgba(20, 0, 50, 0.92) 70%,
+      rgba(50, 0, 100, 0.5) 85%,
+      transparent 100%
+    );
+    box-shadow:
+      0 0 25px 12px rgba(0, 0, 0, 0.95),
+      inset 0 0 30px 15px #000;
+    animation: hole-pulse 3s ease-in-out infinite;
+  }
+
+  @include mobile {
+    width: 140px;
+    height: 140px;
+    margin-left: -70px;
+    margin-top: -70px;
+
+    &::before {
+      top: -25px;
+      left: -25px;
+      right: -25px;
+      bottom: -25px;
+    }
+  }
+}
+
+body.news-hole-mode .news-hole-vortex {
+  display: block;
+}
+
+// Typing overlay shown after the hole consumes the entire screen
+.hole-consumed-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+
+  .typing-text {
+    font-family: 'Courier New', 'Courier', monospace;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.92);
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
+    white-space: pre;
+    letter-spacing: 1px;
+
+    &::after {
+      content: '\2588'; // █ block cursor
+      display: inline;
+      animation: cursor-blink 0.85s step-end infinite;
+      color: rgba(255, 255, 255, 0.85);
+      margin-left: 1px;
+    }
+
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+}
+
+@keyframes cursor-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
 }
 
 // Headlines Container
@@ -858,6 +979,18 @@ body.news-hole-mode .news-hole-ui {
   to {
     transform: translate3d(var(--travel-x, 100vw), var(--travel-y, 0), 0) rotate(var(--rot-to, 0deg));
   }
+}
+
+// Spinning accretion ring for the vortex
+@keyframes vortex-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+// Subtle pulsing of the hole center
+@keyframes hole-pulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.08); }
 }
 
 // Background animation
