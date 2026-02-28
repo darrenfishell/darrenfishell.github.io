@@ -221,7 +221,7 @@
   // Fetch RSS/Atom feed with CORS proxy fallback. feedKey used for unique item ids when source has multiple URLs.
   async function fetchRSSFeed(url, source, feedKey = source) {
     try {
-      const skipDirectFetch = [];
+      const skipDirectFetch = ['npr', 'bbc', 'guardian'];
       
       if (!skipDirectFetch.includes(source)) {
         try {
