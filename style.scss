@@ -832,7 +832,10 @@ body.news-hole-mode .news-hole-vortex {
   width: 100%;
   height: 100vh;
   z-index: 1;
-  @extend %shared-background;
+  // Let the global body `%shared-background` provide the starfield so
+  // the homepage, blog, and projects all share a single, consistent
+  // background. The headlines container itself stays transparent.
+  background: transparent;
   overflow: hidden;
   pointer-events: none;
   margin: 0;
@@ -1132,7 +1135,7 @@ body.inferno-404-page {
   height: 70vh;
   max-width: 1000px;
   max-height: 750px;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_8_%28Canto_III_-_Abandon_all_hope_ye_who_enter_here%29.jpg/2820px-Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_8_%28Canto_III_-_Abandon_all_hope_ye_who_enter_here%29.jpg');
+  background-image: url('images/abandon_all_hope.jpg');
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1162,7 +1165,7 @@ body.inferno-404-page {
 
 // Toggle to Lucifer image when checkbox is checked
 .image-toggle-checkbox:checked + .inferno-image {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/ad/DVinfernoLuciferKingOfHell_m.jpg');
+  background-image: url('images/lucifer.jpg');
 }
 
 // Neon 1990s-style 404 with wave animation
