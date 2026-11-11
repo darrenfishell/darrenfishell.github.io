@@ -459,6 +459,154 @@ article.page {
   }
 }
 
+// Projects page cards
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin: 1.75rem 0 2.5rem;
+  max-width: 740px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.28);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, 0.28);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.38);
+  }
+}
+
+.project-card-media {
+  display: block;
+  margin: 0 !important;
+  max-width: none !important;
+  background: rgba(0, 0, 0, 0.35);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    object-fit: cover;
+    object-position: top center;
+    transition: transform 0.35s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.02);
+  }
+}
+
+.project-card-media--stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  min-height: 168px;
+  padding: 1.4rem 1.5rem;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(0, 255, 255, 0.22), transparent 45%),
+    linear-gradient(145deg, rgba(20, 24, 60, 0.95), rgba(70, 20, 90, 0.85));
+}
+
+.project-card-media--stat-alt {
+  background:
+    radial-gradient(circle at 15% 80%, rgba(255, 0, 255, 0.22), transparent 45%),
+    linear-gradient(145deg, rgba(18, 40, 70, 0.95), rgba(20, 70, 90, 0.85));
+}
+
+.project-card-media--stat-third {
+  background:
+    radial-gradient(circle at 70% 70%, rgba(255, 215, 0, 0.18), transparent 45%),
+    linear-gradient(145deg, rgba(30, 20, 55, 0.95), rgba(55, 30, 40, 0.9));
+}
+
+.project-stat-value {
+  font-family: $helveticaNeue;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.96);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.project-stat-label {
+  margin-top: 0.45rem;
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.project-card-body {
+  padding: 1.35rem 1.45rem 1.55rem;
+
+  h3 {
+    margin: 0.15rem 0 0.7rem !important;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    max-width: none !important;
+
+    a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.96);
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  p {
+    margin: 0 0 0.85rem !important;
+    max-width: none !important;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.82);
+
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+.project-meta {
+  margin: 0 0 0.35rem !important;
+  font-size: 0.86rem;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.62) !important;
+}
+
+.project-subhead {
+  margin-top: -0.35rem !important;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+@include mobile {
+  .projects-grid {
+    gap: 2rem;
+  }
+
+  .project-card-body {
+    padding: 1.1rem 1.05rem 1.25rem;
+  }
+
+  .project-stat-value {
+    font-size: 2.15rem;
+  }
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -532,6 +680,105 @@ footer {
         text-shadow: 0 0 5px #ff00ff;
       }
     }
+  }
+}
+
+/*********************/
+/* HOME — RECENT BLOG */
+/*********************/
+
+.home-blog {
+  position: relative;
+  z-index: 10;
+  max-width: 740px;
+  margin: 28px auto 40px;
+  padding: 28px 24px 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: home-rise 0.65s ease-out both;
+
+  @include mobile {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px 15px 4px;
+  }
+}
+
+.home-section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 1rem;
+
+  h2 {
+    margin: 0 !important;
+    font-size: 1.35rem;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+.home-section-link {
+  flex-shrink: 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: none;
+
+  &:hover {
+    color: #fff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.45);
+  }
+}
+
+.home-posts > .post {
+  opacity: 0;
+  animation: home-rise 0.55s ease-out forwards;
+
+  &:nth-child(1) { animation-delay: 0.12s; }
+  &:nth-child(2) { animation-delay: 0.2s; }
+  &:nth-child(3) { animation-delay: 0.28s; }
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 1.25em;
+  }
+}
+
+.home-post--latest {
+  &::before {
+    content: "Latest";
+    display: inline-block;
+    margin-bottom: 0.45rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(0, 255, 255, 0.9);
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.35);
+  }
+
+  h1 a {
+    background-image: linear-gradient(90deg, rgba(0, 255, 255, 0.55), rgba(255, 0, 255, 0.35));
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+  }
+}
+
+@keyframes home-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -628,25 +875,29 @@ body.news-hole-mode {
   }
 }
 
-// News hole entry button (top of homepage)
+// News hole entry button (bottom of about text box)
 .news-hole-entry {
   position: relative;
   z-index: 10;
-  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1.25rem 0 0;
 
   .news-hole-btn {
     font-family: 'Comic Sans MS', cursive;
-    font-size: 18px;
-    padding: 10px 20px;
-    background: rgba(255, 0, 255, 0.2);
-    color: #ff66ff;
-    border: 2px solid #ff00ff;
+    font-size: 15px;
+    padding: 7px 16px;
+    background: rgba(255, 0, 255, 0.1);
+    color: #c400c4;
+    border: 1px solid rgba(255, 0, 255, 0.45);
     border-radius: 8px;
     cursor: pointer;
-    transition: background 0.2s, transform 0.2s;
+    transition: background 0.2s, transform 0.2s, border-color 0.2s;
 
     &:hover {
-      background: rgba(255, 0, 255, 0.4);
+      background: rgba(255, 0, 255, 0.22);
+      border-color: #ff00ff;
+      color: #ff00ff;
       transform: scale(1.02);
     }
   }

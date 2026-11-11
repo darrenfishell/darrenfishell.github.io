@@ -1,17 +1,37 @@
 ---
 layout: default
+title: Home
 ---
-
-<div class="news-hole-entry">
-  <button type="button" id="news-hole-mode-btn" class="news-hole-btn">news hole mode</button>
-</div>
 
 <div class="homepage-about">
   <div class="about-content">
     {% capture about_content %}{% include about.md %}{% endcapture %}
     {{ about_content | markdownify }}
+    <div class="news-hole-entry">
+      <button type="button" id="news-hole-mode-btn" class="news-hole-btn">news hole mode</button>
+    </div>
   </div>
 </div>
+
+<section class="home-blog" aria-labelledby="home-blog-heading">
+  <div class="home-section-head">
+    <h2 id="home-blog-heading">Recent writing</h2>
+    <a class="home-section-link" href="{{ site.baseurl }}/blog">All posts →</a>
+  </div>
+
+  <div class="posts home-posts">
+    {% for post in site.posts limit:3 %}
+      <article class="post home-post{% if forloop.first %} home-post--latest{% endif %}">
+        <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <div class="entry">
+          <em>{{ post.excerpt | strip_html | truncatewords: 36 }}</em>
+        </div>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
 
 <div id="headlines-container"></div>
 
@@ -48,4 +68,3 @@ layout: default
   if (exitBtn) exitBtn.addEventListener('click', exitHoleMode);
 })();
 </script>
-
